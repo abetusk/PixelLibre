@@ -7,5 +7,5 @@ LICENSE: CC0
 
 | |
 |---|
-| ![u_ninjikin_water.png] |
+| ![u_ninjikin_water.png](u_ninjikin_water.png) |
 
