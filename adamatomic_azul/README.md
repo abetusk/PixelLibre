@@ -7,6 +7,6 @@ LICENSE: Public Domain
 
 | | |
 |---|---|
-| ![azul.png][azul.png] | ![u_azul_tiles.png][u_azul_tiles.png]  |
+| ![azul.png](azul.png) | ![u_azul_tiles.png](u_azul_tiles.png)  |
 
 
