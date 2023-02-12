@@ -7,6 +7,6 @@ LICENSE: Public Domain
 
 | | |
 |---|---|
-| [!revolution.png](revolution.png) | ![u_revolution_tiles.png](u_revolution_tiles.png) |
+| ![revolution.png](revolution.png) | ![u_revolution_tiles.png](u_revolution_tiles.png) |
 
 
