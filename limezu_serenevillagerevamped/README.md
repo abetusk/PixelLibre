@@ -8,4 +8,4 @@ LICENSE: CC-BY4.0
 | |
 |---|
 | ![vilalge](edO3Z6.gif) |
-| ![tileset](Serene_Village_16x16.png) |
+| ![tileset](SERENE_VILLAGE_REVAMPED/Serene_Village_16x16.png) |
