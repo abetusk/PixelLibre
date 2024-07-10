@@ -5,8 +5,8 @@ Marceles Small City Tileset
 
 | | |
 |---|---|
-| ![tilemapGrey](SmallCityTilesets-8pxSizePixelart/tilemapGrey.png) | ![tilemapPico8](SmallCityTilesets-8pxSizePixelart/tilemapPico8.png) |
-| ![tilemapResurrect](SmallCityTilesets-8pxSizePixelart/tilemapResurrect.png) | ![tilemapTic80](SmallCityTilesets-8pxSizePixelart/tilemapTic80.png) |
-| ![tilesetGreys](SmallCityTilesets-8pxSizePixelart/tilesetGreys.png) | ![tilesetPico8](SmallCityTilesets-8pxSizePixelart/tilesetPico8.png) |
-| ![tilesetResurrect](SmallCityTilesets-8pxSizePixelart/tilesetResurrect.png) | ![tilesetTic80](SmallCityTilesets-8pxSizePixelart/tilesetTic80.png) |
+| ![tilemapGrey](SmallCityTilesets-8pxSizePixelart/tilemapGrey.png) | ![tilesetGreys](SmallCityTilesets-8pxSizePixelart/tilesetGreys.png) |
+| ![tilemapPico8](SmallCityTilesets-8pxSizePixelart/tilemapPico8.png) | ![tilesetPico8](SmallCityTilesets-8pxSizePixelart/tilesetPico8.png) |
+| ![tilemapResurrect](SmallCityTilesets-8pxSizePixelart/tilemapResurrect.png) | ![tilesetResurrect](SmallCityTilesets-8pxSizePixelart/tilesetResurrect.png) |
+| ![tilemapTic80](SmallCityTilesets-8pxSizePixelart/tilemapTic80.png) | ![tilesetTic80](SmallCityTilesets-8pxSizePixelart/tilesetTic80.png) |
 
