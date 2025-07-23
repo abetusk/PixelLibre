@@ -17,3 +17,5 @@ Notes
 * [gridline by iot](https://iot-games.itch.io/gridline-city) CC0
 * [cassettes (voxel) by voxelbytebot](https://voxelbytebot.itch.io/voxel-cassettes) CC0
 * [donuts by voxelbytebot](https://voxelbytebot.itch.io/donut) CC0
+* [interiors-a by loafbrr](https://loafbrr.itch.io/interiors-a) CC0
+* [pipes by loafbrr](https://loafbrr.itch.io/pipes-asset-pack) CC0
