@@ -1,0 +1,34 @@
+[gd_scene load_steps=11 format=3 uid="uid://bf6sy27tnoyqc"]
+
+[ext_resource type="PackedScene" uid="uid://csxx1hirwliba" path="res://assets/bones/bones-1.gltf" id="1_ehhol"]
+[ext_resource type="PackedScene" uid="uid://ch7tmrf7rxpan" path="res://assets/bones/bones-2.gltf" id="2_myr2h"]
+[ext_resource type="PackedScene" uid="uid://ck8yf06cyjcti" path="res://assets/bones/bones-3.gltf" id="3_6w7qw"]
+[ext_resource type="PackedScene" uid="uid://bonmopodgga51" path="res://assets/bones/bones-4.gltf" id="4_y03no"]
+[ext_resource type="PackedScene" uid="uid://c3nn43tfi6phd" path="res://assets/bushes/bush-1.gltf" id="5_1ggp1"]
+[ext_resource type="PackedScene" uid="uid://b6v6oy7cdbyby" path="res://assets/bushes/bush-2.gltf" id="6_s3kr1"]
+[ext_resource type="PackedScene" uid="uid://ccj5tbxoh5hco" path="res://assets/bushes/bush-3.gltf" id="7_460yt"]
+[ext_resource type="PackedScene" uid="uid://cjroc1tudyu40" path="res://assets/cactus/cactus-1.gltf" id="8_iif35"]
+[ext_resource type="PackedScene" uid="uid://d3kfugkpqmfjp" path="res://assets/cactus/cactus-2.gltf" id="9_siwed"]
+[ext_resource type="PackedScene" uid="uid://btocpcvhakxo" path="res://assets/cactus/cactus-3.gltf" id="10_3fuq4"]
+
+[node name="BonesBushesCactus" type="Node3D"]
+
+[node name="bones-12" parent="." instance=ExtResource("1_ehhol")]
+
+[node name="bones-22" parent="." instance=ExtResource("2_myr2h")]
+
+[node name="bones-32" parent="." instance=ExtResource("3_6w7qw")]
+
+[node name="bones-42" parent="." instance=ExtResource("4_y03no")]
+
+[node name="bush-12" parent="." instance=ExtResource("5_1ggp1")]
+
+[node name="bush-22" parent="." instance=ExtResource("6_s3kr1")]
+
+[node name="bush-32" parent="." instance=ExtResource("7_460yt")]
+
+[node name="cactus-12" parent="." instance=ExtResource("8_iif35")]
+
+[node name="cactus-22" parent="." instance=ExtResource("9_siwed")]
+
+[node name="cactus-32" parent="." instance=ExtResource("10_3fuq4")]

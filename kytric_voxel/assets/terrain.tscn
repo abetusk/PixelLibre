@@ -1,0 +1,772 @@
+[gd_scene load_steps=257 format=3 uid="uid://trctfroocmck"]
+
+[ext_resource type="PackedScene" uid="uid://dfvc16w8l3sr3" path="res://assets/dirt_desert/dirt-desert-edgy-edge-inner-1.gltf" id="1_8lp2d"]
+[ext_resource type="PackedScene" uid="uid://ds743ej421aa8" path="res://assets/dirt_desert/dirt-desert-edgy-edge-inner-2.gltf" id="2_vff1b"]
+[ext_resource type="PackedScene" uid="uid://c52g4y8fyl427" path="res://assets/dirt_desert/dirt-desert-edgy-edge-inner-3.gltf" id="3_px0t3"]
+[ext_resource type="PackedScene" uid="uid://u83a886xhbmf" path="res://assets/dirt_desert/dirt-desert-edgy-edge-inner-4.gltf" id="4_4p623"]
+[ext_resource type="PackedScene" uid="uid://cueud33y1prsi" path="res://assets/dirt_desert/dirt-desert-edgy-edge-outer-1.gltf" id="5_wn786"]
+[ext_resource type="PackedScene" uid="uid://ns47yviqffud" path="res://assets/dirt_desert/dirt-desert-edgy-edge-outer-2.gltf" id="6_xq3l5"]
+[ext_resource type="PackedScene" uid="uid://brs4u3vda4o52" path="res://assets/dirt_desert/dirt-desert-edgy-edge-outer-3.gltf" id="7_pkdix"]
+[ext_resource type="PackedScene" uid="uid://crcxoexo21ts4" path="res://assets/dirt_desert/dirt-desert-edgy-edge-outer-4.gltf" id="8_1g1cj"]
+[ext_resource type="PackedScene" uid="uid://7hqkj47j74uu" path="res://assets/dirt_desert/dirt-desert-rounded-edge-inner-1.gltf" id="9_84nx1"]
+[ext_resource type="PackedScene" uid="uid://nu3418i6o01e" path="res://assets/dirt_desert/dirt-desert-rounded-edge-inner-2.gltf" id="10_4i21x"]
+[ext_resource type="PackedScene" uid="uid://cj4tqnact5xil" path="res://assets/dirt_desert/dirt-desert-rounded-edge-inner-3.gltf" id="11_fqheo"]
+[ext_resource type="PackedScene" uid="uid://bm4xt3pjb83sg" path="res://assets/dirt_desert/dirt-desert-rounded-edge-inner-4.gltf" id="12_xh2p7"]
+[ext_resource type="PackedScene" uid="uid://ckkbcwrakxrh8" path="res://assets/dirt_desert/dirt-desert-rounded-edge-outer-1.gltf" id="13_4palq"]
+[ext_resource type="PackedScene" uid="uid://cjgmvbe32nmjv" path="res://assets/dirt_desert/dirt-desert-rounded-edge-outer-2.gltf" id="14_5i7ei"]
+[ext_resource type="PackedScene" uid="uid://cgnx4yitd62go" path="res://assets/dirt_desert/dirt-desert-rounded-edge-outer-3.gltf" id="15_b2cvn"]
+[ext_resource type="PackedScene" uid="uid://cyvtm8kwm82qm" path="res://assets/dirt_desert/dirt-desert-rounded-edge-outer-4.gltf" id="16_gcaq6"]
+[ext_resource type="PackedScene" uid="uid://cv0d3hi04lu2" path="res://assets/dirt_desert/dirt-desert-side-1.gltf" id="17_esno3"]
+[ext_resource type="PackedScene" uid="uid://u8rreumomhnq" path="res://assets/dirt_desert/dirt-desert-side-2.gltf" id="18_lrqah"]
+[ext_resource type="PackedScene" uid="uid://cyphj4lwh8r5j" path="res://assets/dirt_desert/dirt-desert-side-3.gltf" id="19_w2vxh"]
+[ext_resource type="PackedScene" uid="uid://bcul5mrrrku4q" path="res://assets/dirt_desert/dirt-desert-side-4.gltf" id="20_rs8yk"]
+[ext_resource type="PackedScene" uid="uid://bg1614s52ro42" path="res://assets/city/city-1.gltf" id="21_2xtln"]
+[ext_resource type="PackedScene" uid="uid://chi6uep1hb5jm" path="res://assets/city/city-uneven-edge-inner-1.gltf" id="22_mcelw"]
+[ext_resource type="PackedScene" uid="uid://cu7n5uq20kaif" path="res://assets/city/city-uneven-edge-outer-1.gltf" id="23_mhs81"]
+[ext_resource type="PackedScene" uid="uid://btv3lyc8p4aet" path="res://assets/city/city-uneven-side-1.gltf" id="24_2c6pm"]
+[ext_resource type="PackedScene" uid="uid://p7rs0j23eftq" path="res://assets/city_water/city-water-edgy-edge-inner-1.gltf" id="25_7poyw"]
+[ext_resource type="PackedScene" uid="uid://dys6awfr3xfn2" path="res://assets/city_water/city-water-edgy-edge-inner-2.gltf" id="26_iqts7"]
+[ext_resource type="PackedScene" uid="uid://d13xsnfe8qmfa" path="res://assets/city_water/city-water-edgy-edge-inner-3.gltf" id="27_asdb5"]
+[ext_resource type="PackedScene" uid="uid://btqm21o6rgdsp" path="res://assets/city_water/city-water-edgy-edge-inner-4.gltf" id="28_er7n5"]
+[ext_resource type="PackedScene" uid="uid://cacauv5vde4or" path="res://assets/city_water/city-water-edgy-edge-outer-1.gltf" id="29_e6cm7"]
+[ext_resource type="PackedScene" uid="uid://xixx8ac53lqh" path="res://assets/city_water/city-water-edgy-edge-outer-2.gltf" id="30_nknyp"]
+[ext_resource type="PackedScene" uid="uid://dpumg6x63r8hh" path="res://assets/city_water/city-water-edgy-edge-outer-3.gltf" id="31_ygjoc"]
+[ext_resource type="PackedScene" uid="uid://dgq4sxbdudt2h" path="res://assets/city_water/city-water-edgy-edge-outer-4.gltf" id="32_e6vmr"]
+[ext_resource type="PackedScene" uid="uid://ckbls1fbj7lt4" path="res://assets/city_water/city-water-rounded-edge-inner-1.gltf" id="33_sdxvx"]
+[ext_resource type="PackedScene" uid="uid://buejxu6wwvxkh" path="res://assets/city_water/city-water-rounded-edge-inner-2.gltf" id="34_m5oex"]
+[ext_resource type="PackedScene" uid="uid://vofc404r7msh" path="res://assets/city_water/city-water-rounded-edge-inner-3.gltf" id="35_i1kfw"]
+[ext_resource type="PackedScene" uid="uid://cff3282cjds42" path="res://assets/city_water/city-water-rounded-edge-inner-4.gltf" id="36_a64jf"]
+[ext_resource type="PackedScene" uid="uid://clmhphlmpwvql" path="res://assets/city_water/city-water-rounded-edge-outer-1.gltf" id="37_vwacy"]
+[ext_resource type="PackedScene" uid="uid://dxfqu5i8bv1du" path="res://assets/city_water/city-water-rounded-edge-outer-2.gltf" id="38_fieky"]
+[ext_resource type="PackedScene" uid="uid://bwnbhgew6kint" path="res://assets/city_water/city-water-rounded-edge-outer-3.gltf" id="39_11byl"]
+[ext_resource type="PackedScene" uid="uid://ckls2c2cdpglr" path="res://assets/city_water/city-water-rounded-edge-outer-4.gltf" id="40_y0xcr"]
+[ext_resource type="PackedScene" uid="uid://fg3sh23jlgau" path="res://assets/city_water/city-water-side-1.gltf" id="41_hs7yx"]
+[ext_resource type="PackedScene" uid="uid://cwbutc0sya5bm" path="res://assets/city_water/city-water-side-2.gltf" id="42_5gi5y"]
+[ext_resource type="PackedScene" uid="uid://dgh8ecgot7561" path="res://assets/city_water/city-water-side-3.gltf" id="43_nw5kr"]
+[ext_resource type="PackedScene" uid="uid://ceanqgytb4gu4" path="res://assets/city_water/city-water-side-4.gltf" id="44_r84mm"]
+[ext_resource type="PackedScene" uid="uid://2161ak7xvsfc" path="res://assets/desert/desert-1.gltf" id="45_2fisc"]
+[ext_resource type="PackedScene" uid="uid://cb5vp8lq1u0ef" path="res://assets/desert/desert-2.gltf" id="46_2j6lb"]
+[ext_resource type="PackedScene" uid="uid://vjfqbq60eq1u" path="res://assets/desert/desert-3.gltf" id="47_1x1b6"]
+[ext_resource type="PackedScene" uid="uid://ffw0g8pq6qpf" path="res://assets/desert/desert-4.gltf" id="48_87i1j"]
+[ext_resource type="PackedScene" uid="uid://cjyhyocxem2l" path="res://assets/desert/desert-uneven-edge-inner-1.gltf" id="49_u8pmk"]
+[ext_resource type="PackedScene" uid="uid://ioh4ge4ws043" path="res://assets/desert/desert-uneven-edge-inner-2.gltf" id="50_y431p"]
+[ext_resource type="PackedScene" uid="uid://ittq6oh3otq0" path="res://assets/desert/desert-uneven-edge-inner-3.gltf" id="51_l7o84"]
+[ext_resource type="PackedScene" uid="uid://bxnoe86eivwek" path="res://assets/desert/desert-uneven-edge-inner-4.gltf" id="52_pw3ok"]
+[ext_resource type="PackedScene" uid="uid://bhmpev0toltnr" path="res://assets/desert/desert-uneven-edge-outer-1.gltf" id="53_hc2k4"]
+[ext_resource type="PackedScene" uid="uid://sshimpqjok2w" path="res://assets/desert/desert-uneven-edge-outer-2.gltf" id="54_j4o5q"]
+[ext_resource type="PackedScene" uid="uid://dh0jupc3ln64f" path="res://assets/desert/desert-uneven-edge-outer-3.gltf" id="55_nj8ij"]
+[ext_resource type="PackedScene" uid="uid://d24il2e17u7wk" path="res://assets/desert/desert-uneven-edge-outer-4.gltf" id="56_un8dd"]
+[ext_resource type="PackedScene" uid="uid://5tbvvbeoyl5n" path="res://assets/desert/desert-uneven-side-1.gltf" id="57_p253c"]
+[ext_resource type="PackedScene" uid="uid://bpep2ys3swank" path="res://assets/desert/desert-uneven-side-2.gltf" id="58_p1ceg"]
+[ext_resource type="PackedScene" uid="uid://b72ur8sa3l1kx" path="res://assets/desert/desert-uneven-side-3.gltf" id="59_g8lbv"]
+[ext_resource type="PackedScene" uid="uid://dq0gfeh74lnap" path="res://assets/desert/desert-uneven-side-4.gltf" id="60_lsux2"]
+[ext_resource type="PackedScene" uid="uid://bjj2e1wxu1a1t" path="res://assets/desert_city/desert-city-edgy-edge-inner-1.gltf" id="61_1t7dl"]
+[ext_resource type="PackedScene" uid="uid://ywhic8dy12cp" path="res://assets/desert_city/desert-city-edgy-edge-inner-2.gltf" id="62_0m8qe"]
+[ext_resource type="PackedScene" uid="uid://b6bep81g8ss4r" path="res://assets/desert_city/desert-city-edgy-edge-inner-3.gltf" id="63_h3b2s"]
+[ext_resource type="PackedScene" uid="uid://bpfx3t3q5ecfu" path="res://assets/desert_city/desert-city-edgy-edge-inner-4.gltf" id="64_qfben"]
+[ext_resource type="PackedScene" uid="uid://bic1aydcxoc7i" path="res://assets/desert_city/desert-city-edgy-edge-outer-1.gltf" id="65_eb37o"]
+[ext_resource type="PackedScene" uid="uid://5yhjy384qypf" path="res://assets/desert_city/desert-city-edgy-edge-outer-2.gltf" id="66_a5g1m"]
+[ext_resource type="PackedScene" uid="uid://deg5uq0nq4rjv" path="res://assets/desert_city/desert-city-edgy-edge-outer-3.gltf" id="67_oxfpn"]
+[ext_resource type="PackedScene" uid="uid://cihud3b0ifjna" path="res://assets/desert_city/desert-city-edgy-edge-outer-4.gltf" id="68_614vr"]
+[ext_resource type="PackedScene" uid="uid://dfe1icly1df3t" path="res://assets/desert_city/desert-city-rounded-edge-inner-1.gltf" id="69_g5of7"]
+[ext_resource type="PackedScene" uid="uid://cr74ct7y02gqd" path="res://assets/desert_city/desert-city-rounded-edge-inner-2.gltf" id="70_ubj2a"]
+[ext_resource type="PackedScene" uid="uid://bs0nau77ct2bt" path="res://assets/desert_city/desert-city-rounded-edge-inner-3.gltf" id="71_pfpr8"]
+[ext_resource type="PackedScene" uid="uid://b6iwl1as8hurw" path="res://assets/desert_city/desert-city-rounded-edge-inner-4.gltf" id="72_l8qu4"]
+[ext_resource type="PackedScene" uid="uid://do28u2lsdp5tm" path="res://assets/desert_city/desert-city-rounded-edge-outer-1.gltf" id="73_wbf8t"]
+[ext_resource type="PackedScene" uid="uid://d3i88a0wmk8qi" path="res://assets/desert_city/desert-city-rounded-edge-outer-2.gltf" id="74_qe81q"]
+[ext_resource type="PackedScene" uid="uid://c423hluj4h2re" path="res://assets/desert_city/desert-city-rounded-edge-outer-3.gltf" id="75_6evhg"]
+[ext_resource type="PackedScene" uid="uid://bcpxyo2gpmo7h" path="res://assets/desert_city/desert-city-rounded-edge-outer-4.gltf" id="76_jeqhi"]
+[ext_resource type="PackedScene" uid="uid://drob37csu5dok" path="res://assets/desert_city/desert-city-side-1.gltf" id="77_tgrq6"]
+[ext_resource type="PackedScene" uid="uid://tha6qdbu6lyl" path="res://assets/desert_city/desert-city-side-2.gltf" id="78_kjawm"]
+[ext_resource type="PackedScene" uid="uid://bvavfqthhkmtd" path="res://assets/desert_city/desert-city-side-3.gltf" id="79_w8bll"]
+[ext_resource type="PackedScene" uid="uid://bpis8kx3tfpi5" path="res://assets/desert_city/desert-city-side-4.gltf" id="80_g6774"]
+[ext_resource type="PackedScene" uid="uid://bheooy7tu2pn" path="res://assets/desert_water/desert-water-edgy-edge-inner-1.gltf" id="81_lm1ck"]
+[ext_resource type="PackedScene" uid="uid://dojcxsagxayj7" path="res://assets/desert_water/desert-water-edgy-edge-inner-2.gltf" id="82_ru00a"]
+[ext_resource type="PackedScene" uid="uid://mpcrpmt3glja" path="res://assets/desert_water/desert-water-edgy-edge-inner-3.gltf" id="83_cq1mf"]
+[ext_resource type="PackedScene" uid="uid://cf1mp3jsbn7tw" path="res://assets/desert_water/desert-water-edgy-edge-inner-4.gltf" id="84_vhanm"]
+[ext_resource type="PackedScene" uid="uid://doknxd7gdscli" path="res://assets/desert_water/desert-water-edgy-edge-outer-1.gltf" id="85_amtwe"]
+[ext_resource type="PackedScene" uid="uid://cnv15kh5nmvsu" path="res://assets/desert_water/desert-water-edgy-edge-outer-2.gltf" id="86_whwti"]
+[ext_resource type="PackedScene" uid="uid://dbhgmwisc5q40" path="res://assets/desert_water/desert-water-edgy-edge-outer-3.gltf" id="87_fhcwl"]
+[ext_resource type="PackedScene" uid="uid://bblc6e6owslqe" path="res://assets/desert_water/desert-water-edgy-edge-outer-4.gltf" id="88_p50no"]
+[ext_resource type="PackedScene" uid="uid://byq4kr5pbq4xh" path="res://assets/desert_water/desert-water-rounded-edge-inner-1.gltf" id="89_fr8oi"]
+[ext_resource type="PackedScene" uid="uid://ctte8r4t3uqdo" path="res://assets/desert_water/desert-water-rounded-edge-inner-2.gltf" id="90_80jaq"]
+[ext_resource type="PackedScene" uid="uid://dmpmxo3hfq541" path="res://assets/desert_water/desert-water-rounded-edge-inner-3.gltf" id="91_tjpyw"]
+[ext_resource type="PackedScene" uid="uid://dfn2j7csn3j6a" path="res://assets/desert_water/desert-water-rounded-edge-inner-4.gltf" id="92_0a0ce"]
+[ext_resource type="PackedScene" uid="uid://dcetsdfc7w2qe" path="res://assets/desert_water/desert-water-rounded-edge-outer-1.gltf" id="93_eweh7"]
+[ext_resource type="PackedScene" uid="uid://cgid4i4oc8bub" path="res://assets/desert_water/desert-water-rounded-edge-outer-2.gltf" id="94_mt83d"]
+[ext_resource type="PackedScene" uid="uid://dek6dtl82eydc" path="res://assets/desert_water/desert-water-rounded-edge-outer-3.gltf" id="95_hay0u"]
+[ext_resource type="PackedScene" uid="uid://4q0vpswxjp7c" path="res://assets/desert_water/desert-water-rounded-edge-outer-4.gltf" id="96_t4iam"]
+[ext_resource type="PackedScene" uid="uid://cwhra63uvgif" path="res://assets/desert_water/desert-water-side-1.gltf" id="97_vb6uh"]
+[ext_resource type="PackedScene" uid="uid://cev5vpnkom3a7" path="res://assets/desert_water/desert-water-side-2.gltf" id="98_u3pyy"]
+[ext_resource type="PackedScene" uid="uid://bg6es1of317fv" path="res://assets/desert_water/desert-water-side-3.gltf" id="99_k77d2"]
+[ext_resource type="PackedScene" uid="uid://de16t0iref23e" path="res://assets/desert_water/desert-water-side-4.gltf" id="100_jbgpa"]
+[ext_resource type="PackedScene" uid="uid://cwvyed46vxw4h" path="res://assets/dirt/dirt-1.gltf" id="101_s11yg"]
+[ext_resource type="PackedScene" uid="uid://bpnama018jo5n" path="res://assets/dirt/dirt-2.gltf" id="102_bwy34"]
+[ext_resource type="PackedScene" uid="uid://dw0s6um2bqm3n" path="res://assets/dirt/dirt-3.gltf" id="103_srnd0"]
+[ext_resource type="PackedScene" uid="uid://4inv1tneec1l" path="res://assets/dirt/dirt-4.gltf" id="104_q1vpj"]
+[ext_resource type="PackedScene" uid="uid://x1b7dorhmrpo" path="res://assets/dirt/dirt-uneven-edge-inner-1.gltf" id="105_1rf50"]
+[ext_resource type="PackedScene" uid="uid://bjvube8l4yegx" path="res://assets/dirt/dirt-uneven-edge-inner-2.gltf" id="106_m2osc"]
+[ext_resource type="PackedScene" uid="uid://b7h468cikbrn1" path="res://assets/dirt/dirt-uneven-edge-inner-3.gltf" id="107_o41r1"]
+[ext_resource type="PackedScene" uid="uid://crea086nxcc6t" path="res://assets/dirt/dirt-uneven-edge-inner-4.gltf" id="108_m387s"]
+[ext_resource type="PackedScene" uid="uid://dnsrsllafnwup" path="res://assets/dirt/dirt-uneven-edge-outer-1.gltf" id="109_kn8l5"]
+[ext_resource type="PackedScene" uid="uid://bafxmoabef0en" path="res://assets/dirt/dirt-uneven-edge-outer-2.gltf" id="110_wigyt"]
+[ext_resource type="PackedScene" uid="uid://6xe0l0bkkrsh" path="res://assets/dirt/dirt-uneven-edge-outer-3.gltf" id="111_tfmjp"]
+[ext_resource type="PackedScene" uid="uid://dxj128cvj7bmi" path="res://assets/dirt/dirt-uneven-edge-outer-4.gltf" id="112_u2l02"]
+[ext_resource type="PackedScene" uid="uid://cccmkmrcprl6e" path="res://assets/dirt/dirt-uneven-side-1.gltf" id="113_lu1kp"]
+[ext_resource type="PackedScene" uid="uid://dxvgf6cbltrsi" path="res://assets/dirt/dirt-uneven-side-2.gltf" id="114_4xwwq"]
+[ext_resource type="PackedScene" uid="uid://cyoa75d413gu5" path="res://assets/dirt/dirt-uneven-side-3.gltf" id="115_l5sj3"]
+[ext_resource type="PackedScene" uid="uid://bqmrpl6r2r1e6" path="res://assets/dirt/dirt-uneven-side-4.gltf" id="116_jeqhw"]
+[ext_resource type="PackedScene" uid="uid://b6ens32basbb1" path="res://assets/dirt_city/dirt-city-edgy-edge-inner-1.gltf" id="117_0q2uy"]
+[ext_resource type="PackedScene" uid="uid://dc27lsude6vy2" path="res://assets/dirt_city/dirt-city-edgy-edge-inner-2.gltf" id="118_7j1o0"]
+[ext_resource type="PackedScene" uid="uid://blds7p38dwwqc" path="res://assets/dirt_city/dirt-city-edgy-edge-inner-3.gltf" id="119_4c3tl"]
+[ext_resource type="PackedScene" uid="uid://c4itu35jye4ev" path="res://assets/dirt_city/dirt-city-edgy-edge-inner-4.gltf" id="120_335q5"]
+[ext_resource type="PackedScene" uid="uid://bvcokbs0n1fsg" path="res://assets/dirt_city/dirt-city-edgy-edge-outer-1.gltf" id="121_mltje"]
+[ext_resource type="PackedScene" uid="uid://daumcsrbh74mv" path="res://assets/dirt_city/dirt-city-edgy-edge-outer-2.gltf" id="122_8nygv"]
+[ext_resource type="PackedScene" uid="uid://tdkclknhvwvh" path="res://assets/dirt_city/dirt-city-edgy-edge-outer-3.gltf" id="123_botg1"]
+[ext_resource type="PackedScene" uid="uid://btxuxs4nbhhdv" path="res://assets/dirt_city/dirt-city-edgy-edge-outer-4.gltf" id="124_urkjo"]
+[ext_resource type="PackedScene" uid="uid://bpjdn6hmbchwk" path="res://assets/dirt_city/dirt-city-rounded-edge-inner-1.gltf" id="125_3atsk"]
+[ext_resource type="PackedScene" uid="uid://cicdkber2x1wn" path="res://assets/dirt_city/dirt-city-rounded-edge-inner-2.gltf" id="126_g8kj7"]
+[ext_resource type="PackedScene" uid="uid://cml027851fn06" path="res://assets/dirt_city/dirt-city-rounded-edge-inner-3.gltf" id="127_3i3r3"]
+[ext_resource type="PackedScene" uid="uid://b63eduk18o6v2" path="res://assets/dirt_city/dirt-city-rounded-edge-inner-4.gltf" id="128_a4vne"]
+[ext_resource type="PackedScene" uid="uid://c41fgu4g41gdc" path="res://assets/dirt_city/dirt-city-rounded-edge-outer-1.gltf" id="129_5djai"]
+[ext_resource type="PackedScene" uid="uid://d3ixuhwgrd22h" path="res://assets/dirt_city/dirt-city-rounded-edge-outer-2.gltf" id="130_n6tl3"]
+[ext_resource type="PackedScene" uid="uid://dc43sypw0fy0v" path="res://assets/dirt_city/dirt-city-rounded-edge-outer-3.gltf" id="131_igqhe"]
+[ext_resource type="PackedScene" uid="uid://c1l1xap36yl48" path="res://assets/dirt_city/dirt-city-rounded-edge-outer-4.gltf" id="132_cswkv"]
+[ext_resource type="PackedScene" uid="uid://wgsltkbnwnkj" path="res://assets/dirt_city/dirt-city-side-1.gltf" id="133_5bo7m"]
+[ext_resource type="PackedScene" uid="uid://dningyhn3eony" path="res://assets/dirt_city/dirt-city-side-2.gltf" id="134_vrl3s"]
+[ext_resource type="PackedScene" uid="uid://dan10qkl7imf3" path="res://assets/dirt_city/dirt-city-side-3.gltf" id="135_w1v3v"]
+[ext_resource type="PackedScene" uid="uid://bwdn6u50nwxmq" path="res://assets/dirt_city/dirt-city-side-4.gltf" id="136_lapfa"]
+[ext_resource type="PackedScene" uid="uid://x7iwvtxve4dv" path="res://assets/dirt_water/dirt-water-edgy-edge-inner-1.gltf" id="137_x01or"]
+[ext_resource type="PackedScene" uid="uid://itc3pxo7a0f1" path="res://assets/dirt_water/dirt-water-edgy-edge-inner-2.gltf" id="138_tnd64"]
+[ext_resource type="PackedScene" uid="uid://cqjom6lx7uro" path="res://assets/dirt_water/dirt-water-edgy-edge-inner-3.gltf" id="139_8o67f"]
+[ext_resource type="PackedScene" uid="uid://34dljdrla6qt" path="res://assets/dirt_water/dirt-water-edgy-edge-inner-4.gltf" id="140_qn7ev"]
+[ext_resource type="PackedScene" uid="uid://ef2vrkxb16qp" path="res://assets/dirt_water/dirt-water-edgy-edge-outer-1.gltf" id="141_a62sk"]
+[ext_resource type="PackedScene" uid="uid://cy0ihrot7lmcp" path="res://assets/dirt_water/dirt-water-edgy-edge-outer-2.gltf" id="142_qyk0j"]
+[ext_resource type="PackedScene" uid="uid://ccbu53ai1vnka" path="res://assets/dirt_water/dirt-water-edgy-edge-outer-3.gltf" id="143_lh51n"]
+[ext_resource type="PackedScene" uid="uid://t5rc7kkrdcyy" path="res://assets/dirt_water/dirt-water-edgy-edge-outer-4.gltf" id="144_kpiwh"]
+[ext_resource type="PackedScene" uid="uid://byqdo7vje42kc" path="res://assets/dirt_water/dirt-water-rounded-edge-inner-1.gltf" id="145_xlm63"]
+[ext_resource type="PackedScene" uid="uid://cy4u0tkaqlfeu" path="res://assets/dirt_water/dirt-water-rounded-edge-inner-2.gltf" id="146_bav7a"]
+[ext_resource type="PackedScene" uid="uid://835sar4jqtgg" path="res://assets/dirt_water/dirt-water-rounded-edge-inner-3.gltf" id="147_gig2k"]
+[ext_resource type="PackedScene" uid="uid://076cva2mqqvp" path="res://assets/dirt_water/dirt-water-rounded-edge-inner-4.gltf" id="148_0g5rh"]
+[ext_resource type="PackedScene" uid="uid://b7om4jsxok2pw" path="res://assets/dirt_water/dirt-water-rounded-edge-outer-1.gltf" id="149_6wvnu"]
+[ext_resource type="PackedScene" uid="uid://fdqm6p504tmj" path="res://assets/dirt_water/dirt-water-rounded-edge-outer-2.gltf" id="150_2cm8t"]
+[ext_resource type="PackedScene" uid="uid://cflk3am52fobl" path="res://assets/dirt_water/dirt-water-rounded-edge-outer-3.gltf" id="151_g3kj7"]
+[ext_resource type="PackedScene" uid="uid://bq0p4mfn4ljpa" path="res://assets/dirt_water/dirt-water-rounded-edge-outer-4.gltf" id="152_xgn0u"]
+[ext_resource type="PackedScene" uid="uid://8iqr72vpkrld" path="res://assets/dirt_water/dirt-water-side-1.gltf" id="153_18elm"]
+[ext_resource type="PackedScene" uid="uid://c406hhhfw4irc" path="res://assets/dirt_water/dirt-water-side-2.gltf" id="154_a5meq"]
+[ext_resource type="PackedScene" uid="uid://clkw0oxvcw15h" path="res://assets/dirt_water/dirt-water-side-3.gltf" id="155_dvanr"]
+[ext_resource type="PackedScene" uid="uid://di1mlbctpw833" path="res://assets/dirt_water/dirt-water-side-4.gltf" id="156_b5jtg"]
+[ext_resource type="PackedScene" uid="uid://b08n17cok4i8w" path="res://assets/forest/forest-1.gltf" id="157_bimye"]
+[ext_resource type="PackedScene" uid="uid://i0p7kdo7g6u2" path="res://assets/forest/forest-2.gltf" id="158_iis2i"]
+[ext_resource type="PackedScene" uid="uid://3tuc06u4dg3b" path="res://assets/forest/forest-3.gltf" id="159_a10w8"]
+[ext_resource type="PackedScene" uid="uid://crp5dkq31utcu" path="res://assets/forest/forest-4.gltf" id="160_rg111"]
+[ext_resource type="PackedScene" uid="uid://y2h0ptirrdb6" path="res://assets/forest/forest-uneven-edge-inner-1.gltf" id="161_7jmyj"]
+[ext_resource type="PackedScene" uid="uid://0nadvdf6marp" path="res://assets/forest/forest-uneven-edge-inner-2.gltf" id="162_1eqgw"]
+[ext_resource type="PackedScene" uid="uid://c8ipem3xonbdj" path="res://assets/forest/forest-uneven-edge-inner-3.gltf" id="163_5fcaf"]
+[ext_resource type="PackedScene" uid="uid://covub7mv7ua7o" path="res://assets/forest/forest-uneven-edge-inner-4.gltf" id="164_svgqt"]
+[ext_resource type="PackedScene" uid="uid://dojc8tdebcl6x" path="res://assets/forest/forest-uneven-edge-outer-1.gltf" id="165_gyn3w"]
+[ext_resource type="PackedScene" uid="uid://bqxjxmfbw3805" path="res://assets/forest/forest-uneven-edge-outer-2.gltf" id="166_ui4xn"]
+[ext_resource type="PackedScene" uid="uid://b1t6lhxs7c5hk" path="res://assets/forest/forest-uneven-edge-outer-3.gltf" id="167_oe6fu"]
+[ext_resource type="PackedScene" uid="uid://brdb4lsjdh4ar" path="res://assets/forest/forest-uneven-edge-outer-4.gltf" id="168_au6ue"]
+[ext_resource type="PackedScene" uid="uid://7hgt4pk65heh" path="res://assets/forest/forest-uneven-side-1.gltf" id="169_gtg7q"]
+[ext_resource type="PackedScene" uid="uid://scpwge8652uf" path="res://assets/forest/forest-uneven-side-2.gltf" id="170_7lc4k"]
+[ext_resource type="PackedScene" uid="uid://bqxjttdnlfhrd" path="res://assets/forest/forest-uneven-side-3.gltf" id="171_71ot5"]
+[ext_resource type="PackedScene" uid="uid://dykd6wdgf6xib" path="res://assets/forest/forest-uneven-side-4.gltf" id="172_gs6rd"]
+[ext_resource type="PackedScene" uid="uid://douj1w20aslj2" path="res://assets/forest_city/forest-city-edgy-edge-inner-1.gltf" id="173_gryo7"]
+[ext_resource type="PackedScene" uid="uid://cocd7gga80lye" path="res://assets/forest_city/forest-city-edgy-edge-inner-2.gltf" id="174_e2meq"]
+[ext_resource type="PackedScene" uid="uid://b0w7p4y1q7vnc" path="res://assets/forest_city/forest-city-edgy-edge-inner-3.gltf" id="175_vnsud"]
+[ext_resource type="PackedScene" uid="uid://t6svdy77dnll" path="res://assets/forest_city/forest-city-edgy-edge-inner-4.gltf" id="176_ik56p"]
+[ext_resource type="PackedScene" uid="uid://bohma14m5abss" path="res://assets/forest_city/forest-city-edgy-edge-outer-1.gltf" id="177_ybrxq"]
+[ext_resource type="PackedScene" uid="uid://b7k74ivi5yipq" path="res://assets/forest_city/forest-city-edgy-edge-outer-2.gltf" id="178_jepyn"]
+[ext_resource type="PackedScene" uid="uid://c05xl5rglfbpp" path="res://assets/forest_city/forest-city-edgy-edge-outer-3.gltf" id="179_s070g"]
+[ext_resource type="PackedScene" uid="uid://1ehk7oj1sovw" path="res://assets/forest_city/forest-city-edgy-edge-outer-4.gltf" id="180_4igvh"]
+[ext_resource type="PackedScene" uid="uid://c3kw3hcd7espq" path="res://assets/forest_city/forest-city-rounded-edge-inner-1.gltf" id="181_taee2"]
+[ext_resource type="PackedScene" uid="uid://cko35uutl7yvf" path="res://assets/forest_city/forest-city-rounded-edge-inner-2.gltf" id="182_awmf2"]
+[ext_resource type="PackedScene" uid="uid://7h0giytqr8a" path="res://assets/forest_city/forest-city-rounded-edge-inner-3.gltf" id="183_53yvd"]
+[ext_resource type="PackedScene" uid="uid://cj4i80mh22s3b" path="res://assets/forest_city/forest-city-rounded-edge-inner-4.gltf" id="184_dk5v4"]
+[ext_resource type="PackedScene" uid="uid://cbacgfbpgj8sq" path="res://assets/forest_city/forest-city-rounded-edge-outer-1.gltf" id="185_416dk"]
+[ext_resource type="PackedScene" uid="uid://fq75o33x1qht" path="res://assets/forest_city/forest-city-rounded-edge-outer-2.gltf" id="186_q8pjt"]
+[ext_resource type="PackedScene" uid="uid://7o6msggr88ro" path="res://assets/forest_city/forest-city-rounded-edge-outer-3.gltf" id="187_vjhjx"]
+[ext_resource type="PackedScene" uid="uid://dd7rtum88wcde" path="res://assets/forest_city/forest-city-rounded-edge-outer-4.gltf" id="188_o8adt"]
+[ext_resource type="PackedScene" uid="uid://c065etdvq7iiu" path="res://assets/forest_city/forest-city-side-1.gltf" id="189_vt8xj"]
+[ext_resource type="PackedScene" uid="uid://bimwv3qvca5vb" path="res://assets/forest_city/forest-city-side-2.gltf" id="190_3p4cf"]
+[ext_resource type="PackedScene" uid="uid://dqwlvx2qhxmw1" path="res://assets/forest_city/forest-city-side-3.gltf" id="191_u8onr"]
+[ext_resource type="PackedScene" uid="uid://bo366g5aev7f3" path="res://assets/forest_city/forest-city-side-4.gltf" id="192_mtngt"]
+[ext_resource type="PackedScene" uid="uid://b2pndrrwoon1t" path="res://assets/forest_desert/forest-desert-edgy-edge-inner-1.gltf" id="193_i6e1t"]
+[ext_resource type="PackedScene" uid="uid://8gt5smv4iwtc" path="res://assets/forest_desert/forest-desert-edgy-edge-inner-2.gltf" id="194_gw4bc"]
+[ext_resource type="PackedScene" uid="uid://b2i0xysqhwt31" path="res://assets/forest_desert/forest-desert-edgy-edge-inner-3.gltf" id="195_q6nvp"]
+[ext_resource type="PackedScene" uid="uid://d3oldu217d8by" path="res://assets/forest_desert/forest-desert-edgy-edge-inner-4.gltf" id="196_2lnq8"]
+[ext_resource type="PackedScene" uid="uid://djetamjr7ldk1" path="res://assets/forest_desert/forest-desert-edgy-edge-outer-1.gltf" id="197_311o2"]
+[ext_resource type="PackedScene" uid="uid://7uw5vurechk1" path="res://assets/forest_desert/forest-desert-edgy-edge-outer-2.gltf" id="198_2awuy"]
+[ext_resource type="PackedScene" uid="uid://b2dalyg6jade8" path="res://assets/forest_desert/forest-desert-edgy-edge-outer-3.gltf" id="199_avrsy"]
+[ext_resource type="PackedScene" uid="uid://dlxav3uni4vvl" path="res://assets/forest_desert/forest-desert-edgy-edge-outer-4.gltf" id="200_hkmph"]
+[ext_resource type="PackedScene" uid="uid://de6vhnl8hs4yw" path="res://assets/forest_desert/forest-desert-rounded-edge-inner-1.gltf" id="201_oe6dn"]
+[ext_resource type="PackedScene" uid="uid://cqi6jggj126cf" path="res://assets/forest_desert/forest-desert-rounded-edge-inner-2.gltf" id="202_n7ksw"]
+[ext_resource type="PackedScene" uid="uid://qth58nsu60pl" path="res://assets/forest_desert/forest-desert-rounded-edge-inner-3.gltf" id="203_8k6oe"]
+[ext_resource type="PackedScene" uid="uid://dxg2ag7f1qu0q" path="res://assets/forest_desert/forest-desert-rounded-edge-inner-4.gltf" id="204_kdyho"]
+[ext_resource type="PackedScene" uid="uid://bjxv8gsktmggh" path="res://assets/forest_desert/forest-desert-rounded-edge-outer-1.gltf" id="205_lsm8v"]
+[ext_resource type="PackedScene" uid="uid://fmwarks4810q" path="res://assets/forest_desert/forest-desert-rounded-edge-outer-2.gltf" id="206_qewc6"]
+[ext_resource type="PackedScene" uid="uid://dpq7enxuryevg" path="res://assets/forest_desert/forest-desert-rounded-edge-outer-3.gltf" id="207_pvo7w"]
+[ext_resource type="PackedScene" uid="uid://x4be34gwtecx" path="res://assets/forest_desert/forest-desert-rounded-edge-outer-4.gltf" id="208_04rse"]
+[ext_resource type="PackedScene" uid="uid://dsl2v14g8d02m" path="res://assets/forest_desert/forest-desert-side-1.gltf" id="209_xp2cm"]
+[ext_resource type="PackedScene" uid="uid://mlugnacprtp6" path="res://assets/forest_desert/forest-desert-side-2.gltf" id="210_yvg15"]
+[ext_resource type="PackedScene" uid="uid://b36pu2h0wbn3q" path="res://assets/forest_desert/forest-desert-side-3.gltf" id="211_ap0rc"]
+[ext_resource type="PackedScene" uid="uid://cmj212up1mwsj" path="res://assets/forest_desert/forest-desert-side-4.gltf" id="212_o3hwr"]
+[ext_resource type="PackedScene" uid="uid://ku4jiycghv8h" path="res://assets/forest_dirt/forest-dirt-edgy-edge-inner-1.gltf" id="213_x3fis"]
+[ext_resource type="PackedScene" uid="uid://rsfou3bjkv6x" path="res://assets/forest_dirt/forest-dirt-edgy-edge-inner-2.gltf" id="214_eyml0"]
+[ext_resource type="PackedScene" uid="uid://76ksuihe6q3u" path="res://assets/forest_dirt/forest-dirt-edgy-edge-inner-3.gltf" id="215_tmx16"]
+[ext_resource type="PackedScene" uid="uid://c7nm0c2hb7wkm" path="res://assets/forest_dirt/forest-dirt-edgy-edge-inner-4.gltf" id="216_mgfo8"]
+[ext_resource type="PackedScene" uid="uid://6o68qjjg76ei" path="res://assets/forest_dirt/forest-dirt-edgy-edge-outer-1.gltf" id="217_4qa1c"]
+[ext_resource type="PackedScene" uid="uid://kxr6sl7hiljc" path="res://assets/forest_dirt/forest-dirt-edgy-edge-outer-2.gltf" id="218_vgx47"]
+[ext_resource type="PackedScene" uid="uid://ip5n6p6irxei" path="res://assets/forest_dirt/forest-dirt-edgy-edge-outer-3.gltf" id="219_r8ini"]
+[ext_resource type="PackedScene" uid="uid://bfvg7ytkq13rj" path="res://assets/forest_dirt/forest-dirt-edgy-edge-outer-4.gltf" id="220_hv0ir"]
+[ext_resource type="PackedScene" uid="uid://doogbr7vmn00f" path="res://assets/forest_dirt/forest-dirt-rounded-edge-inner-1.gltf" id="221_tgutl"]
+[ext_resource type="PackedScene" uid="uid://b7lkikeg7xilk" path="res://assets/forest_dirt/forest-dirt-rounded-edge-inner-2.gltf" id="222_x7b38"]
+[ext_resource type="PackedScene" uid="uid://dhpcfff0o6x8x" path="res://assets/forest_dirt/forest-dirt-rounded-edge-inner-3.gltf" id="223_8djeb"]
+[ext_resource type="PackedScene" uid="uid://b5jhs3axx6a1s" path="res://assets/forest_dirt/forest-dirt-rounded-edge-inner-4.gltf" id="224_re5k5"]
+[ext_resource type="PackedScene" uid="uid://u6pv23l3g4i1" path="res://assets/forest_dirt/forest-dirt-rounded-edge-outer-1.gltf" id="225_uwrwd"]
+[ext_resource type="PackedScene" uid="uid://ch1uiaw07mpji" path="res://assets/forest_dirt/forest-dirt-rounded-edge-outer-2.gltf" id="226_rjx8d"]
+[ext_resource type="PackedScene" uid="uid://b06hnhvlal4nh" path="res://assets/forest_dirt/forest-dirt-rounded-edge-outer-3.gltf" id="227_p00ed"]
+[ext_resource type="PackedScene" uid="uid://d1ujsj1bftfol" path="res://assets/forest_dirt/forest-dirt-rounded-edge-outer-4.gltf" id="228_aflly"]
+[ext_resource type="PackedScene" uid="uid://s022hgu16pcs" path="res://assets/forest_dirt/forest-dirt-side-1.gltf" id="229_qfdy7"]
+[ext_resource type="PackedScene" uid="uid://ca5kivtv0nvi7" path="res://assets/forest_dirt/forest-dirt-side-2.gltf" id="230_tjf1a"]
+[ext_resource type="PackedScene" uid="uid://csylo6o5yk732" path="res://assets/forest_dirt/forest-dirt-side-3.gltf" id="231_mlsge"]
+[ext_resource type="PackedScene" uid="uid://dlngcfacet6ow" path="res://assets/forest_dirt/forest-dirt-side-4.gltf" id="232_hctbl"]
+[ext_resource type="PackedScene" uid="uid://dvwfg1moivnmu" path="res://assets/forest_water/forest-water-edgy-edge-inner-1.gltf" id="233_30ptw"]
+[ext_resource type="PackedScene" uid="uid://bp5bo5pt08ms7" path="res://assets/forest_water/forest-water-edgy-edge-inner-2.gltf" id="234_t6hqf"]
+[ext_resource type="PackedScene" uid="uid://bt7vw3nbdcbs4" path="res://assets/forest_water/forest-water-edgy-edge-inner-3.gltf" id="235_buft1"]
+[ext_resource type="PackedScene" uid="uid://cooagyqsnaee6" path="res://assets/forest_water/forest-water-edgy-edge-inner-4.gltf" id="236_x5dux"]
+[ext_resource type="PackedScene" uid="uid://blu4d4bw6ta2q" path="res://assets/forest_water/forest-water-edgy-edge-outer-1.gltf" id="237_anq4f"]
+[ext_resource type="PackedScene" uid="uid://08l3e4clhgqr" path="res://assets/forest_water/forest-water-edgy-edge-outer-2.gltf" id="238_fl7ju"]
+[ext_resource type="PackedScene" uid="uid://0xrcmkjxdv4o" path="res://assets/forest_water/forest-water-edgy-edge-outer-3.gltf" id="239_2gdcx"]
+[ext_resource type="PackedScene" uid="uid://crrwuo0griaic" path="res://assets/forest_water/forest-water-edgy-edge-outer-4.gltf" id="240_117lq"]
+[ext_resource type="PackedScene" uid="uid://hi3govwiybu3" path="res://assets/forest_water/forest-water-rounded-edge-inner-1.gltf" id="241_h2a7l"]
+[ext_resource type="PackedScene" uid="uid://ibcnmi4p62bg" path="res://assets/forest_water/forest-water-rounded-edge-inner-2.gltf" id="242_6cet0"]
+[ext_resource type="PackedScene" uid="uid://di7oijyngv6p0" path="res://assets/forest_water/forest-water-rounded-edge-inner-3.gltf" id="243_f7hhe"]
+[ext_resource type="PackedScene" uid="uid://tg45trtigxnv" path="res://assets/forest_water/forest-water-rounded-edge-inner-4.gltf" id="244_u4mep"]
+[ext_resource type="PackedScene" uid="uid://sf2ufsarphi4" path="res://assets/forest_water/forest-water-rounded-edge-outer-1.gltf" id="245_bj7rd"]
+[ext_resource type="PackedScene" uid="uid://dm3sfwgy334hl" path="res://assets/forest_water/forest-water-rounded-edge-outer-2.gltf" id="246_kjeju"]
+[ext_resource type="PackedScene" uid="uid://b60ix2rndhlmq" path="res://assets/forest_water/forest-water-rounded-edge-outer-3.gltf" id="247_gviuf"]
+[ext_resource type="PackedScene" uid="uid://cjh4popgpao3x" path="res://assets/forest_water/forest-water-rounded-edge-outer-4.gltf" id="248_8o70l"]
+[ext_resource type="PackedScene" uid="uid://crgr2ks5dbs1d" path="res://assets/forest_water/forest-water-side-1.gltf" id="249_xqnp8"]
+[ext_resource type="PackedScene" uid="uid://bass5de4wsooi" path="res://assets/forest_water/forest-water-side-2.gltf" id="250_d1fcc"]
+[ext_resource type="PackedScene" uid="uid://pw5hxbiq8sgb" path="res://assets/forest_water/forest-water-side-3.gltf" id="251_bgkxh"]
+[ext_resource type="PackedScene" uid="uid://dggf6f1iy6yp3" path="res://assets/forest_water/forest-water-side-4.gltf" id="252_haulh"]
+[ext_resource type="PackedScene" uid="uid://b7bm878s2dhpm" path="res://assets/water/water-1.gltf" id="253_dkevq"]
+[ext_resource type="PackedScene" uid="uid://bu7d0xwhx56sg" path="res://assets/water/water-2.gltf" id="254_rnhwk"]
+[ext_resource type="PackedScene" uid="uid://coi3326oxlaep" path="res://assets/water/water-3.gltf" id="255_hsiuq"]
+[ext_resource type="PackedScene" uid="uid://cdo7of5032o3x" path="res://assets/water/water-4.gltf" id="256_weekw"]
+
+[node name="Terrain" type="Node3D"]
+
+[node name="dirt-desert-edgy-edge-inner-12" parent="." instance=ExtResource("1_8lp2d")]
+
+[node name="dirt-desert-edgy-edge-inner-22" parent="." instance=ExtResource("2_vff1b")]
+
+[node name="dirt-desert-edgy-edge-inner-32" parent="." instance=ExtResource("3_px0t3")]
+
+[node name="dirt-desert-edgy-edge-inner-42" parent="." instance=ExtResource("4_4p623")]
+
+[node name="dirt-desert-edgy-edge-outer-12" parent="." instance=ExtResource("5_wn786")]
+
+[node name="dirt-desert-edgy-edge-outer-22" parent="." instance=ExtResource("6_xq3l5")]
+
+[node name="dirt-desert-edgy-edge-outer-32" parent="." instance=ExtResource("7_pkdix")]
+
+[node name="dirt-desert-edgy-edge-outer-42" parent="." instance=ExtResource("8_1g1cj")]
+
+[node name="dirt-desert-rounded-edge-inner-12" parent="." instance=ExtResource("9_84nx1")]
+
+[node name="dirt-desert-rounded-edge-inner-22" parent="." instance=ExtResource("10_4i21x")]
+
+[node name="dirt-desert-rounded-edge-inner-32" parent="." instance=ExtResource("11_fqheo")]
+
+[node name="dirt-desert-rounded-edge-inner-42" parent="." instance=ExtResource("12_xh2p7")]
+
+[node name="dirt-desert-rounded-edge-outer-12" parent="." instance=ExtResource("13_4palq")]
+
+[node name="dirt-desert-rounded-edge-outer-22" parent="." instance=ExtResource("14_5i7ei")]
+
+[node name="dirt-desert-rounded-edge-outer-32" parent="." instance=ExtResource("15_b2cvn")]
+
+[node name="dirt-desert-rounded-edge-outer-42" parent="." instance=ExtResource("16_gcaq6")]
+
+[node name="dirt-desert-side-12" parent="." instance=ExtResource("17_esno3")]
+
+[node name="dirt-desert-side-22" parent="." instance=ExtResource("18_lrqah")]
+
+[node name="dirt-desert-side-32" parent="." instance=ExtResource("19_w2vxh")]
+
+[node name="dirt-desert-side-42" parent="." instance=ExtResource("20_rs8yk")]
+
+[node name="city-12" parent="." instance=ExtResource("21_2xtln")]
+
+[node name="city-uneven-edge-inner-12" parent="." instance=ExtResource("22_mcelw")]
+
+[node name="city-uneven-edge-outer-12" parent="." instance=ExtResource("23_mhs81")]
+
+[node name="city-uneven-side-12" parent="." instance=ExtResource("24_2c6pm")]
+
+[node name="city-water-edgy-edge-inner-12" parent="." instance=ExtResource("25_7poyw")]
+
+[node name="city-water-edgy-edge-inner-22" parent="." instance=ExtResource("26_iqts7")]
+
+[node name="city-water-edgy-edge-inner-32" parent="." instance=ExtResource("27_asdb5")]
+
+[node name="city-water-edgy-edge-inner-42" parent="." instance=ExtResource("28_er7n5")]
+
+[node name="city-water-edgy-edge-outer-12" parent="." instance=ExtResource("29_e6cm7")]
+
+[node name="city-water-edgy-edge-outer-22" parent="." instance=ExtResource("30_nknyp")]
+
+[node name="city-water-edgy-edge-outer-32" parent="." instance=ExtResource("31_ygjoc")]
+
+[node name="city-water-edgy-edge-outer-42" parent="." instance=ExtResource("32_e6vmr")]
+
+[node name="city-water-rounded-edge-inner-12" parent="." instance=ExtResource("33_sdxvx")]
+
+[node name="city-water-rounded-edge-inner-22" parent="." instance=ExtResource("34_m5oex")]
+
+[node name="city-water-rounded-edge-inner-32" parent="." instance=ExtResource("35_i1kfw")]
+
+[node name="city-water-rounded-edge-inner-42" parent="." instance=ExtResource("36_a64jf")]
+
+[node name="city-water-rounded-edge-outer-12" parent="." instance=ExtResource("37_vwacy")]
+
+[node name="city-water-rounded-edge-outer-22" parent="." instance=ExtResource("38_fieky")]
+
+[node name="city-water-rounded-edge-outer-32" parent="." instance=ExtResource("39_11byl")]
+
+[node name="city-water-rounded-edge-outer-42" parent="." instance=ExtResource("40_y0xcr")]
+
+[node name="city-water-side-12" parent="." instance=ExtResource("41_hs7yx")]
+
+[node name="city-water-side-22" parent="." instance=ExtResource("42_5gi5y")]
+
+[node name="city-water-side-32" parent="." instance=ExtResource("43_nw5kr")]
+
+[node name="city-water-side-42" parent="." instance=ExtResource("44_r84mm")]
+
+[node name="desert-12" parent="." instance=ExtResource("45_2fisc")]
+
+[node name="desert-22" parent="." instance=ExtResource("46_2j6lb")]
+
+[node name="desert-32" parent="." instance=ExtResource("47_1x1b6")]
+
+[node name="desert-42" parent="." instance=ExtResource("48_87i1j")]
+
+[node name="desert-uneven-edge-inner-12" parent="." instance=ExtResource("49_u8pmk")]
+
+[node name="desert-uneven-edge-inner-22" parent="." instance=ExtResource("50_y431p")]
+
+[node name="desert-uneven-edge-inner-32" parent="." instance=ExtResource("51_l7o84")]
+
+[node name="desert-uneven-edge-inner-42" parent="." instance=ExtResource("52_pw3ok")]
+
+[node name="desert-uneven-edge-outer-12" parent="." instance=ExtResource("53_hc2k4")]
+
+[node name="desert-uneven-edge-outer-22" parent="." instance=ExtResource("54_j4o5q")]
+
+[node name="desert-uneven-edge-outer-32" parent="." instance=ExtResource("55_nj8ij")]
+
+[node name="desert-uneven-edge-outer-42" parent="." instance=ExtResource("56_un8dd")]
+
+[node name="desert-uneven-side-12" parent="." instance=ExtResource("57_p253c")]
+
+[node name="desert-uneven-side-22" parent="." instance=ExtResource("58_p1ceg")]
+
+[node name="desert-uneven-side-32" parent="." instance=ExtResource("59_g8lbv")]
+
+[node name="desert-uneven-side-42" parent="." instance=ExtResource("60_lsux2")]
+
+[node name="desert-city-edgy-edge-inner-12" parent="." instance=ExtResource("61_1t7dl")]
+
+[node name="desert-city-edgy-edge-inner-22" parent="." instance=ExtResource("62_0m8qe")]
+
+[node name="desert-city-edgy-edge-inner-32" parent="." instance=ExtResource("63_h3b2s")]
+
+[node name="desert-city-edgy-edge-inner-42" parent="." instance=ExtResource("64_qfben")]
+
+[node name="desert-city-edgy-edge-outer-12" parent="." instance=ExtResource("65_eb37o")]
+
+[node name="desert-city-edgy-edge-outer-22" parent="." instance=ExtResource("66_a5g1m")]
+
+[node name="desert-city-edgy-edge-outer-32" parent="." instance=ExtResource("67_oxfpn")]
+
+[node name="desert-city-edgy-edge-outer-42" parent="." instance=ExtResource("68_614vr")]
+
+[node name="desert-city-rounded-edge-inner-12" parent="." instance=ExtResource("69_g5of7")]
+
+[node name="desert-city-rounded-edge-inner-22" parent="." instance=ExtResource("70_ubj2a")]
+
+[node name="desert-city-rounded-edge-inner-32" parent="." instance=ExtResource("71_pfpr8")]
+
+[node name="desert-city-rounded-edge-inner-42" parent="." instance=ExtResource("72_l8qu4")]
+
+[node name="desert-city-rounded-edge-outer-12" parent="." instance=ExtResource("73_wbf8t")]
+
+[node name="desert-city-rounded-edge-outer-22" parent="." instance=ExtResource("74_qe81q")]
+
+[node name="desert-city-rounded-edge-outer-32" parent="." instance=ExtResource("75_6evhg")]
+
+[node name="desert-city-rounded-edge-outer-42" parent="." instance=ExtResource("76_jeqhi")]
+
+[node name="desert-city-side-12" parent="." instance=ExtResource("77_tgrq6")]
+
+[node name="desert-city-side-22" parent="." instance=ExtResource("78_kjawm")]
+
+[node name="desert-city-side-32" parent="." instance=ExtResource("79_w8bll")]
+
+[node name="desert-city-side-42" parent="." instance=ExtResource("80_g6774")]
+
+[node name="desert-water-edgy-edge-inner-12" parent="." instance=ExtResource("81_lm1ck")]
+
+[node name="desert-water-edgy-edge-inner-22" parent="." instance=ExtResource("82_ru00a")]
+
+[node name="desert-water-edgy-edge-inner-32" parent="." instance=ExtResource("83_cq1mf")]
+
+[node name="desert-water-edgy-edge-inner-42" parent="." instance=ExtResource("84_vhanm")]
+
+[node name="desert-water-edgy-edge-outer-12" parent="." instance=ExtResource("85_amtwe")]
+
+[node name="desert-water-edgy-edge-outer-22" parent="." instance=ExtResource("86_whwti")]
+
+[node name="desert-water-edgy-edge-outer-32" parent="." instance=ExtResource("87_fhcwl")]
+
+[node name="desert-water-edgy-edge-outer-42" parent="." instance=ExtResource("88_p50no")]
+
+[node name="desert-water-rounded-edge-inner-12" parent="." instance=ExtResource("89_fr8oi")]
+
+[node name="desert-water-rounded-edge-inner-22" parent="." instance=ExtResource("90_80jaq")]
+
+[node name="desert-water-rounded-edge-inner-32" parent="." instance=ExtResource("91_tjpyw")]
+
+[node name="desert-water-rounded-edge-inner-42" parent="." instance=ExtResource("92_0a0ce")]
+
+[node name="desert-water-rounded-edge-outer-12" parent="." instance=ExtResource("93_eweh7")]
+
+[node name="desert-water-rounded-edge-outer-22" parent="." instance=ExtResource("94_mt83d")]
+
+[node name="desert-water-rounded-edge-outer-32" parent="." instance=ExtResource("95_hay0u")]
+
+[node name="desert-water-rounded-edge-outer-42" parent="." instance=ExtResource("96_t4iam")]
+
+[node name="desert-water-side-12" parent="." instance=ExtResource("97_vb6uh")]
+
+[node name="desert-water-side-22" parent="." instance=ExtResource("98_u3pyy")]
+
+[node name="desert-water-side-32" parent="." instance=ExtResource("99_k77d2")]
+
+[node name="desert-water-side-42" parent="." instance=ExtResource("100_jbgpa")]
+
+[node name="dirt-12" parent="." instance=ExtResource("101_s11yg")]
+
+[node name="dirt-22" parent="." instance=ExtResource("102_bwy34")]
+
+[node name="dirt-32" parent="." instance=ExtResource("103_srnd0")]
+
+[node name="dirt-42" parent="." instance=ExtResource("104_q1vpj")]
+
+[node name="dirt-uneven-edge-inner-12" parent="." instance=ExtResource("105_1rf50")]
+
+[node name="dirt-uneven-edge-inner-22" parent="." instance=ExtResource("106_m2osc")]
+
+[node name="dirt-uneven-edge-inner-32" parent="." instance=ExtResource("107_o41r1")]
+
+[node name="dirt-uneven-edge-inner-42" parent="." instance=ExtResource("108_m387s")]
+
+[node name="dirt-uneven-edge-outer-12" parent="." instance=ExtResource("109_kn8l5")]
+
+[node name="dirt-uneven-edge-outer-22" parent="." instance=ExtResource("110_wigyt")]
+
+[node name="dirt-uneven-edge-outer-32" parent="." instance=ExtResource("111_tfmjp")]
+
+[node name="dirt-uneven-edge-outer-42" parent="." instance=ExtResource("112_u2l02")]
+
+[node name="dirt-uneven-side-12" parent="." instance=ExtResource("113_lu1kp")]
+
+[node name="dirt-uneven-side-22" parent="." instance=ExtResource("114_4xwwq")]
+
+[node name="dirt-uneven-side-32" parent="." instance=ExtResource("115_l5sj3")]
+
+[node name="dirt-uneven-side-42" parent="." instance=ExtResource("116_jeqhw")]
+
+[node name="dirt-city-edgy-edge-inner-12" parent="." instance=ExtResource("117_0q2uy")]
+
+[node name="dirt-city-edgy-edge-inner-22" parent="." instance=ExtResource("118_7j1o0")]
+
+[node name="dirt-city-edgy-edge-inner-32" parent="." instance=ExtResource("119_4c3tl")]
+
+[node name="dirt-city-edgy-edge-inner-42" parent="." instance=ExtResource("120_335q5")]
+
+[node name="dirt-city-edgy-edge-outer-12" parent="." instance=ExtResource("121_mltje")]
+
+[node name="dirt-city-edgy-edge-outer-22" parent="." instance=ExtResource("122_8nygv")]
+
+[node name="dirt-city-edgy-edge-outer-32" parent="." instance=ExtResource("123_botg1")]
+
+[node name="dirt-city-edgy-edge-outer-42" parent="." instance=ExtResource("124_urkjo")]
+
+[node name="dirt-city-rounded-edge-inner-12" parent="." instance=ExtResource("125_3atsk")]
+
+[node name="dirt-city-rounded-edge-inner-22" parent="." instance=ExtResource("126_g8kj7")]
+
+[node name="dirt-city-rounded-edge-inner-32" parent="." instance=ExtResource("127_3i3r3")]
+
+[node name="dirt-city-rounded-edge-inner-42" parent="." instance=ExtResource("128_a4vne")]
+
+[node name="dirt-city-rounded-edge-outer-12" parent="." instance=ExtResource("129_5djai")]
+
+[node name="dirt-city-rounded-edge-outer-22" parent="." instance=ExtResource("130_n6tl3")]
+
+[node name="dirt-city-rounded-edge-outer-32" parent="." instance=ExtResource("131_igqhe")]
+
+[node name="dirt-city-rounded-edge-outer-42" parent="." instance=ExtResource("132_cswkv")]
+
+[node name="dirt-city-side-12" parent="." instance=ExtResource("133_5bo7m")]
+
+[node name="dirt-city-side-22" parent="." instance=ExtResource("134_vrl3s")]
+
+[node name="dirt-city-side-32" parent="." instance=ExtResource("135_w1v3v")]
+
+[node name="dirt-city-side-42" parent="." instance=ExtResource("136_lapfa")]
+
+[node name="dirt-water-edgy-edge-inner-12" parent="." instance=ExtResource("137_x01or")]
+
+[node name="dirt-water-edgy-edge-inner-22" parent="." instance=ExtResource("138_tnd64")]
+
+[node name="dirt-water-edgy-edge-inner-32" parent="." instance=ExtResource("139_8o67f")]
+
+[node name="dirt-water-edgy-edge-inner-42" parent="." instance=ExtResource("140_qn7ev")]
+
+[node name="dirt-water-edgy-edge-outer-12" parent="." instance=ExtResource("141_a62sk")]
+
+[node name="dirt-water-edgy-edge-outer-22" parent="." instance=ExtResource("142_qyk0j")]
+
+[node name="dirt-water-edgy-edge-outer-32" parent="." instance=ExtResource("143_lh51n")]
+
+[node name="dirt-water-edgy-edge-outer-42" parent="." instance=ExtResource("144_kpiwh")]
+
+[node name="dirt-water-rounded-edge-inner-12" parent="." instance=ExtResource("145_xlm63")]
+
+[node name="dirt-water-rounded-edge-inner-22" parent="." instance=ExtResource("146_bav7a")]
+
+[node name="dirt-water-rounded-edge-inner-32" parent="." instance=ExtResource("147_gig2k")]
+
+[node name="dirt-water-rounded-edge-inner-42" parent="." instance=ExtResource("148_0g5rh")]
+
+[node name="dirt-water-rounded-edge-outer-12" parent="." instance=ExtResource("149_6wvnu")]
+
+[node name="dirt-water-rounded-edge-outer-22" parent="." instance=ExtResource("150_2cm8t")]
+
+[node name="dirt-water-rounded-edge-outer-32" parent="." instance=ExtResource("151_g3kj7")]
+
+[node name="dirt-water-rounded-edge-outer-42" parent="." instance=ExtResource("152_xgn0u")]
+
+[node name="dirt-water-side-12" parent="." instance=ExtResource("153_18elm")]
+
+[node name="dirt-water-side-22" parent="." instance=ExtResource("154_a5meq")]
+
+[node name="dirt-water-side-32" parent="." instance=ExtResource("155_dvanr")]
+
+[node name="dirt-water-side-42" parent="." instance=ExtResource("156_b5jtg")]
+
+[node name="forest-12" parent="." instance=ExtResource("157_bimye")]
+
+[node name="forest-22" parent="." instance=ExtResource("158_iis2i")]
+
+[node name="forest-32" parent="." instance=ExtResource("159_a10w8")]
+
+[node name="forest-42" parent="." instance=ExtResource("160_rg111")]
+
+[node name="forest-uneven-edge-inner-12" parent="." instance=ExtResource("161_7jmyj")]
+
+[node name="forest-uneven-edge-inner-22" parent="." instance=ExtResource("162_1eqgw")]
+
+[node name="forest-uneven-edge-inner-32" parent="." instance=ExtResource("163_5fcaf")]
+
+[node name="forest-uneven-edge-inner-42" parent="." instance=ExtResource("164_svgqt")]
+
+[node name="forest-uneven-edge-outer-12" parent="." instance=ExtResource("165_gyn3w")]
+
+[node name="forest-uneven-edge-outer-22" parent="." instance=ExtResource("166_ui4xn")]
+
+[node name="forest-uneven-edge-outer-32" parent="." instance=ExtResource("167_oe6fu")]
+
+[node name="forest-uneven-edge-outer-42" parent="." instance=ExtResource("168_au6ue")]
+
+[node name="forest-uneven-side-12" parent="." instance=ExtResource("169_gtg7q")]
+
+[node name="forest-uneven-side-22" parent="." instance=ExtResource("170_7lc4k")]
+
+[node name="forest-uneven-side-32" parent="." instance=ExtResource("171_71ot5")]
+
+[node name="forest-uneven-side-42" parent="." instance=ExtResource("172_gs6rd")]
+
+[node name="forest-city-edgy-edge-inner-12" parent="." instance=ExtResource("173_gryo7")]
+
+[node name="forest-city-edgy-edge-inner-22" parent="." instance=ExtResource("174_e2meq")]
+
+[node name="forest-city-edgy-edge-inner-32" parent="." instance=ExtResource("175_vnsud")]
+
+[node name="forest-city-edgy-edge-inner-42" parent="." instance=ExtResource("176_ik56p")]
+
+[node name="forest-city-edgy-edge-outer-12" parent="." instance=ExtResource("177_ybrxq")]
+
+[node name="forest-city-edgy-edge-outer-22" parent="." instance=ExtResource("178_jepyn")]
+
+[node name="forest-city-edgy-edge-outer-32" parent="." instance=ExtResource("179_s070g")]
+
+[node name="forest-city-edgy-edge-outer-42" parent="." instance=ExtResource("180_4igvh")]
+
+[node name="forest-city-rounded-edge-inner-12" parent="." instance=ExtResource("181_taee2")]
+
+[node name="forest-city-rounded-edge-inner-22" parent="." instance=ExtResource("182_awmf2")]
+
+[node name="forest-city-rounded-edge-inner-32" parent="." instance=ExtResource("183_53yvd")]
+
+[node name="forest-city-rounded-edge-inner-42" parent="." instance=ExtResource("184_dk5v4")]
+
+[node name="forest-city-rounded-edge-outer-12" parent="." instance=ExtResource("185_416dk")]
+
+[node name="forest-city-rounded-edge-outer-22" parent="." instance=ExtResource("186_q8pjt")]
+
+[node name="forest-city-rounded-edge-outer-32" parent="." instance=ExtResource("187_vjhjx")]
+
+[node name="forest-city-rounded-edge-outer-42" parent="." instance=ExtResource("188_o8adt")]
+
+[node name="forest-city-side-12" parent="." instance=ExtResource("189_vt8xj")]
+
+[node name="forest-city-side-22" parent="." instance=ExtResource("190_3p4cf")]
+
+[node name="forest-city-side-32" parent="." instance=ExtResource("191_u8onr")]
+
+[node name="forest-city-side-42" parent="." instance=ExtResource("192_mtngt")]
+
+[node name="forest-desert-edgy-edge-inner-12" parent="." instance=ExtResource("193_i6e1t")]
+
+[node name="forest-desert-edgy-edge-inner-22" parent="." instance=ExtResource("194_gw4bc")]
+
+[node name="forest-desert-edgy-edge-inner-32" parent="." instance=ExtResource("195_q6nvp")]
+
+[node name="forest-desert-edgy-edge-inner-42" parent="." instance=ExtResource("196_2lnq8")]
+
+[node name="forest-desert-edgy-edge-outer-12" parent="." instance=ExtResource("197_311o2")]
+
+[node name="forest-desert-edgy-edge-outer-22" parent="." instance=ExtResource("198_2awuy")]
+
+[node name="forest-desert-edgy-edge-outer-32" parent="." instance=ExtResource("199_avrsy")]
+
+[node name="forest-desert-edgy-edge-outer-42" parent="." instance=ExtResource("200_hkmph")]
+
+[node name="forest-desert-rounded-edge-inner-12" parent="." instance=ExtResource("201_oe6dn")]
+
+[node name="forest-desert-rounded-edge-inner-22" parent="." instance=ExtResource("202_n7ksw")]
+
+[node name="forest-desert-rounded-edge-inner-32" parent="." instance=ExtResource("203_8k6oe")]
+
+[node name="forest-desert-rounded-edge-inner-42" parent="." instance=ExtResource("204_kdyho")]
+
+[node name="forest-desert-rounded-edge-outer-12" parent="." instance=ExtResource("205_lsm8v")]
+
+[node name="forest-desert-rounded-edge-outer-22" parent="." instance=ExtResource("206_qewc6")]
+
+[node name="forest-desert-rounded-edge-outer-32" parent="." instance=ExtResource("207_pvo7w")]
+
+[node name="forest-desert-rounded-edge-outer-42" parent="." instance=ExtResource("208_04rse")]
+
+[node name="forest-desert-side-12" parent="." instance=ExtResource("209_xp2cm")]
+
+[node name="forest-desert-side-22" parent="." instance=ExtResource("210_yvg15")]
+
+[node name="forest-desert-side-32" parent="." instance=ExtResource("211_ap0rc")]
+
+[node name="forest-desert-side-42" parent="." instance=ExtResource("212_o3hwr")]
+
+[node name="forest-dirt-edgy-edge-inner-12" parent="." instance=ExtResource("213_x3fis")]
+
+[node name="forest-dirt-edgy-edge-inner-22" parent="." instance=ExtResource("214_eyml0")]
+
+[node name="forest-dirt-edgy-edge-inner-32" parent="." instance=ExtResource("215_tmx16")]
+
+[node name="forest-dirt-edgy-edge-inner-42" parent="." instance=ExtResource("216_mgfo8")]
+
+[node name="forest-dirt-edgy-edge-outer-12" parent="." instance=ExtResource("217_4qa1c")]
+
+[node name="forest-dirt-edgy-edge-outer-22" parent="." instance=ExtResource("218_vgx47")]
+
+[node name="forest-dirt-edgy-edge-outer-32" parent="." instance=ExtResource("219_r8ini")]
+
+[node name="forest-dirt-edgy-edge-outer-42" parent="." instance=ExtResource("220_hv0ir")]
+
+[node name="forest-dirt-rounded-edge-inner-12" parent="." instance=ExtResource("221_tgutl")]
+
+[node name="forest-dirt-rounded-edge-inner-22" parent="." instance=ExtResource("222_x7b38")]
+
+[node name="forest-dirt-rounded-edge-inner-32" parent="." instance=ExtResource("223_8djeb")]
+
+[node name="forest-dirt-rounded-edge-inner-42" parent="." instance=ExtResource("224_re5k5")]
+
+[node name="forest-dirt-rounded-edge-outer-12" parent="." instance=ExtResource("225_uwrwd")]
+
+[node name="forest-dirt-rounded-edge-outer-22" parent="." instance=ExtResource("226_rjx8d")]
+
+[node name="forest-dirt-rounded-edge-outer-32" parent="." instance=ExtResource("227_p00ed")]
+
+[node name="forest-dirt-rounded-edge-outer-42" parent="." instance=ExtResource("228_aflly")]
+
+[node name="forest-dirt-side-12" parent="." instance=ExtResource("229_qfdy7")]
+
+[node name="forest-dirt-side-22" parent="." instance=ExtResource("230_tjf1a")]
+
+[node name="forest-dirt-side-32" parent="." instance=ExtResource("231_mlsge")]
+
+[node name="forest-dirt-side-42" parent="." instance=ExtResource("232_hctbl")]
+
+[node name="forest-water-edgy-edge-inner-12" parent="." instance=ExtResource("233_30ptw")]
+
+[node name="forest-water-edgy-edge-inner-22" parent="." instance=ExtResource("234_t6hqf")]
+
+[node name="forest-water-edgy-edge-inner-32" parent="." instance=ExtResource("235_buft1")]
+
+[node name="forest-water-edgy-edge-inner-42" parent="." instance=ExtResource("236_x5dux")]
+
+[node name="forest-water-edgy-edge-outer-12" parent="." instance=ExtResource("237_anq4f")]
+
+[node name="forest-water-edgy-edge-outer-22" parent="." instance=ExtResource("238_fl7ju")]
+
+[node name="forest-water-edgy-edge-outer-32" parent="." instance=ExtResource("239_2gdcx")]
+
+[node name="forest-water-edgy-edge-outer-42" parent="." instance=ExtResource("240_117lq")]
+
+[node name="forest-water-rounded-edge-inner-12" parent="." instance=ExtResource("241_h2a7l")]
+
+[node name="forest-water-rounded-edge-inner-22" parent="." instance=ExtResource("242_6cet0")]
+
+[node name="forest-water-rounded-edge-inner-32" parent="." instance=ExtResource("243_f7hhe")]
+
+[node name="forest-water-rounded-edge-inner-42" parent="." instance=ExtResource("244_u4mep")]
+
+[node name="forest-water-rounded-edge-outer-12" parent="." instance=ExtResource("245_bj7rd")]
+
+[node name="forest-water-rounded-edge-outer-22" parent="." instance=ExtResource("246_kjeju")]
+
+[node name="forest-water-rounded-edge-outer-32" parent="." instance=ExtResource("247_gviuf")]
+
+[node name="forest-water-rounded-edge-outer-42" parent="." instance=ExtResource("248_8o70l")]
+
+[node name="forest-water-side-12" parent="." instance=ExtResource("249_xqnp8")]
+
+[node name="forest-water-side-22" parent="." instance=ExtResource("250_d1fcc")]
+
+[node name="forest-water-side-32" parent="." instance=ExtResource("251_bgkxh")]
+
+[node name="forest-water-side-42" parent="." instance=ExtResource("252_haulh")]
+
+[node name="water-12" parent="." instance=ExtResource("253_dkevq")]
+
+[node name="water-22" parent="." instance=ExtResource("254_rnhwk")]
+
+[node name="water-32" parent="." instance=ExtResource("255_hsiuq")]
+
+[node name="water-42" parent="." instance=ExtResource("256_weekw")]

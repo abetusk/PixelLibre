@@ -1,0 +1,46 @@
+[gd_scene load_steps=15 format=3 uid="uid://bj2jmih3r65km"]
+
+[ext_resource type="PackedScene" uid="uid://qx024hf7a6vv" path="res://assets/mountains/mountain-1.gltf" id="1_sh0p3"]
+[ext_resource type="PackedScene" uid="uid://b66rdmkrcgu1b" path="res://assets/mountains/mountain-edge-inner-1.gltf" id="2_s36k8"]
+[ext_resource type="PackedScene" uid="uid://blc1fnjaxar1p" path="res://assets/mountains/mountain-edge-inner-2.gltf" id="3_1cax1"]
+[ext_resource type="PackedScene" uid="uid://btd5rbxwub831" path="res://assets/mountains/mountain-edge-inner-3.gltf" id="4_mcw0h"]
+[ext_resource type="PackedScene" uid="uid://bvlc7xsmjiq0c" path="res://assets/mountains/mountain-edge-inner-4.gltf" id="5_16o10"]
+[ext_resource type="PackedScene" uid="uid://bah4v3kny3wl2" path="res://assets/mountains/mountain-edge-outer-1.gltf" id="6_v2hnh"]
+[ext_resource type="PackedScene" uid="uid://6myqdno7ahso" path="res://assets/mountains/mountain-edge-outer-2.gltf" id="7_byvap"]
+[ext_resource type="PackedScene" uid="uid://culsrbavm40ve" path="res://assets/mountains/mountain-edge-outer-3.gltf" id="8_ku56f"]
+[ext_resource type="PackedScene" uid="uid://dfwqr72cfbr3h" path="res://assets/mountains/mountain-edge-outer-4.gltf" id="9_r4ad5"]
+[ext_resource type="PackedScene" uid="uid://byoggo6ecp3fh" path="res://assets/mountains/mountain-side-1.gltf" id="10_orvw4"]
+[ext_resource type="PackedScene" uid="uid://cwla1fqmk0jhj" path="res://assets/mountains/mountain-side-2.gltf" id="11_ibwpw"]
+[ext_resource type="PackedScene" uid="uid://d1w6r6sdrcro2" path="res://assets/mountains/mountain-side-3.gltf" id="12_v0kvi"]
+[ext_resource type="PackedScene" uid="uid://byfyacra3kr7w" path="res://assets/mountains/mountain-side-4.gltf" id="13_ltn7c"]
+[ext_resource type="PackedScene" uid="uid://cewnc8360lj13" path="res://assets/mountains/mountain-cave.gltf" id="14_ror2p"]
+
+[node name="Mountains" type="Node3D"]
+
+[node name="mountain-12" parent="." instance=ExtResource("1_sh0p3")]
+
+[node name="mountain-edge-inner-12" parent="." instance=ExtResource("2_s36k8")]
+
+[node name="mountain-edge-inner-22" parent="." instance=ExtResource("3_1cax1")]
+
+[node name="mountain-edge-inner-32" parent="." instance=ExtResource("4_mcw0h")]
+
+[node name="mountain-edge-inner-42" parent="." instance=ExtResource("5_16o10")]
+
+[node name="mountain-edge-outer-12" parent="." instance=ExtResource("6_v2hnh")]
+
+[node name="mountain-edge-outer-22" parent="." instance=ExtResource("7_byvap")]
+
+[node name="mountain-edge-outer-32" parent="." instance=ExtResource("8_ku56f")]
+
+[node name="mountain-edge-outer-42" parent="." instance=ExtResource("9_r4ad5")]
+
+[node name="mountain-side-12" parent="." instance=ExtResource("10_orvw4")]
+
+[node name="mountain-side-22" parent="." instance=ExtResource("11_ibwpw")]
+
+[node name="mountain-side-32" parent="." instance=ExtResource("12_v0kvi")]
+
+[node name="mountain-side-42" parent="." instance=ExtResource("13_ltn7c")]
+
+[node name="mountain-cave2" parent="." instance=ExtResource("14_ror2p")]

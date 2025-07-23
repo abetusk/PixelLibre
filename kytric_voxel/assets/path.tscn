@@ -1,0 +1,220 @@
+[gd_scene load_steps=73 format=3 uid="uid://dlfshyt8uengm"]
+
+[ext_resource type="PackedScene" uid="uid://qdp20ygtxefr" path="res://assets/paths/path-3-way-crossing-1.gltf" id="1_t8iju"]
+[ext_resource type="PackedScene" uid="uid://8o5fnpfcqmcd" path="res://assets/paths/path-3-way-crossing-2.gltf" id="2_rydcc"]
+[ext_resource type="PackedScene" uid="uid://ccfclfjbr7ipk" path="res://assets/paths/path-4-way-crossing-1.gltf" id="3_dsvjn"]
+[ext_resource type="PackedScene" uid="uid://dubmhfkqitc11" path="res://assets/paths/path-4-way-crossing-2.gltf" id="4_kdlfr"]
+[ext_resource type="PackedScene" uid="uid://c2meu3ad1m2y2" path="res://assets/paths/path-curve-1.gltf" id="5_hchg1"]
+[ext_resource type="PackedScene" uid="uid://cktclngla7lok" path="res://assets/paths/path-curve-2.gltf" id="6_6a746"]
+[ext_resource type="PackedScene" uid="uid://b3yxfc3o2wiol" path="res://assets/paths/path-curve-3.gltf" id="7_kksnw"]
+[ext_resource type="PackedScene" uid="uid://m0n2isiywfrl" path="res://assets/paths/path-curve-4.gltf" id="8_6egxg"]
+[ext_resource type="PackedScene" uid="uid://b56pskjgslcl4" path="res://assets/paths/path-dead-end.gltf" id="9_lj2ob"]
+[ext_resource type="PackedScene" uid="uid://dnx6xrtn11plv" path="res://assets/paths/path-straight-1.gltf" id="10_01i0c"]
+[ext_resource type="PackedScene" uid="uid://dtty1q30wddr5" path="res://assets/paths/path-straight-2.gltf" id="11_gypa4"]
+[ext_resource type="PackedScene" uid="uid://dc0r6rfm7wfga" path="res://assets/paths/path-straight-3.gltf" id="12_s1yc0"]
+[ext_resource type="PackedScene" uid="uid://csayp4obnqbdp" path="res://assets/paths/path-straight-4.gltf" id="13_17813"]
+[ext_resource type="PackedScene" uid="uid://cv17xr5b4cwkr" path="res://assets/roads/road-edgy-3-way-crossing-1.gltf" id="14_rrirc"]
+[ext_resource type="PackedScene" uid="uid://dvcda7ishaggp" path="res://assets/roads/road-edgy-3-way-crossing-2.gltf" id="15_q2rrk"]
+[ext_resource type="PackedScene" uid="uid://c68lk53at82vt" path="res://assets/roads/road-edgy-4-way-crossing-1.gltf" id="16_ha6xi"]
+[ext_resource type="PackedScene" uid="uid://ccwxo0lgm071y" path="res://assets/roads/road-edgy-4-way-crossing-2.gltf" id="17_qdg1u"]
+[ext_resource type="PackedScene" uid="uid://cpetp5ukffg1s" path="res://assets/roads/road-edgy-curve-1.gltf" id="18_xgvtq"]
+[ext_resource type="PackedScene" uid="uid://ccda5k8o8ioyp" path="res://assets/roads/road-edgy-curve-2.gltf" id="19_lvxxl"]
+[ext_resource type="PackedScene" uid="uid://ddxxmdt4ill6x" path="res://assets/roads/road-edgy-curve-3.gltf" id="20_w8xh4"]
+[ext_resource type="PackedScene" uid="uid://begxag5d40245" path="res://assets/roads/road-edgy-curve-4.gltf" id="21_s71u1"]
+[ext_resource type="PackedScene" uid="uid://b5xqshv0edi37" path="res://assets/roads/road-edgy-dead-end-1.gltf" id="22_mgsp8"]
+[ext_resource type="PackedScene" uid="uid://for24anv5seh" path="res://assets/roads/road-edgy-dead-end-2.gltf" id="23_5hd24"]
+[ext_resource type="PackedScene" uid="uid://bx4bjprj1m8xh" path="res://assets/roads/road-rounded-3-way-crossing-1.gltf" id="24_tw8vy"]
+[ext_resource type="PackedScene" uid="uid://cnwx304ksymx" path="res://assets/roads/road-rounded-3-way-crossing-2.gltf" id="25_0l53p"]
+[ext_resource type="PackedScene" uid="uid://p3ea7u1m1xfo" path="res://assets/roads/road-rounded-4-way-crossing-1.gltf" id="26_gd3nv"]
+[ext_resource type="PackedScene" uid="uid://b0sj28npqjnnl" path="res://assets/roads/road-rounded-4-way-crossing-2.gltf" id="27_f7v7u"]
+[ext_resource type="PackedScene" uid="uid://d6bhs472up3r" path="res://assets/roads/road-rounded-curve-1.gltf" id="28_en24j"]
+[ext_resource type="PackedScene" uid="uid://m0c5nr4eppbn" path="res://assets/roads/road-rounded-curve-2.gltf" id="29_pb8vx"]
+[ext_resource type="PackedScene" uid="uid://bx6y8gn0kt06k" path="res://assets/roads/road-rounded-curve-3.gltf" id="30_tdtaq"]
+[ext_resource type="PackedScene" uid="uid://bllps6thltvna" path="res://assets/roads/road-rounded-curve-4.gltf" id="31_kxxn7"]
+[ext_resource type="PackedScene" uid="uid://b6575pg7bej8d" path="res://assets/roads/road-rounded-curve-large-1.gltf" id="32_hgjmo"]
+[ext_resource type="PackedScene" uid="uid://21vmexlv6spl" path="res://assets/roads/road-rounded-curve-large-2.gltf" id="33_jmifs"]
+[ext_resource type="PackedScene" uid="uid://dgeaoox6orfp4" path="res://assets/roads/road-rounded-curve-large-3.gltf" id="34_hmejh"]
+[ext_resource type="PackedScene" uid="uid://drb41tk401sq7" path="res://assets/roads/road-rounded-curve-large-4.gltf" id="35_84sbu"]
+[ext_resource type="PackedScene" uid="uid://boq2aldek0v8" path="res://assets/roads/road-rounded-dead-end-1.gltf" id="36_euo7f"]
+[ext_resource type="PackedScene" uid="uid://cr8smyej41iuj" path="res://assets/roads/road-rounded-dead-end-2.gltf" id="37_olh6w"]
+[ext_resource type="PackedScene" uid="uid://cswl4mw2a2n5v" path="res://assets/roads/road-straight-1.gltf" id="38_kw7fo"]
+[ext_resource type="PackedScene" uid="uid://cj3jbxyio4xju" path="res://assets/roads/road-straight-2.gltf" id="39_vn8jq"]
+[ext_resource type="PackedScene" uid="uid://b0vnwsl6lpsrf" path="res://assets/roads/road-straight-3.gltf" id="40_mi0y7"]
+[ext_resource type="PackedScene" uid="uid://d3v43vtm1vtsu" path="res://assets/roads/road-straight-4.gltf" id="41_5lkkh"]
+[ext_resource type="PackedScene" uid="uid://dw0bjxvdv4hcj" path="res://assets/tracks/track-curve.gltf" id="43_sw5fc"]
+[ext_resource type="PackedScene" uid="uid://b8bbo521u3gqf" path="res://assets/tracks/track-lane-switch-1.gltf" id="44_htpqy"]
+[ext_resource type="PackedScene" uid="uid://cbfoc75ytpncc" path="res://assets/tracks/track-lane-switch-2.gltf" id="45_asmh6"]
+[ext_resource type="PackedScene" uid="uid://cqivjh4mg53ce" path="res://assets/tracks/track-straight-double.gltf" id="48_l77p4"]
+[ext_resource type="PackedScene" uid="uid://bu8ro2geuujbn" path="res://assets/tracks/track-straight.gltf" id="49_mjilu"]
+[ext_resource type="PackedScene" uid="uid://d3kxaubjh83sv" path="res://assets/tracks/track-switch-1.gltf" id="50_wdfs5"]
+[ext_resource type="PackedScene" uid="uid://bxp4mo0ynpqk7" path="res://assets/tracks/track-switch-2.gltf" id="51_m7agh"]
+[ext_resource type="PackedScene" uid="uid://853juh1x4q6u" path="res://assets/tracks/track-switch-3.gltf" id="52_it3r6"]
+[ext_resource type="PackedScene" uid="uid://q75rh8la8yhn" path="res://assets/tracks/track-switch-4.gltf" id="53_qn685"]
+[ext_resource type="PackedScene" uid="uid://bx8r1fovdgqbv" path="res://assets/tracks/track-switch-5.gltf" id="54_sdnfq"]
+[ext_resource type="PackedScene" uid="uid://ot2gnud3hwld" path="res://assets/tracks/track-switch-6.gltf" id="55_80p0u"]
+[ext_resource type="PackedScene" uid="uid://cy700dx43goyg" path="res://assets/tracks/track-switch-large-1.gltf" id="56_p6abt"]
+[ext_resource type="PackedScene" uid="uid://7b60gdokf0cr" path="res://assets/tracks/track-switch-large-2.gltf" id="57_qvf85"]
+[ext_resource type="PackedScene" uid="uid://bwk0cmvvq27n8" path="res://assets/asphalt/asphalt-edgy-connection.gltf" id="58_lj2ob"]
+[ext_resource type="PackedScene" uid="uid://dhllhgpf46gg6" path="res://assets/asphalt/asphalt-edgy-edge-inner.gltf" id="59_01i0c"]
+[ext_resource type="PackedScene" uid="uid://cys0oauiryimh" path="res://assets/asphalt/asphalt-edgy-edge-outer.gltf" id="60_gypa4"]
+[ext_resource type="PackedScene" uid="uid://dqepks7xi7rc6" path="res://assets/asphalt/asphalt-plane.gltf" id="61_s1yc0"]
+[ext_resource type="PackedScene" uid="uid://dw536xsmkwpni" path="res://assets/asphalt/asphalt-rounded-connection.gltf" id="62_17813"]
+[ext_resource type="PackedScene" uid="uid://b40dvxcrqjlca" path="res://assets/asphalt/asphalt-rounded-edge-inner.gltf" id="63_rrirc"]
+[ext_resource type="PackedScene" uid="uid://dtav3o8o6f7qa" path="res://assets/tracks/track-road-intersection-1.gltf" id="64_gypa4"]
+[ext_resource type="PackedScene" uid="uid://c4l3yy20sbcct" path="res://assets/asphalt/asphalt-rounded-edge-outer.gltf" id="64_q2rrk"]
+[ext_resource type="PackedScene" uid="uid://dcitk88y1beje" path="res://assets/asphalt/asphalt-side.gltf" id="65_ha6xi"]
+[ext_resource type="PackedScene" uid="uid://c5jiexxydo7nk" path="res://assets/tracks/track-road-intersection-2.gltf" id="65_s1yc0"]
+[ext_resource type="PackedScene" uid="uid://d0ssv2qmo0n51" path="res://assets/tracks/track-road-intersection-double-1.gltf" id="66_17813"]
+[ext_resource type="PackedScene" uid="uid://da6ilob7g8a6o" path="res://assets/tracks/track-road-intersection-double-2.gltf" id="67_rrirc"]
+[ext_resource type="PackedScene" uid="uid://bct7aefju861x" path="res://assets/tracks/track-curve-large-inner.gltf" id="68_17813"]
+[ext_resource type="PackedScene" uid="uid://cxdhpn4gi0g55" path="res://assets/asphalt/asphalt-rounded-expand-1.gltf" id="69_ha6xi"]
+[ext_resource type="PackedScene" uid="uid://civvu1q6vmnlk" path="res://assets/tracks/track-curve-large-outer.gltf" id="69_rrirc"]
+[ext_resource type="PackedScene" uid="uid://dn2d8gxoyx8uh" path="res://assets/asphalt/asphalt-rounded-expand-2.gltf" id="70_qdg1u"]
+[ext_resource type="PackedScene" uid="uid://ctdnqpganf5vc" path="res://assets/asphalt/asphalt-rounded-large-inner.gltf" id="71_xgvtq"]
+[ext_resource type="PackedScene" uid="uid://cbsgq3h8r4mod" path="res://assets/asphalt/asphalt-rounded-large-outer.gltf" id="72_lvxxl"]
+
+[node name="Path" type="Node3D"]
+
+[node name="path-3-way-crossing-12" parent="." instance=ExtResource("1_t8iju")]
+
+[node name="path-3-way-crossing-22" parent="." instance=ExtResource("2_rydcc")]
+
+[node name="path-4-way-crossing-12" parent="." instance=ExtResource("3_dsvjn")]
+
+[node name="path-4-way-crossing-22" parent="." instance=ExtResource("4_kdlfr")]
+
+[node name="path-curve-12" parent="." instance=ExtResource("5_hchg1")]
+
+[node name="path-curve-22" parent="." instance=ExtResource("6_6a746")]
+
+[node name="path-curve-32" parent="." instance=ExtResource("7_kksnw")]
+
+[node name="path-curve-42" parent="." instance=ExtResource("8_6egxg")]
+
+[node name="path-dead-end2" parent="." instance=ExtResource("9_lj2ob")]
+
+[node name="path-straight-12" parent="." instance=ExtResource("10_01i0c")]
+
+[node name="path-straight-22" parent="." instance=ExtResource("11_gypa4")]
+
+[node name="path-straight-32" parent="." instance=ExtResource("12_s1yc0")]
+
+[node name="path-straight-42" parent="." instance=ExtResource("13_17813")]
+
+[node name="road-edgy-3-way-crossing-12" parent="." instance=ExtResource("14_rrirc")]
+
+[node name="road-edgy-3-way-crossing-22" parent="." instance=ExtResource("15_q2rrk")]
+
+[node name="road-edgy-4-way-crossing-12" parent="." instance=ExtResource("16_ha6xi")]
+
+[node name="road-edgy-4-way-crossing-22" parent="." instance=ExtResource("17_qdg1u")]
+
+[node name="road-edgy-curve-12" parent="." instance=ExtResource("18_xgvtq")]
+
+[node name="road-edgy-curve-22" parent="." instance=ExtResource("19_lvxxl")]
+
+[node name="road-edgy-curve-32" parent="." instance=ExtResource("20_w8xh4")]
+
+[node name="road-edgy-curve-42" parent="." instance=ExtResource("21_s71u1")]
+
+[node name="road-edgy-dead-end-12" parent="." instance=ExtResource("22_mgsp8")]
+
+[node name="road-edgy-dead-end-22" parent="." instance=ExtResource("23_5hd24")]
+
+[node name="road-rounded-3-way-crossing-12" parent="." instance=ExtResource("24_tw8vy")]
+
+[node name="road-rounded-3-way-crossing-22" parent="." instance=ExtResource("25_0l53p")]
+
+[node name="road-rounded-4-way-crossing-12" parent="." instance=ExtResource("26_gd3nv")]
+
+[node name="road-rounded-4-way-crossing-22" parent="." instance=ExtResource("27_f7v7u")]
+
+[node name="road-rounded-curve-12" parent="." instance=ExtResource("28_en24j")]
+
+[node name="road-rounded-curve-22" parent="." instance=ExtResource("29_pb8vx")]
+
+[node name="road-rounded-curve-32" parent="." instance=ExtResource("30_tdtaq")]
+
+[node name="road-rounded-curve-42" parent="." instance=ExtResource("31_kxxn7")]
+
+[node name="road-rounded-curve-large-12" parent="." instance=ExtResource("32_hgjmo")]
+
+[node name="road-rounded-curve-large-22" parent="." instance=ExtResource("33_jmifs")]
+
+[node name="road-rounded-curve-large-32" parent="." instance=ExtResource("34_hmejh")]
+
+[node name="road-rounded-curve-large-42" parent="." instance=ExtResource("35_84sbu")]
+
+[node name="road-rounded-dead-end-12" parent="." instance=ExtResource("36_euo7f")]
+
+[node name="road-rounded-dead-end-22" parent="." instance=ExtResource("37_olh6w")]
+
+[node name="road-straight-12" parent="." instance=ExtResource("38_kw7fo")]
+
+[node name="road-straight-22" parent="." instance=ExtResource("39_vn8jq")]
+
+[node name="road-straight-32" parent="." instance=ExtResource("40_mi0y7")]
+
+[node name="road-straight-42" parent="." instance=ExtResource("41_5lkkh")]
+
+[node name="track-curve2" parent="." instance=ExtResource("43_sw5fc")]
+
+[node name="track-lane-switch-12" parent="." instance=ExtResource("44_htpqy")]
+
+[node name="track-lane-switch-22" parent="." instance=ExtResource("45_asmh6")]
+
+[node name="track-straight-double2" parent="." instance=ExtResource("48_l77p4")]
+
+[node name="track-straight2" parent="." instance=ExtResource("49_mjilu")]
+
+[node name="track-switch-12" parent="." instance=ExtResource("50_wdfs5")]
+
+[node name="track-switch-22" parent="." instance=ExtResource("51_m7agh")]
+
+[node name="track-switch-32" parent="." instance=ExtResource("52_it3r6")]
+
+[node name="track-switch-42" parent="." instance=ExtResource("53_qn685")]
+
+[node name="track-switch-52" parent="." instance=ExtResource("54_sdnfq")]
+
+[node name="track-switch-62" parent="." instance=ExtResource("55_80p0u")]
+
+[node name="track-switch-large-12" parent="." instance=ExtResource("56_p6abt")]
+
+[node name="track-switch-large-22" parent="." instance=ExtResource("57_qvf85")]
+
+[node name="asphalt-edgy-connection2" parent="." instance=ExtResource("58_lj2ob")]
+
+[node name="asphalt-edgy-edge-inner2" parent="." instance=ExtResource("59_01i0c")]
+
+[node name="asphalt-edgy-edge-outer2" parent="." instance=ExtResource("60_gypa4")]
+
+[node name="asphalt-plane2" parent="." instance=ExtResource("61_s1yc0")]
+
+[node name="asphalt-rounded-connection2" parent="." instance=ExtResource("62_17813")]
+
+[node name="asphalt-rounded-edge-inner2" parent="." instance=ExtResource("63_rrirc")]
+
+[node name="asphalt-rounded-edge-outer2" parent="." instance=ExtResource("64_q2rrk")]
+
+[node name="asphalt-side2" parent="." instance=ExtResource("65_ha6xi")]
+
+[node name="track-road-intersection-12" parent="." instance=ExtResource("64_gypa4")]
+
+[node name="track-road-intersection-22" parent="." instance=ExtResource("65_s1yc0")]
+
+[node name="track-road-intersection-double-12" parent="." instance=ExtResource("66_17813")]
+
+[node name="track-road-intersection-double-22" parent="." instance=ExtResource("67_rrirc")]
+
+[node name="track-curve-large-inner2" parent="." instance=ExtResource("68_17813")]
+
+[node name="track-curve-large-outer2" parent="." instance=ExtResource("69_rrirc")]
+
+[node name="asphalt-rounded-expand-1" parent="." instance=ExtResource("69_ha6xi")]
+
+[node name="asphalt-rounded-expand-2" parent="." instance=ExtResource("70_qdg1u")]
+
+[node name="asphalt-rounded-large-inner" parent="." instance=ExtResource("71_xgvtq")]
+
+[node name="asphalt-rounded-large-outer" parent="." instance=ExtResource("72_lvxxl")]

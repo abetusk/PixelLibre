@@ -1,0 +1,46 @@
+[gd_scene load_steps=15 format=3 uid="uid://cjjnvbn4v6t5k"]
+
+[ext_resource type="PackedScene" uid="uid://gypwsv7ps65a" path="res://assets/stones/stone-1.gltf" id="1_mhhoy"]
+[ext_resource type="PackedScene" uid="uid://bw8p1nela4br0" path="res://assets/stones/stone-2.gltf" id="2_66np0"]
+[ext_resource type="PackedScene" uid="uid://dhqtilyfan2vf" path="res://assets/stones/stone-3.gltf" id="3_213mr"]
+[ext_resource type="PackedScene" uid="uid://xhxsu65py338" path="res://assets/stones/stone-4.gltf" id="4_srtl4"]
+[ext_resource type="PackedScene" uid="uid://bmfj5d8ihglv5" path="res://assets/stones/stone-5.gltf" id="5_hwx4n"]
+[ext_resource type="PackedScene" uid="uid://bx7p32vshmjsh" path="res://assets/stones/stone-6.gltf" id="6_x5due"]
+[ext_resource type="PackedScene" uid="uid://cgf72dd28kd8b" path="res://assets/trees/tree-1.gltf" id="7_qhfdk"]
+[ext_resource type="PackedScene" uid="uid://dlxr10q4xahfm" path="res://assets/trees/tree-2.gltf" id="8_x0wt7"]
+[ext_resource type="PackedScene" uid="uid://ctij2tvk3vfn3" path="res://assets/trees/tree-3.gltf" id="9_ty2vp"]
+[ext_resource type="PackedScene" uid="uid://pivnknex30rb" path="res://assets/trees/tree-4.gltf" id="10_lmam6"]
+[ext_resource type="PackedScene" uid="uid://dlian122dagq6" path="res://assets/trees/tree-5.gltf" id="11_8c30t"]
+[ext_resource type="PackedScene" uid="uid://d312oaumi68f5" path="res://assets/trees/tree-6.gltf" id="12_1ljc8"]
+[ext_resource type="PackedScene" uid="uid://ckdfi00xwav6q" path="res://assets/trees/tree-7.gltf" id="13_sv6qn"]
+[ext_resource type="PackedScene" uid="uid://bhlm6v5i3wsdx" path="res://assets/trees/tree-8.gltf" id="14_1msnp"]
+
+[node name="StonesTrees" type="Node3D"]
+
+[node name="stone-12" parent="." instance=ExtResource("1_mhhoy")]
+
+[node name="stone-22" parent="." instance=ExtResource("2_66np0")]
+
+[node name="stone-32" parent="." instance=ExtResource("3_213mr")]
+
+[node name="stone-42" parent="." instance=ExtResource("4_srtl4")]
+
+[node name="stone-52" parent="." instance=ExtResource("5_hwx4n")]
+
+[node name="stone-62" parent="." instance=ExtResource("6_x5due")]
+
+[node name="tree-12" parent="." instance=ExtResource("7_qhfdk")]
+
+[node name="tree-22" parent="." instance=ExtResource("8_x0wt7")]
+
+[node name="tree-32" parent="." instance=ExtResource("9_ty2vp")]
+
+[node name="tree-42" parent="." instance=ExtResource("10_lmam6")]
+
+[node name="tree-52" parent="." instance=ExtResource("11_8c30t")]
+
+[node name="tree-62" parent="." instance=ExtResource("12_1ljc8")]
+
+[node name="tree-72" parent="." instance=ExtResource("13_sv6qn")]
+
+[node name="tree-82" parent="." instance=ExtResource("14_1msnp")]

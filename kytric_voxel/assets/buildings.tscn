@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b25w7ilptpvou"]
+
+[ext_resource type="PackedScene" uid="uid://c8tx5nysih3i0" path="res://assets/city/building/city-building.gltf" id="1_gaxci"]
+
+[node name="Buildings" type="Node3D"]
+
+[node name="city-building2" parent="." instance=ExtResource("1_gaxci")]
