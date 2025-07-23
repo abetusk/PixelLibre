@@ -1,0 +1,43 @@
+[gd_scene load_steps=14 format=3 uid="uid://bo5ihb7teev4h"]
+
+[ext_resource type="PackedScene" uid="uid://bk3qiuulr26bw" path="res://assets/DemoTerrain/city-1.gltf" id="1_m8ba4"]
+[ext_resource type="PackedScene" uid="uid://dqetl2h0724rv" path="res://assets/DemoTerrain/dirt-1.gltf" id="2_morau"]
+[ext_resource type="PackedScene" uid="uid://djagwy55c7vuf" path="res://assets/DemoTerrain/dirt-2.gltf" id="3_bx1gk"]
+[ext_resource type="PackedScene" uid="uid://bn8i20m0jfnw6" path="res://assets/DemoTerrain/dirt-3.gltf" id="4_kd7bj"]
+[ext_resource type="PackedScene" uid="uid://c3q3nvhb6ivxo" path="res://assets/DemoTerrain/dirt-4.gltf" id="5_phkhg"]
+[ext_resource type="PackedScene" uid="uid://rnkhqphx0iia" path="res://assets/DemoTerrain/forest-1.gltf" id="6_xtebq"]
+[ext_resource type="PackedScene" uid="uid://bjh2xyr6wp3f1" path="res://assets/DemoTerrain/forest-2.gltf" id="7_xbhv7"]
+[ext_resource type="PackedScene" uid="uid://bpiwwtvtivya5" path="res://assets/DemoTerrain/forest-3.gltf" id="8_ufavj"]
+[ext_resource type="PackedScene" uid="uid://bjiqdndxsbdg0" path="res://assets/DemoTerrain/forest-4.gltf" id="9_sqmmu"]
+[ext_resource type="PackedScene" uid="uid://c8j72qfau6tor" path="res://assets/DemoTerrain/desert-1.gltf" id="10_phkhg"]
+[ext_resource type="PackedScene" uid="uid://c02us2nbidfdh" path="res://assets/DemoTerrain/desert-2.gltf" id="11_xtebq"]
+[ext_resource type="PackedScene" uid="uid://bek0g81hhuabw" path="res://assets/DemoTerrain/desert-3.gltf" id="12_xbhv7"]
+[ext_resource type="PackedScene" uid="uid://c1lm5k11peocd" path="res://assets/DemoTerrain/desert-4.gltf" id="13_ufavj"]
+
+[node name="DemoTerrain" type="Node3D"]
+
+[node name="city-1" parent="." instance=ExtResource("1_m8ba4")]
+
+[node name="dirt-1" parent="." instance=ExtResource("2_morau")]
+
+[node name="dirt-2" parent="." instance=ExtResource("3_bx1gk")]
+
+[node name="dirt-3" parent="." instance=ExtResource("4_kd7bj")]
+
+[node name="dirt-4" parent="." instance=ExtResource("5_phkhg")]
+
+[node name="forest-1" parent="." instance=ExtResource("6_xtebq")]
+
+[node name="forest-2" parent="." instance=ExtResource("7_xbhv7")]
+
+[node name="forest-3" parent="." instance=ExtResource("8_ufavj")]
+
+[node name="forest-4" parent="." instance=ExtResource("9_sqmmu")]
+
+[node name="desert-1" parent="." instance=ExtResource("10_phkhg")]
+
+[node name="desert-2" parent="." instance=ExtResource("11_xtebq")]
+
+[node name="desert-3" parent="." instance=ExtResource("12_xbhv7")]
+
+[node name="desert-4" parent="." instance=ExtResource("13_ufavj")]

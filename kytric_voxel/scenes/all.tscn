@@ -1,0 +1,1469 @@
+[gd_scene load_steps=279 format=3 uid="uid://dve2cqqhajrqp"]
+
+[ext_resource type="PackedScene" uid="uid://d0xuu2mbver5n" path="res://assets/Buses/bus-big-blue.gltf" id="1_k6oxs"]
+[ext_resource type="PackedScene" uid="uid://blmf4gqebeud2" path="res://assets/Buses/bus-big-green.gltf" id="2_mw6e2"]
+[ext_resource type="PackedScene" uid="uid://brye857lf3rda" path="res://assets/Buses/bus-big-grey.gltf" id="3_e3abr"]
+[ext_resource type="PackedScene" uid="uid://bso2wvqixb5xd" path="res://assets/Buses/bus-big-orange.gltf" id="4_mxjxk"]
+[ext_resource type="PackedScene" uid="uid://cu1kit816e5w1" path="res://assets/Buses/bus-big-red.gltf" id="5_vrnho"]
+[ext_resource type="PackedScene" uid="uid://b52r7og6oi145" path="res://assets/Buses/bus-big-yellow.gltf" id="6_ew4ts"]
+[ext_resource type="PackedScene" uid="uid://b2meft4nhigd3" path="res://assets/Buses/bus-small-blue.gltf" id="7_cbh6m"]
+[ext_resource type="PackedScene" uid="uid://dobxodhhrmmdo" path="res://assets/Buses/bus-small-green.gltf" id="8_aomg7"]
+[ext_resource type="PackedScene" uid="uid://5r2edv3m3082" path="res://assets/Buses/bus-small-grey.gltf" id="9_8vsju"]
+[ext_resource type="PackedScene" uid="uid://cv0assly2gupf" path="res://assets/Buses/bus-small-orange.gltf" id="10_nbbd4"]
+[ext_resource type="PackedScene" uid="uid://hkdrghmqq24p" path="res://assets/Buses/bus-small-red.gltf" id="11_jk0rx"]
+[ext_resource type="PackedScene" uid="uid://3chvsp2e3nik" path="res://assets/Buses/bus-small-yellow.gltf" id="12_qpb6i"]
+[ext_resource type="PackedScene" uid="uid://fb3i4snobkii" path="res://assets/Cars/car-v1-blue.gltf" id="13_hk30f"]
+[ext_resource type="PackedScene" uid="uid://babtmq8py8ccg" path="res://assets/Cars/car-v1-green.gltf" id="14_udj3s"]
+[ext_resource type="PackedScene" uid="uid://cjdvdxw0t2wdf" path="res://assets/Cars/car-v1-grey.gltf" id="15_ufggj"]
+[ext_resource type="PackedScene" uid="uid://dn3din03eteoi" path="res://assets/Cars/car-v1-orange.gltf" id="16_qowvr"]
+[ext_resource type="PackedScene" uid="uid://bim2c7o531133" path="res://assets/Cars/car-v1-red.gltf" id="17_f0fkn"]
+[ext_resource type="PackedScene" uid="uid://gwofysuqypq3" path="res://assets/Cars/car-v1-yellow.gltf" id="18_k1k3y"]
+[ext_resource type="PackedScene" uid="uid://6djbfi8bhs0b" path="res://assets/Cars/car-v2-blue.gltf" id="19_q8sd6"]
+[ext_resource type="PackedScene" uid="uid://cu0dquie4fuwq" path="res://assets/Cars/car-v2-green.gltf" id="20_e70hf"]
+[ext_resource type="PackedScene" uid="uid://c8msapbq14vgm" path="res://assets/Cars/car-v2-grey.gltf" id="21_6iipr"]
+[ext_resource type="PackedScene" uid="uid://y3iy0xo7mcsj" path="res://assets/Cars/car-v2-orange.gltf" id="22_25tsg"]
+[ext_resource type="PackedScene" uid="uid://bmf80q4yncoh8" path="res://assets/Cars/car-v2-red.gltf" id="23_lqhoa"]
+[ext_resource type="PackedScene" uid="uid://dum1dv826xf3j" path="res://assets/Cars/car-v2-yellow.gltf" id="24_sm1gj"]
+[ext_resource type="PackedScene" uid="uid://b6evmbsul1l38" path="res://assets/Cars/car-v3-blue.gltf" id="25_va0ui"]
+[ext_resource type="PackedScene" uid="uid://ccmuebuxkam1d" path="res://assets/Cars/car-v3-green.gltf" id="26_anm3m"]
+[ext_resource type="PackedScene" uid="uid://bxlp14tqio8ai" path="res://assets/Cars/car-v3-grey.gltf" id="27_pn8lw"]
+[ext_resource type="PackedScene" uid="uid://c88aj61urta57" path="res://assets/Cars/car-v3-orange.gltf" id="28_1gvxa"]
+[ext_resource type="PackedScene" uid="uid://3o6ycgnqvlil" path="res://assets/Cars/car-v3-red.gltf" id="29_fr085"]
+[ext_resource type="PackedScene" uid="uid://bdfy2i5rxqvjp" path="res://assets/Cars/car-v3-yellow.gltf" id="30_n5brd"]
+[ext_resource type="PackedScene" uid="uid://j0wx7gjl3hne" path="res://assets/Cars/car-v4-blue.gltf" id="31_3wfq3"]
+[ext_resource type="PackedScene" uid="uid://bli7xlwqvyk5p" path="res://assets/Cars/car-v4-green.gltf" id="32_1ha01"]
+[ext_resource type="PackedScene" uid="uid://bh6t7hpbvgt7m" path="res://assets/Cars/car-v4-grey.gltf" id="33_eakos"]
+[ext_resource type="PackedScene" uid="uid://ct0iveuo8c1bs" path="res://assets/Cars/car-v4-orange.gltf" id="34_1wfcr"]
+[ext_resource type="PackedScene" uid="uid://bj1a1wl0nlqep" path="res://assets/Cars/car-v4-red.gltf" id="35_nto57"]
+[ext_resource type="PackedScene" uid="uid://dlluaow85qt3d" path="res://assets/Cars/car-v4-yellow.gltf" id="36_7x8co"]
+[ext_resource type="PackedScene" uid="uid://dt3eaxi26mya1" path="res://assets/Cars/car-v5-blue.gltf" id="37_1mxnf"]
+[ext_resource type="PackedScene" uid="uid://lwj1jykbas0y" path="res://assets/Cars/car-v5-green.gltf" id="38_c5x3o"]
+[ext_resource type="PackedScene" uid="uid://bt17e5s0x45im" path="res://assets/Cars/car-v5-grey.gltf" id="39_ls0ft"]
+[ext_resource type="PackedScene" uid="uid://da2p8r767a6av" path="res://assets/Cars/car-v5-orange.gltf" id="40_dpv0f"]
+[ext_resource type="PackedScene" uid="uid://dcceyn1cxb5na" path="res://assets/Cars/car-v5-red.gltf" id="41_qpvx2"]
+[ext_resource type="PackedScene" uid="uid://dg1xk1ut3lpel" path="res://assets/Cars/car-v5-yellow.gltf" id="42_yisk5"]
+[ext_resource type="PackedScene" uid="uid://dxwci2odq3ekj" path="res://assets/Cars/car-v6-blue.gltf" id="43_g8v63"]
+[ext_resource type="PackedScene" uid="uid://dl60s8fdu75fc" path="res://assets/Cars/car-v6-green.gltf" id="44_wlx50"]
+[ext_resource type="PackedScene" uid="uid://2psun63c07m6" path="res://assets/Cars/car-v6-grey.gltf" id="45_qv16g"]
+[ext_resource type="PackedScene" uid="uid://birohbr2qj5iv" path="res://assets/Cars/car-v6-orange.gltf" id="46_oi1sb"]
+[ext_resource type="PackedScene" uid="uid://bygsn3dyuxet4" path="res://assets/Cars/car-v6-red.gltf" id="47_fi2ok"]
+[ext_resource type="PackedScene" uid="uid://bak4ljd0q0f3r" path="res://assets/Cars/car-v6-yellow.gltf" id="48_lo1vf"]
+[ext_resource type="PackedScene" uid="uid://bnbvtdbhm3hdt" path="res://assets/CarTrailers/car-trailer-v1-blue.gltf" id="49_7tk8d"]
+[ext_resource type="PackedScene" uid="uid://roxh5mvlf3qi" path="res://assets/CarTrailers/car-trailer-v1-green.gltf" id="50_xchh8"]
+[ext_resource type="PackedScene" uid="uid://b7qunf2pdbvht" path="res://assets/CarTrailers/car-trailer-v1-grey.gltf" id="51_7g4kp"]
+[ext_resource type="PackedScene" uid="uid://dlbjc53ofpcj" path="res://assets/CarTrailers/car-trailer-v1-orange.gltf" id="52_bq0p8"]
+[ext_resource type="PackedScene" uid="uid://ctev2fr62m27g" path="res://assets/CarTrailers/car-trailer-v1-red.gltf" id="53_4a6in"]
+[ext_resource type="PackedScene" uid="uid://b20vkg4ka5bo3" path="res://assets/CarTrailers/car-trailer-v1-yellow.gltf" id="54_lx6k4"]
+[ext_resource type="PackedScene" uid="uid://34lmmlx5plny" path="res://assets/CarTrailers/car-trailer-v2-blue.gltf" id="55_nrqkk"]
+[ext_resource type="PackedScene" uid="uid://bi0ddhciycsv5" path="res://assets/CarTrailers/car-trailer-v2-green.gltf" id="56_mve3d"]
+[ext_resource type="PackedScene" uid="uid://busfcmb7wb7we" path="res://assets/CarTrailers/car-trailer-v2-grey.gltf" id="57_o47kn"]
+[ext_resource type="PackedScene" uid="uid://du1uav4s7083c" path="res://assets/CarTrailers/car-trailer-v2-orange.gltf" id="58_t778i"]
+[ext_resource type="PackedScene" uid="uid://djveg6xwkg0vb" path="res://assets/CarTrailers/car-trailer-v2-red.gltf" id="59_meinb"]
+[ext_resource type="PackedScene" uid="uid://bi4meutypgf4v" path="res://assets/CarTrailers/car-trailer-v2-yellow.gltf" id="60_hf738"]
+[ext_resource type="PackedScene" uid="uid://g26hrg6cm6nu" path="res://assets/Container/container-blue.gltf" id="61_w4488"]
+[ext_resource type="PackedScene" uid="uid://5n7ht2s2xca6" path="res://assets/Container/container-green.gltf" id="62_377eu"]
+[ext_resource type="PackedScene" uid="uid://ckxcxe1xmox07" path="res://assets/Container/container-grey.gltf" id="63_2e0pt"]
+[ext_resource type="PackedScene" uid="uid://cvvhre4714saw" path="res://assets/Container/container-orange.gltf" id="64_peams"]
+[ext_resource type="PackedScene" uid="uid://c0tigpko7mqx7" path="res://assets/Container/container-red.gltf" id="65_rkt3k"]
+[ext_resource type="PackedScene" uid="uid://pwwtcl1tm87w" path="res://assets/Container/container-yellow.gltf" id="66_2hhgr"]
+[ext_resource type="PackedScene" uid="uid://lkwmctva7s4s" path="res://assets/Emergency/emergency-ambulance-1.gltf" id="67_ftvr7"]
+[ext_resource type="PackedScene" uid="uid://bt1bbc2ogqjnx" path="res://assets/Emergency/emergency-fire-engine-1.gltf" id="68_vludl"]
+[ext_resource type="PackedScene" uid="uid://busib0ktjdsf4" path="res://assets/Emergency/emergency-police-1.gltf" id="69_d353c"]
+[ext_resource type="PackedScene" uid="uid://ckxcudnkpwp37" path="res://assets/Racers/racer-v1-blue.gltf" id="70_ykse6"]
+[ext_resource type="PackedScene" uid="uid://cjpgc31a3n8ic" path="res://assets/Racers/racer-v1-green.gltf" id="71_dcs8y"]
+[ext_resource type="PackedScene" uid="uid://b7dowapwuq8yb" path="res://assets/Racers/racer-v1-grey.gltf" id="72_46rr6"]
+[ext_resource type="PackedScene" uid="uid://csr7pfp7wqvb4" path="res://assets/Racers/racer-v1-orange.gltf" id="73_5c2sl"]
+[ext_resource type="PackedScene" uid="uid://c6tjgq3xv68ew" path="res://assets/Racers/racer-v1-red.gltf" id="74_2r6e1"]
+[ext_resource type="PackedScene" uid="uid://cw1uwbr4bdu31" path="res://assets/Racers/racer-v1-yellow.gltf" id="75_chnu1"]
+[ext_resource type="PackedScene" uid="uid://cydhyrl8xt7om" path="res://assets/Racers/racer-v2-blue.gltf" id="76_e2pyd"]
+[ext_resource type="PackedScene" uid="uid://wf4k0c6gpnei" path="res://assets/Racers/racer-v2-green.gltf" id="77_wqvf1"]
+[ext_resource type="PackedScene" uid="uid://dmgexvuwn41wk" path="res://assets/Racers/racer-v2-grey.gltf" id="78_pt2us"]
+[ext_resource type="PackedScene" uid="uid://k78gmhxf0csy" path="res://assets/Racers/racer-v2-orange.gltf" id="79_bs1ac"]
+[ext_resource type="PackedScene" uid="uid://bfmr358b6vj64" path="res://assets/Racers/racer-v2-red.gltf" id="80_avuwa"]
+[ext_resource type="PackedScene" uid="uid://covnxi8ocwa0g" path="res://assets/Racers/racer-v2-yellow.gltf" id="81_7mcjv"]
+[ext_resource type="PackedScene" uid="uid://b8t321yqojrfl" path="res://assets/Racers/racer-v3-blue.gltf" id="82_rterf"]
+[ext_resource type="PackedScene" uid="uid://lr3rxgdoxlxo" path="res://assets/Racers/racer-v3-green.gltf" id="83_bwrhl"]
+[ext_resource type="PackedScene" uid="uid://lx4bp5gsx5l6" path="res://assets/Racers/racer-v3-grey.gltf" id="84_1w82d"]
+[ext_resource type="PackedScene" uid="uid://coaxk837eterk" path="res://assets/Racers/racer-v3-orange.gltf" id="85_x5kpx"]
+[ext_resource type="PackedScene" uid="uid://gs0wf8wvogu8" path="res://assets/Racers/racer-v3-red.gltf" id="86_w7mmr"]
+[ext_resource type="PackedScene" uid="uid://davowdx1snr4c" path="res://assets/Racers/racer-v3-yellow.gltf" id="87_ljlfs"]
+[ext_resource type="PackedScene" uid="uid://beljuhci2q4ly" path="res://assets/Racers/racer-v4-blue.gltf" id="88_8fa67"]
+[ext_resource type="PackedScene" uid="uid://cfckx3st7umbr" path="res://assets/Racers/racer-v4-green.gltf" id="89_j6kkr"]
+[ext_resource type="PackedScene" uid="uid://cabuyu3gb6263" path="res://assets/Racers/racer-v4-grey.gltf" id="90_jv65l"]
+[ext_resource type="PackedScene" uid="uid://dssas3le81vio" path="res://assets/Racers/racer-v4-orange.gltf" id="91_mjjk3"]
+[ext_resource type="PackedScene" uid="uid://do1hykhjwfvmi" path="res://assets/Racers/racer-v4-red.gltf" id="92_sb3yk"]
+[ext_resource type="PackedScene" uid="uid://b56q52v2kk5eq" path="res://assets/Racers/racer-v4-yellow.gltf" id="93_tk6tj"]
+[ext_resource type="PackedScene" uid="uid://cqwj1ugghuh1c" path="res://assets/Racers/racer-v5-blue.gltf" id="94_e05fo"]
+[ext_resource type="PackedScene" uid="uid://beqoql4br0ii4" path="res://assets/Racers/racer-v5-green.gltf" id="95_2f0u7"]
+[ext_resource type="PackedScene" uid="uid://hikhv2ovqmyp" path="res://assets/Racers/racer-v5-grey.gltf" id="96_jrpj0"]
+[ext_resource type="PackedScene" uid="uid://meaamx82npx4" path="res://assets/Racers/racer-v5-orange.gltf" id="97_llulj"]
+[ext_resource type="PackedScene" uid="uid://bn1oaj40dbvim" path="res://assets/Racers/racer-v5-red.gltf" id="98_ufooe"]
+[ext_resource type="PackedScene" uid="uid://prguxvh0t8wl" path="res://assets/Racers/racer-v5-yellow.gltf" id="99_cmb0i"]
+[ext_resource type="PackedScene" uid="uid://c4sa0dqofarbr" path="res://assets/Racers/racer-v6-blue.gltf" id="100_pm7mb"]
+[ext_resource type="PackedScene" uid="uid://tbei7o54bkww" path="res://assets/Racers/racer-v6-green.gltf" id="101_62iql"]
+[ext_resource type="PackedScene" uid="uid://w6x2y2wh7x3q" path="res://assets/Racers/racer-v6-grey.gltf" id="102_xl5j4"]
+[ext_resource type="PackedScene" uid="uid://bko5b4u0n3f14" path="res://assets/Racers/racer-v6-orange.gltf" id="103_mf2l0"]
+[ext_resource type="PackedScene" uid="uid://j0jnqhsqsd1h" path="res://assets/Racers/racer-v6-red.gltf" id="104_48f0b"]
+[ext_resource type="PackedScene" uid="uid://buekoiah1hqk8" path="res://assets/Racers/racer-v6-yellow.gltf" id="105_mmdnk"]
+[ext_resource type="PackedScene" uid="uid://dapop4pqy674m" path="res://assets/SemiTrailers/semitrailer-v1-blue.gltf" id="106_0xhq3"]
+[ext_resource type="PackedScene" uid="uid://ciqu6jc075vld" path="res://assets/SemiTrailers/semitrailer-v1-green.gltf" id="107_t8q0t"]
+[ext_resource type="PackedScene" uid="uid://dqq7ewcnilao4" path="res://assets/SemiTrailers/semitrailer-v1-grey.gltf" id="108_2yco6"]
+[ext_resource type="PackedScene" uid="uid://caxkd2qxuu4vo" path="res://assets/SemiTrailers/semitrailer-v1-orange.gltf" id="109_a8tkq"]
+[ext_resource type="PackedScene" uid="uid://u0bp26a5u7sh" path="res://assets/SemiTrailers/semitrailer-v1-red.gltf" id="110_a5u76"]
+[ext_resource type="PackedScene" uid="uid://lvugk3p6fgyg" path="res://assets/SemiTrailers/semitrailer-v1-yellow.gltf" id="111_spuxm"]
+[ext_resource type="PackedScene" uid="uid://bkrhx68ciasi2" path="res://assets/SemiTrailers/semitrailer-v2-blue.gltf" id="112_82aav"]
+[ext_resource type="PackedScene" uid="uid://b41rh0w87t2x7" path="res://assets/SemiTrailers/semitrailer-v2-green.gltf" id="113_wuvm8"]
+[ext_resource type="PackedScene" uid="uid://rhcswgd56fsg" path="res://assets/SemiTrailers/semitrailer-v2-grey.gltf" id="114_8sjaj"]
+[ext_resource type="PackedScene" uid="uid://cb1nmeappo33d" path="res://assets/SemiTrailers/semitrailer-v2-orange.gltf" id="115_cjy3w"]
+[ext_resource type="PackedScene" uid="uid://cqgx6rcipl7x0" path="res://assets/SemiTrailers/semitrailer-v2-red.gltf" id="116_cg30r"]
+[ext_resource type="PackedScene" uid="uid://d37t8f3k6rb76" path="res://assets/SemiTrailers/semitrailer-v2-yellow.gltf" id="117_8l6ya"]
+[ext_resource type="PackedScene" uid="uid://dp571jclicyj6" path="res://assets/SemiTrailers/semitrailer-v3-blue.gltf" id="118_upf6r"]
+[ext_resource type="PackedScene" uid="uid://df7u546pvfw4l" path="res://assets/SemiTrailers/semitrailer-v3-green.gltf" id="119_l0bgl"]
+[ext_resource type="PackedScene" uid="uid://vvv0rovwo06c" path="res://assets/SemiTrailers/semitrailer-v3-grey.gltf" id="120_ihfg4"]
+[ext_resource type="PackedScene" uid="uid://d351msv5gsyq" path="res://assets/SemiTrailers/semitrailer-v3-orange.gltf" id="121_gj6dt"]
+[ext_resource type="PackedScene" uid="uid://dhnqqrpukvttb" path="res://assets/SemiTrailers/semitrailer-v3-red.gltf" id="122_ppxn8"]
+[ext_resource type="PackedScene" uid="uid://dgetflpm1yegl" path="res://assets/SemiTrailers/semitrailer-v3-yellow.gltf" id="123_68bro"]
+[ext_resource type="PackedScene" uid="uid://c0iur8ec35ugo" path="res://assets/Tires/tire-1.gltf" id="124_pujt5"]
+[ext_resource type="PackedScene" uid="uid://bn8022kyeg6dl" path="res://assets/Tires/tire-2.gltf" id="125_qm2vu"]
+[ext_resource type="PackedScene" uid="uid://csibyu177fcpb" path="res://assets/Tires/tire-3.gltf" id="126_iorf0"]
+[ext_resource type="PackedScene" uid="uid://fiqim4hncca" path="res://assets/Tires/tire-4.gltf" id="127_wv6yq"]
+[ext_resource type="PackedScene" uid="uid://cwu1fposkbe3k" path="res://assets/Tractors/tractor-blue.gltf" id="128_w28mr"]
+[ext_resource type="PackedScene" uid="uid://bdpdreyy474kx" path="res://assets/Tractors/tractor-green.gltf" id="129_asiae"]
+[ext_resource type="PackedScene" uid="uid://cason5ot3jv7p" path="res://assets/Tractors/tractor-grey.gltf" id="130_fog60"]
+[ext_resource type="PackedScene" uid="uid://mwyrifqnh0kt" path="res://assets/Tractors/tractor-orange.gltf" id="131_awqj5"]
+[ext_resource type="PackedScene" uid="uid://c16rfv3nlgidn" path="res://assets/Tractors/tractor-red.gltf" id="132_jgktb"]
+[ext_resource type="PackedScene" uid="uid://b42ojpogoi540" path="res://assets/Tractors/tractor-yellow.gltf" id="133_64iry"]
+[ext_resource type="PackedScene" uid="uid://d2fsjpepoafuu" path="res://assets/TractorTrailers/tractor-trailer-v1-blue.gltf" id="134_pmroj"]
+[ext_resource type="PackedScene" uid="uid://j4087bq15ryk" path="res://assets/TractorTrailers/tractor-trailer-v1-green.gltf" id="135_41x2l"]
+[ext_resource type="PackedScene" uid="uid://bialkyetfnvs4" path="res://assets/TractorTrailers/tractor-trailer-v1-grey.gltf" id="136_2g53v"]
+[ext_resource type="PackedScene" uid="uid://lo6ktwe7uxr2" path="res://assets/TractorTrailers/tractor-trailer-v1-orange.gltf" id="137_i4chv"]
+[ext_resource type="PackedScene" uid="uid://5vmwwqhl2gyx" path="res://assets/TractorTrailers/tractor-trailer-v1-red.gltf" id="138_2uvco"]
+[ext_resource type="PackedScene" uid="uid://pcbou0moon7g" path="res://assets/TractorTrailers/tractor-trailer-v1-yellow.gltf" id="139_xpuir"]
+[ext_resource type="PackedScene" uid="uid://blmwnifb23q5r" path="res://assets/TractorTrailers/tractor-trailer-v2-blue.gltf" id="140_2km5e"]
+[ext_resource type="PackedScene" uid="uid://dcocvgjinll5" path="res://assets/TractorTrailers/tractor-trailer-v2-green.gltf" id="141_eg05q"]
+[ext_resource type="PackedScene" uid="uid://c5vb3lrscnjsf" path="res://assets/TractorTrailers/tractor-trailer-v2-grey.gltf" id="142_ji8pq"]
+[ext_resource type="PackedScene" uid="uid://1gneel8kd7op" path="res://assets/TractorTrailers/tractor-trailer-v2-orange.gltf" id="143_622cb"]
+[ext_resource type="PackedScene" uid="uid://caes5xqayexew" path="res://assets/TractorTrailers/tractor-trailer-v2-red.gltf" id="144_t1osa"]
+[ext_resource type="PackedScene" uid="uid://bmoxt1hi7qaes" path="res://assets/TractorTrailers/tractor-trailer-v2-yellow.gltf" id="145_e3ga2"]
+[ext_resource type="PackedScene" uid="uid://c5du3nevr651x" path="res://assets/TractorTrailers/tractor-trailer-v3-blue.gltf" id="146_iuodg"]
+[ext_resource type="PackedScene" uid="uid://baxdrj3std43k" path="res://assets/TractorTrailers/tractor-trailer-v3-green.gltf" id="147_k4aq4"]
+[ext_resource type="PackedScene" uid="uid://1ucvvnqe0bp0" path="res://assets/TractorTrailers/tractor-trailer-v3-grey.gltf" id="148_163nr"]
+[ext_resource type="PackedScene" uid="uid://cpysw8c72p3mo" path="res://assets/TractorTrailers/tractor-trailer-v3-orange.gltf" id="149_6ydsg"]
+[ext_resource type="PackedScene" uid="uid://c2o5bmr736oaw" path="res://assets/TractorTrailers/tractor-trailer-v3-red.gltf" id="150_hyvvm"]
+[ext_resource type="PackedScene" uid="uid://cd7wap8nfk767" path="res://assets/TractorTrailers/tractor-trailer-v3-yellow.gltf" id="151_ui2iw"]
+[ext_resource type="PackedScene" uid="uid://ssy7av6i0a8e" path="res://assets/Trains/train-v1-blue.gltf" id="152_kl0gv"]
+[ext_resource type="PackedScene" uid="uid://cpl3tr2wrm4uo" path="res://assets/Trains/train-v1-green.gltf" id="153_2g3d8"]
+[ext_resource type="PackedScene" uid="uid://dbpj4ry6virnu" path="res://assets/Trains/train-v1-grey.gltf" id="154_unhsj"]
+[ext_resource type="PackedScene" uid="uid://fgmdvlv3moso" path="res://assets/Trains/train-v1-orange.gltf" id="155_yr8xo"]
+[ext_resource type="PackedScene" uid="uid://bo7wvu5grgssk" path="res://assets/Trains/train-v1-red.gltf" id="156_nk258"]
+[ext_resource type="PackedScene" uid="uid://v136iwk0x3b1" path="res://assets/Trains/train-v1-yellow.gltf" id="157_m5dmc"]
+[ext_resource type="PackedScene" uid="uid://byb86vt0580bk" path="res://assets/Trains/train-v2-blue.gltf" id="158_swraf"]
+[ext_resource type="PackedScene" uid="uid://gft12dhh5s07" path="res://assets/Trains/train-v2-green.gltf" id="159_brr0m"]
+[ext_resource type="PackedScene" uid="uid://jsx3w5ffwfqs" path="res://assets/Trains/train-v2-grey.gltf" id="160_afgh8"]
+[ext_resource type="PackedScene" uid="uid://c2vlp1wbrn3nm" path="res://assets/Trains/train-v2-orange.gltf" id="161_40un7"]
+[ext_resource type="PackedScene" uid="uid://ke6ci2fgx7q2" path="res://assets/Trains/train-v2-red.gltf" id="162_wdi1i"]
+[ext_resource type="PackedScene" uid="uid://bv3wqne6vcntk" path="res://assets/Trains/train-v2-yellow.gltf" id="163_hxgok"]
+[ext_resource type="PackedScene" uid="uid://b3nragka6hb1r" path="res://assets/Trains/train-v3-blue.gltf" id="164_p2suy"]
+[ext_resource type="PackedScene" uid="uid://badjrkq6ui6v7" path="res://assets/Trains/train-v3-green.gltf" id="165_wy2tk"]
+[ext_resource type="PackedScene" uid="uid://w78uk3mjfb60" path="res://assets/Trains/train-v3-grey.gltf" id="166_7mklu"]
+[ext_resource type="PackedScene" uid="uid://bb0la8smp8q7d" path="res://assets/Trains/train-v3-orange.gltf" id="167_uamar"]
+[ext_resource type="PackedScene" uid="uid://1tqj0pq28g27" path="res://assets/Trains/train-v3-red.gltf" id="168_4a4ot"]
+[ext_resource type="PackedScene" uid="uid://ch3bh7uwy8syb" path="res://assets/Trains/train-v3-yellow.gltf" id="169_g30qs"]
+[ext_resource type="PackedScene" uid="uid://cv3cgxtgwg70p" path="res://assets/TrainTrailers/train-trailer-v1-blue.gltf" id="170_mcs4w"]
+[ext_resource type="PackedScene" uid="uid://chl2t3pj6oogw" path="res://assets/TrainTrailers/train-trailer-v1-green.gltf" id="171_brj81"]
+[ext_resource type="PackedScene" uid="uid://eyqyg44dclrx" path="res://assets/TrainTrailers/train-trailer-v1-grey.gltf" id="172_qiord"]
+[ext_resource type="PackedScene" uid="uid://b0ndiej6jcqnt" path="res://assets/TrainTrailers/train-trailer-v1-orange.gltf" id="173_u5avy"]
+[ext_resource type="PackedScene" uid="uid://btd0dgr27aokn" path="res://assets/TrainTrailers/train-trailer-v1-red.gltf" id="174_3etri"]
+[ext_resource type="PackedScene" uid="uid://dbspm8jils4nq" path="res://assets/TrainTrailers/train-trailer-v1-yellow.gltf" id="175_moftp"]
+[ext_resource type="PackedScene" uid="uid://dqgficeviq1yx" path="res://assets/TrainTrailers/train-trailer-v2-blue.gltf" id="176_v3m51"]
+[ext_resource type="PackedScene" uid="uid://h7ghagekai58" path="res://assets/TrainTrailers/train-trailer-v2-green.gltf" id="177_lh76b"]
+[ext_resource type="PackedScene" uid="uid://cgnt75lyh0i5n" path="res://assets/TrainTrailers/train-trailer-v2-grey.gltf" id="178_topik"]
+[ext_resource type="PackedScene" uid="uid://bpg6s0ua8orcf" path="res://assets/TrainTrailers/train-trailer-v2-orange.gltf" id="179_vsyum"]
+[ext_resource type="PackedScene" uid="uid://budx0q3o18cgp" path="res://assets/TrainTrailers/train-trailer-v2-red.gltf" id="180_scyul"]
+[ext_resource type="PackedScene" uid="uid://ryt02rqhsgsr" path="res://assets/TrainTrailers/train-trailer-v2-yellow.gltf" id="181_chpeh"]
+[ext_resource type="PackedScene" uid="uid://dqo74ic1krkfm" path="res://assets/TrainTrailers/train-trailer-v3-blue.gltf" id="182_6nsiw"]
+[ext_resource type="PackedScene" uid="uid://dfjig0phgglqy" path="res://assets/TrainTrailers/train-trailer-v3-green.gltf" id="183_jjcin"]
+[ext_resource type="PackedScene" uid="uid://0e434n2u1oi8" path="res://assets/TrainTrailers/train-trailer-v3-grey.gltf" id="184_o381b"]
+[ext_resource type="PackedScene" uid="uid://bed8cl1qneiy5" path="res://assets/TrainTrailers/train-trailer-v3-orange.gltf" id="185_lxfg3"]
+[ext_resource type="PackedScene" uid="uid://curfhfvv8b80h" path="res://assets/TrainTrailers/train-trailer-v3-red.gltf" id="186_8al60"]
+[ext_resource type="PackedScene" uid="uid://67thtamw5akk" path="res://assets/TrainTrailers/train-trailer-v3-yellow.gltf" id="187_mfht4"]
+[ext_resource type="PackedScene" uid="uid://yn5tljwax7wd" path="res://assets/TrainTrailers/train-trailer-v4-blue.gltf" id="188_deffc"]
+[ext_resource type="PackedScene" uid="uid://bw8ym84kq867e" path="res://assets/TrainTrailers/train-trailer-v4-green.gltf" id="189_2sedd"]
+[ext_resource type="PackedScene" uid="uid://b7g3vluifx85b" path="res://assets/TrainTrailers/train-trailer-v4-grey.gltf" id="190_sqbsa"]
+[ext_resource type="PackedScene" uid="uid://cgkl1kbclce5e" path="res://assets/TrainTrailers/train-trailer-v4-orange.gltf" id="191_04io1"]
+[ext_resource type="PackedScene" uid="uid://cacf71xeex7ck" path="res://assets/TrainTrailers/train-trailer-v4-red.gltf" id="192_7g0f4"]
+[ext_resource type="PackedScene" uid="uid://br74e76rx3gw2" path="res://assets/TrainTrailers/train-trailer-v4-yellow.gltf" id="193_k7d0o"]
+[ext_resource type="PackedScene" uid="uid://dm5perd4oqr83" path="res://assets/TrainTrailers/train-trailer-v5-blue.gltf" id="194_wv53q"]
+[ext_resource type="PackedScene" uid="uid://omnsnwpbuqjq" path="res://assets/TrainTrailers/train-trailer-v5-green.gltf" id="195_aas5k"]
+[ext_resource type="PackedScene" uid="uid://du66pnywvjoe7" path="res://assets/TrainTrailers/train-trailer-v5-grey.gltf" id="196_kvn81"]
+[ext_resource type="PackedScene" uid="uid://cdofkjt7uims6" path="res://assets/TrainTrailers/train-trailer-v5-orange.gltf" id="197_wdp4l"]
+[ext_resource type="PackedScene" uid="uid://n32tybb87upx" path="res://assets/TrainTrailers/train-trailer-v5-red.gltf" id="198_8hm73"]
+[ext_resource type="PackedScene" uid="uid://bh05n1d2mdtr7" path="res://assets/TrainTrailers/train-trailer-v5-yellow.gltf" id="199_6bqep"]
+[ext_resource type="PackedScene" uid="uid://07m403cmpxkm" path="res://assets/TrainTrailers/train-trailer-v6-blue.gltf" id="200_ewhn2"]
+[ext_resource type="PackedScene" uid="uid://dosa3eivalyb3" path="res://assets/TrainTrailers/train-trailer-v6-green.gltf" id="201_uugpc"]
+[ext_resource type="PackedScene" uid="uid://dtg0cgikpokmf" path="res://assets/TrainTrailers/train-trailer-v6-grey.gltf" id="202_gekoy"]
+[ext_resource type="PackedScene" uid="uid://bgw3g1bdisofw" path="res://assets/TrainTrailers/train-trailer-v6-orange.gltf" id="203_hc74m"]
+[ext_resource type="PackedScene" uid="uid://jlehbd36yd8p" path="res://assets/TrainTrailers/train-trailer-v6-red.gltf" id="204_yff8e"]
+[ext_resource type="PackedScene" uid="uid://d34uac0u4grg7" path="res://assets/TrainTrailers/train-trailer-v6-yellow.gltf" id="205_k7q2h"]
+[ext_resource type="PackedScene" uid="uid://dxxodpkf6ev3y" path="res://assets/TrainTrailers/train-trailer-v7-blue.gltf" id="206_q1b3n"]
+[ext_resource type="PackedScene" uid="uid://dniitdm1iiotx" path="res://assets/TrainTrailers/train-trailer-v7-green.gltf" id="207_tyqvr"]
+[ext_resource type="PackedScene" uid="uid://ci57ltlfvkos6" path="res://assets/TrainTrailers/train-trailer-v7-grey.gltf" id="208_8y2fs"]
+[ext_resource type="PackedScene" uid="uid://davipao88xgw0" path="res://assets/TrainTrailers/train-trailer-v7-orange.gltf" id="209_xaijo"]
+[ext_resource type="PackedScene" uid="uid://nnvjmc31j1rr" path="res://assets/TrainTrailers/train-trailer-v7-red.gltf" id="210_86jpn"]
+[ext_resource type="PackedScene" uid="uid://de7hw0af7apv6" path="res://assets/TrainTrailers/train-trailer-v7-yellow.gltf" id="211_glii3"]
+[ext_resource type="PackedScene" uid="uid://bmjqpjvqpbkm1" path="res://assets/TrainTrailers/train-trailer-v8-blue.gltf" id="212_2vg3v"]
+[ext_resource type="PackedScene" uid="uid://b6gc6dm0vsnm2" path="res://assets/TrainTrailers/train-trailer-v8-green.gltf" id="213_yv1vn"]
+[ext_resource type="PackedScene" uid="uid://c7u1jur0t1qhp" path="res://assets/TrainTrailers/train-trailer-v8-grey.gltf" id="214_bhob2"]
+[ext_resource type="PackedScene" uid="uid://8tpgramdj25o" path="res://assets/TrainTrailers/train-trailer-v8-orange.gltf" id="215_bt70x"]
+[ext_resource type="PackedScene" uid="uid://dqkaylq3uttfp" path="res://assets/TrainTrailers/train-trailer-v8-red.gltf" id="216_inxj1"]
+[ext_resource type="PackedScene" uid="uid://c5nn5cm05biq4" path="res://assets/TrainTrailers/train-trailer-v8-yellow.gltf" id="217_1d5d0"]
+[ext_resource type="PackedScene" uid="uid://ct454t586mqhs" path="res://assets/TrainTrailers/train-trailer-v9-blue.gltf" id="218_cfgmm"]
+[ext_resource type="PackedScene" uid="uid://buien7opkai1j" path="res://assets/TrainTrailers/train-trailer-v9-green.gltf" id="219_f5g3p"]
+[ext_resource type="PackedScene" uid="uid://b06ffjtet5hsa" path="res://assets/TrainTrailers/train-trailer-v9-grey.gltf" id="220_dcnb4"]
+[ext_resource type="PackedScene" uid="uid://cnogwvkl2s5mo" path="res://assets/TrainTrailers/train-trailer-v9-orange.gltf" id="221_ahd7q"]
+[ext_resource type="PackedScene" uid="uid://1qhq82du0acd" path="res://assets/TrainTrailers/train-trailer-v9-red.gltf" id="222_4yxwh"]
+[ext_resource type="PackedScene" uid="uid://cun8ku41rgs4a" path="res://assets/TrainTrailers/train-trailer-v9-yellow.gltf" id="223_jlhkr"]
+[ext_resource type="PackedScene" uid="uid://da4is2v6jj17i" path="res://assets/Trucks/truck-v1-blue.gltf" id="224_6qdgy"]
+[ext_resource type="PackedScene" uid="uid://cpev4410ha5nu" path="res://assets/Trucks/truck-v1-green.gltf" id="225_0qopj"]
+[ext_resource type="PackedScene" uid="uid://b4rbsfbb62yqy" path="res://assets/Trucks/truck-v1-grey.gltf" id="226_sjk8v"]
+[ext_resource type="PackedScene" uid="uid://cda6n28qc3ys1" path="res://assets/Trucks/truck-v1-orange.gltf" id="227_ynfvu"]
+[ext_resource type="PackedScene" uid="uid://bfvd857qjttu8" path="res://assets/Trucks/truck-v1-red.gltf" id="228_bokwf"]
+[ext_resource type="PackedScene" uid="uid://dgaply4gatudl" path="res://assets/Trucks/truck-v1-yellow.gltf" id="229_hnebb"]
+[ext_resource type="PackedScene" uid="uid://dsnagl2bubx36" path="res://assets/Trucks/truck-v2-blue.gltf" id="230_3ruvl"]
+[ext_resource type="PackedScene" uid="uid://cgvjmdtwydd7u" path="res://assets/Trucks/truck-v2-green.gltf" id="231_pj1e6"]
+[ext_resource type="PackedScene" uid="uid://cr8avdnppo67a" path="res://assets/Trucks/truck-v2-grey.gltf" id="232_npxg3"]
+[ext_resource type="PackedScene" uid="uid://bmsgr77rm8p5q" path="res://assets/Trucks/truck-v2-orange.gltf" id="233_0btws"]
+[ext_resource type="PackedScene" uid="uid://cldry4wuu1xqk" path="res://assets/Trucks/truck-v2-red.gltf" id="234_wc0g2"]
+[ext_resource type="PackedScene" uid="uid://baxnpmecyubkn" path="res://assets/Trucks/truck-v2-yellow.gltf" id="235_8qhtl"]
+[ext_resource type="PackedScene" uid="uid://42ibrxu0m25c" path="res://assets/Trucks/truck-v3-blue.gltf" id="236_injjb"]
+[ext_resource type="PackedScene" uid="uid://dnj3ftxyl282f" path="res://assets/Trucks/truck-v3-green.gltf" id="237_0dc1k"]
+[ext_resource type="PackedScene" uid="uid://cx3msg76mba4h" path="res://assets/Trucks/truck-v3-grey.gltf" id="238_0ncxt"]
+[ext_resource type="PackedScene" uid="uid://1kvlnqltffac" path="res://assets/Trucks/truck-v3-orange.gltf" id="239_akiig"]
+[ext_resource type="PackedScene" uid="uid://kxndsj8ww8o6" path="res://assets/Trucks/truck-v3-red.gltf" id="240_0ltsk"]
+[ext_resource type="PackedScene" uid="uid://cqwlc4qna2qox" path="res://assets/Trucks/truck-v3-yellow.gltf" id="241_qshmu"]
+[ext_resource type="PackedScene" uid="uid://0p5pfnu5744p" path="res://assets/Trucks/truck-v4-blue.gltf" id="242_cs1d7"]
+[ext_resource type="PackedScene" uid="uid://dpld15b0rgjbe" path="res://assets/Trucks/truck-v4-green.gltf" id="243_57t1i"]
+[ext_resource type="PackedScene" uid="uid://c4f0cuqbxnt5p" path="res://assets/Trucks/truck-v4-grey.gltf" id="244_8y5d5"]
+[ext_resource type="PackedScene" uid="uid://b357hmt48iq5y" path="res://assets/Trucks/truck-v4-orange.gltf" id="245_7wl1n"]
+[ext_resource type="PackedScene" uid="uid://bqn65ue45ur3w" path="res://assets/Trucks/truck-v4-red.gltf" id="246_vqnh1"]
+[ext_resource type="PackedScene" uid="uid://dd4krvcml4vsm" path="res://assets/Trucks/truck-v4-yellow.gltf" id="247_4y7gn"]
+[ext_resource type="PackedScene" uid="uid://bjsdgv812xmc1" path="res://assets/Trucks/truck-v5-blue.gltf" id="248_jn2a1"]
+[ext_resource type="PackedScene" uid="uid://c1xbjxly47ofu" path="res://assets/Trucks/truck-v5-green.gltf" id="249_s3a8p"]
+[ext_resource type="PackedScene" uid="uid://cabh5tv7o3avt" path="res://assets/Trucks/truck-v5-grey.gltf" id="250_l8vw6"]
+[ext_resource type="PackedScene" uid="uid://63ixneyi7l5g" path="res://assets/Trucks/truck-v5-orange.gltf" id="251_qsbgo"]
+[ext_resource type="PackedScene" uid="uid://b8gn0kgenx7oi" path="res://assets/Trucks/truck-v5-red.gltf" id="252_xrty2"]
+[ext_resource type="PackedScene" uid="uid://n6gkglnjrpla" path="res://assets/Trucks/truck-v5-yellow.gltf" id="253_p8ldx"]
+[ext_resource type="PackedScene" uid="uid://dgqx5qitjsbng" path="res://assets/TruckTrailers/truck-trailer-v1-blue.gltf" id="254_vj0qr"]
+[ext_resource type="PackedScene" uid="uid://c6fcpyeck5gls" path="res://assets/TruckTrailers/truck-trailer-v1-green.gltf" id="255_tvce3"]
+[ext_resource type="PackedScene" uid="uid://dwoqiy1fjn30v" path="res://assets/TruckTrailers/truck-trailer-v1-grey.gltf" id="256_deyjr"]
+[ext_resource type="PackedScene" uid="uid://nakt5eyo46ks" path="res://assets/TruckTrailers/truck-trailer-v1-orange.gltf" id="257_dhq3c"]
+[ext_resource type="PackedScene" uid="uid://bogxo8k3wwevm" path="res://assets/TruckTrailers/truck-trailer-v1-yellow.gltf" id="258_pkelm"]
+[ext_resource type="PackedScene" uid="uid://sx71ry61hfm5" path="res://assets/TruckTrailers/truck-trailer-v1-red.gltf" id="258_udj3s"]
+[ext_resource type="PackedScene" uid="uid://cocbglwo5sqet" path="res://assets/TruckTrailers/truck-trailer-v2-blue.gltf" id="259_isbkh"]
+[ext_resource type="PackedScene" uid="uid://d3piq04pqesgt" path="res://assets/TruckTrailers/truck-trailer-v2-green.gltf" id="260_cc2tu"]
+[ext_resource type="PackedScene" uid="uid://xj4mi3jdkm0m" path="res://assets/TruckTrailers/truck-trailer-v2-grey.gltf" id="261_5tf7g"]
+[ext_resource type="PackedScene" uid="uid://bfy6oridlxn0x" path="res://assets/TruckTrailers/truck-trailer-v2-orange.gltf" id="262_jhiyf"]
+[ext_resource type="PackedScene" uid="uid://j6prv4144ei7" path="res://assets/TruckTrailers/truck-trailer-v2-red.gltf" id="263_uscuw"]
+[ext_resource type="PackedScene" uid="uid://bcb5q3ofsh8ea" path="res://assets/TruckTrailers/truck-trailer-v2-yellow.gltf" id="264_tiow1"]
+[ext_resource type="PackedScene" uid="uid://cm4sletwlgcwq" path="res://assets/TruckTrailers/truck-trailer-v3-blue.gltf" id="265_xfdfm"]
+[ext_resource type="PackedScene" uid="uid://dkheuqspheun3" path="res://assets/TruckTrailers/truck-trailer-v3-green.gltf" id="266_qh0jx"]
+[ext_resource type="PackedScene" uid="uid://djq63efu1bw4s" path="res://assets/TruckTrailers/truck-trailer-v3-grey.gltf" id="267_s1lyo"]
+[ext_resource type="PackedScene" uid="uid://dod3xrh1ugxe1" path="res://assets/TruckTrailers/truck-trailer-v3-orange.gltf" id="268_e0mfr"]
+[ext_resource type="PackedScene" uid="uid://cmmhjgxwp5dd3" path="res://assets/TruckTrailers/truck-trailer-v3-red.gltf" id="269_y0k5a"]
+[ext_resource type="PackedScene" uid="uid://cvoe3gtj2am3t" path="res://assets/TruckTrailers/truck-trailer-v3-yellow.gltf" id="270_ah4bp"]
+[ext_resource type="PackedScene" uid="uid://wuyalbvtvrtm" path="res://assets/TruckTrailers/truck-trailer-v4-blue.gltf" id="271_erqgn"]
+[ext_resource type="PackedScene" uid="uid://c3gwl32okdqhl" path="res://assets/TruckTrailers/truck-trailer-v4-green.gltf" id="272_vrbrs"]
+[ext_resource type="PackedScene" uid="uid://u0s11mefp3bc" path="res://assets/TruckTrailers/truck-trailer-v4-grey.gltf" id="273_te55m"]
+[ext_resource type="PackedScene" uid="uid://pywsrbcwxnsb" path="res://assets/TruckTrailers/truck-trailer-v4-orange.gltf" id="274_jg27k"]
+[ext_resource type="PackedScene" uid="uid://dhu7p0r1os26q" path="res://assets/TruckTrailers/truck-trailer-v4-red.gltf" id="275_3lx0i"]
+[ext_resource type="PackedScene" uid="uid://u4ehdslgw38c" path="res://assets/TruckTrailers/truck-trailer-v4-yellow.gltf" id="276_78jfn"]
+
+[sub_resource type="Environment" id="Environment_udj3s"]
+ambient_light_source = 2
+ambient_light_color = Color(0.195545, 0.195545, 0.195545, 1)
+
+[node name="All" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_udj3s")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4, 24.5, 16.7)
+light_size = 1.0
+light_specular = 0.0
+shadow_enabled = true
+distance_fade_shadow = 0.0
+distance_fade_length = 97.15
+omni_range = 4096.0
+omni_attenuation = 0.1
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.85, 24.5, -3.55)
+light_size = 1.0
+light_specular = 0.0
+shadow_enabled = true
+distance_fade_shadow = 0.0
+distance_fade_length = 97.15
+omni_range = 4096.0
+omni_attenuation = 0.1
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.9, 24.5, -13.75)
+light_size = 1.0
+light_specular = 0.0
+shadow_enabled = true
+distance_fade_shadow = 0.0
+distance_fade_length = 97.15
+omni_range = 4096.0
+omni_attenuation = 0.1
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.2, 24.5, -18.5)
+light_size = 1.0
+light_specular = 0.0
+shadow_enabled = true
+distance_fade_shadow = 0.0
+distance_fade_length = 97.15
+omni_range = 4096.0
+omni_attenuation = 0.1
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0.62, 100, -1.045)
+projection = 1
+size = 29.101
+
+[node name="Buses" type="Node3D" parent="."]
+
+[node name="bus-big-blue" parent="Buses" instance=ExtResource("1_k6oxs")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, -6)
+rotation_edit_mode = 1
+
+[node name="bus-big-green" parent="Buses" instance=ExtResource("2_mw6e2")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, -6)
+rotation_edit_mode = 1
+
+[node name="bus-big-grey" parent="Buses" instance=ExtResource("3_e3abr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -17.25, 0, -6)
+rotation_edit_mode = 1
+
+[node name="bus-big-orange" parent="Buses" instance=ExtResource("4_mxjxk")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -15.75, 0, -6)
+rotation_edit_mode = 1
+
+[node name="bus-big-red" parent="Buses" instance=ExtResource("5_vrnho")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -14.25, 0, -6)
+rotation_edit_mode = 1
+
+[node name="bus-big-yellow" parent="Buses" instance=ExtResource("6_ew4ts")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -12.75, 0, -6)
+rotation_edit_mode = 1
+
+[node name="bus-small-blue" parent="Buses" instance=ExtResource("7_cbh6m")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="bus-small-green" parent="Buses" instance=ExtResource("8_aomg7")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="bus-small-grey" parent="Buses" instance=ExtResource("9_8vsju")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -17.25, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="bus-small-orange" parent="Buses" instance=ExtResource("10_nbbd4")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -15.75, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="bus-small-red" parent="Buses" instance=ExtResource("11_jk0rx")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -14.25, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="bus-small-yellow" parent="Buses" instance=ExtResource("12_qpb6i")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -12.75, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="Cars" type="Node3D" parent="."]
+
+[node name="car-v1-blue" parent="Cars" instance=ExtResource("13_hk30f")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="car-v1-green" parent="Cars" instance=ExtResource("14_udj3s")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="car-v1-grey" parent="Cars" instance=ExtResource("15_ufggj")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -17.25, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="car-v1-orange" parent="Cars" instance=ExtResource("16_qowvr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -15.75, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="car-v1-red" parent="Cars" instance=ExtResource("17_f0fkn")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -14.25, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="car-v1-yellow" parent="Cars" instance=ExtResource("18_k1k3y")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -12.75, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="car-v2-blue" parent="Cars" instance=ExtResource("19_q8sd6")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="car-v2-green" parent="Cars" instance=ExtResource("20_e70hf")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="car-v2-grey" parent="Cars" instance=ExtResource("21_6iipr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -17.25, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="car-v2-orange" parent="Cars" instance=ExtResource("22_25tsg")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -15.75, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="car-v2-red" parent="Cars" instance=ExtResource("23_lqhoa")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -14.25, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="car-v2-yellow" parent="Cars" instance=ExtResource("24_sm1gj")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -12.75, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="car-v3-blue" parent="Cars" instance=ExtResource("25_va0ui")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="car-v3-green" parent="Cars" instance=ExtResource("26_anm3m")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="car-v3-grey" parent="Cars" instance=ExtResource("27_pn8lw")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -17.25, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="car-v3-orange" parent="Cars" instance=ExtResource("28_1gvxa")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -15.75, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="car-v3-red" parent="Cars" instance=ExtResource("29_fr085")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -14.25, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="car-v3-yellow" parent="Cars" instance=ExtResource("30_n5brd")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -12.75, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="car-v4-blue" parent="Cars" instance=ExtResource("31_3wfq3")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, 3)
+rotation_edit_mode = 1
+
+[node name="car-v4-green" parent="Cars" instance=ExtResource("32_1ha01")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, 3)
+rotation_edit_mode = 1
+
+[node name="car-v4-grey" parent="Cars" instance=ExtResource("33_eakos")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -17.25, 0, 3)
+rotation_edit_mode = 1
+
+[node name="car-v4-orange" parent="Cars" instance=ExtResource("34_1wfcr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -15.75, 0, 3)
+rotation_edit_mode = 1
+
+[node name="car-v4-red" parent="Cars" instance=ExtResource("35_nto57")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -14.25, 0, 3)
+rotation_edit_mode = 1
+
+[node name="car-v4-yellow" parent="Cars" instance=ExtResource("36_7x8co")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -12.75, 0, 3)
+rotation_edit_mode = 1
+
+[node name="car-v5-blue" parent="Cars" instance=ExtResource("37_1mxnf")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="car-v5-green" parent="Cars" instance=ExtResource("38_c5x3o")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="car-v5-grey" parent="Cars" instance=ExtResource("39_ls0ft")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -17.25, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="car-v5-orange" parent="Cars" instance=ExtResource("40_dpv0f")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -15.75, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="car-v5-red" parent="Cars" instance=ExtResource("41_qpvx2")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -14.25, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="car-v5-yellow" parent="Cars" instance=ExtResource("42_yisk5")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -12.75, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="car-v6-blue" parent="Cars" instance=ExtResource("43_g8v63")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="car-v6-green" parent="Cars" instance=ExtResource("44_wlx50")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="car-v6-grey" parent="Cars" instance=ExtResource("45_qv16g")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -17.25, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="car-v6-orange" parent="Cars" instance=ExtResource("46_oi1sb")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -15.75, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="car-v6-red" parent="Cars" instance=ExtResource("47_fi2ok")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -14.25, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="car-v6-yellow" parent="Cars" instance=ExtResource("48_lo1vf")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -12.75, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="CarTrailers" type="Node3D" parent="."]
+
+[node name="car-trailer-v1-blue" parent="CarTrailers" instance=ExtResource("49_7tk8d")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="car-trailer-v1-green" parent="CarTrailers" instance=ExtResource("50_xchh8")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="car-trailer-v1-grey" parent="CarTrailers" instance=ExtResource("51_7g4kp")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -17.25, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="car-trailer-v1-orange" parent="CarTrailers" instance=ExtResource("52_bq0p8")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -15.75, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="car-trailer-v1-red" parent="CarTrailers" instance=ExtResource("53_4a6in")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -14.25, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="car-trailer-v1-yellow" parent="CarTrailers" instance=ExtResource("54_lx6k4")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -12.75, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="car-trailer-v2-blue" parent="CarTrailers" instance=ExtResource("55_nrqkk")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, 12)
+rotation_edit_mode = 1
+
+[node name="car-trailer-v2-green" parent="CarTrailers" instance=ExtResource("56_mve3d")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, 12)
+rotation_edit_mode = 1
+
+[node name="car-trailer-v2-grey" parent="CarTrailers" instance=ExtResource("57_o47kn")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -17.25, 0, 12)
+rotation_edit_mode = 1
+
+[node name="car-trailer-v2-orange" parent="CarTrailers" instance=ExtResource("58_t778i")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -15.75, 0, 12)
+rotation_edit_mode = 1
+
+[node name="car-trailer-v2-red" parent="CarTrailers" instance=ExtResource("59_meinb")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -14.25, 0, 12)
+rotation_edit_mode = 1
+
+[node name="car-trailer-v2-yellow" parent="CarTrailers" instance=ExtResource("60_hf738")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -12.75, 0, 12)
+rotation_edit_mode = 1
+
+[node name="Container" type="Node3D" parent="."]
+
+[node name="container-blue" parent="Container" instance=ExtResource("61_w4488")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -9, 0, 12)
+rotation_edit_mode = 1
+
+[node name="container-green" parent="Container" instance=ExtResource("62_377eu")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -7.5, 0, 12)
+rotation_edit_mode = 1
+
+[node name="container-grey" parent="Container" instance=ExtResource("63_2e0pt")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -6, 0, 12)
+rotation_edit_mode = 1
+
+[node name="container-orange" parent="Container" instance=ExtResource("64_peams")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -4.5, 0, 12)
+rotation_edit_mode = 1
+
+[node name="container-red" parent="Container" instance=ExtResource("65_rkt3k")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -3, 0, 12)
+rotation_edit_mode = 1
+
+[node name="container-yellow" parent="Container" instance=ExtResource("66_2hhgr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -1.5, 0, 12)
+rotation_edit_mode = 1
+
+[node name="Emergency" type="Node3D" parent="."]
+
+[node name="emergency-ambulance-1" parent="Emergency" instance=ExtResource("67_ftvr7")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="emergency-fire-engine-1" parent="Emergency" instance=ExtResource("68_vludl")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="emergency-police-1" parent="Emergency" instance=ExtResource("69_d353c")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -17.25, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="Racers" type="Node3D" parent="."]
+
+[node name="racer-v1-blue" parent="Racers" instance=ExtResource("70_ykse6")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -9, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="racer-v1-green" parent="Racers" instance=ExtResource("71_dcs8y")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -7.5, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="racer-v1-grey" parent="Racers" instance=ExtResource("72_46rr6")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -6, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="racer-v1-orange" parent="Racers" instance=ExtResource("73_5c2sl")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -4.5, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="racer-v1-red" parent="Racers" instance=ExtResource("74_2r6e1")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -3, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="racer-v1-yellow" parent="Racers" instance=ExtResource("75_chnu1")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -1.5, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="racer-v2-blue" parent="Racers" instance=ExtResource("76_e2pyd")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -9, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="racer-v2-green" parent="Racers" instance=ExtResource("77_wqvf1")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -7.5, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="racer-v2-grey" parent="Racers" instance=ExtResource("78_pt2us")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -6, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="racer-v2-orange" parent="Racers" instance=ExtResource("79_bs1ac")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -4.5, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="racer-v2-red" parent="Racers" instance=ExtResource("80_avuwa")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -3, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="racer-v2-yellow" parent="Racers" instance=ExtResource("81_7mcjv")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -1.5, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="racer-v3-blue" parent="Racers" instance=ExtResource("82_rterf")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -9, 0, -6)
+rotation_edit_mode = 1
+
+[node name="racer-v3-green" parent="Racers" instance=ExtResource("83_bwrhl")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -7.5, 0, -6)
+rotation_edit_mode = 1
+
+[node name="racer-v3-grey" parent="Racers" instance=ExtResource("84_1w82d")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -6, 0, -6)
+rotation_edit_mode = 1
+
+[node name="racer-v3-orange" parent="Racers" instance=ExtResource("85_x5kpx")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -4.5, 0, -6)
+rotation_edit_mode = 1
+
+[node name="racer-v3-red" parent="Racers" instance=ExtResource("86_w7mmr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -3, 0, -6)
+rotation_edit_mode = 1
+
+[node name="racer-v3-yellow" parent="Racers" instance=ExtResource("87_ljlfs")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -1.5, 0, -6)
+rotation_edit_mode = 1
+
+[node name="racer-v4-blue" parent="Racers" instance=ExtResource("88_8fa67")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -9, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="racer-v4-green" parent="Racers" instance=ExtResource("89_j6kkr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -7.5, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="racer-v4-grey" parent="Racers" instance=ExtResource("90_jv65l")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -6, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="racer-v4-orange" parent="Racers" instance=ExtResource("91_mjjk3")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -4.5, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="racer-v4-red" parent="Racers" instance=ExtResource("92_sb3yk")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -3, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="racer-v4-yellow" parent="Racers" instance=ExtResource("93_tk6tj")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -1.5, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="racer-v5-blue" parent="Racers" instance=ExtResource("94_e05fo")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -9, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="racer-v5-green" parent="Racers" instance=ExtResource("95_2f0u7")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -7.5, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="racer-v5-grey" parent="Racers" instance=ExtResource("96_jrpj0")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -6, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="racer-v5-orange" parent="Racers" instance=ExtResource("97_llulj")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -4.5, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="racer-v5-red" parent="Racers" instance=ExtResource("98_ufooe")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -3, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="racer-v5-yellow" parent="Racers" instance=ExtResource("99_cmb0i")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -1.5, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="racer-v6-blue" parent="Racers" instance=ExtResource("100_pm7mb")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -9, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="racer-v6-green" parent="Racers" instance=ExtResource("101_62iql")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -7.5, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="racer-v6-grey" parent="Racers" instance=ExtResource("102_xl5j4")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -6, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="racer-v6-orange" parent="Racers" instance=ExtResource("103_mf2l0")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -4.5, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="racer-v6-red" parent="Racers" instance=ExtResource("104_48f0b")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -3, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="racer-v6-yellow" parent="Racers" instance=ExtResource("105_mmdnk")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -1.5, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="SemiTrailers" type="Node3D" parent="."]
+
+[node name="semitrailer-v1-blue" parent="SemiTrailers" instance=ExtResource("106_0xhq3")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v1-green" parent="SemiTrailers" instance=ExtResource("107_t8q0t")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v1-grey" parent="SemiTrailers" instance=ExtResource("108_2yco6")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v1-orange" parent="SemiTrailers" instance=ExtResource("109_a8tkq")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v1-red" parent="SemiTrailers" instance=ExtResource("110_a5u76")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v1-yellow" parent="SemiTrailers" instance=ExtResource("111_spuxm")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v2-blue" parent="SemiTrailers" instance=ExtResource("112_82aav")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v2-green" parent="SemiTrailers" instance=ExtResource("113_wuvm8")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v2-grey" parent="SemiTrailers" instance=ExtResource("114_8sjaj")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v2-orange" parent="SemiTrailers" instance=ExtResource("115_cjy3w")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v2-red" parent="SemiTrailers" instance=ExtResource("116_cg30r")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v2-yellow" parent="SemiTrailers" instance=ExtResource("117_8l6ya")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v3-blue" parent="SemiTrailers" instance=ExtResource("118_upf6r")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, 12)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v3-green" parent="SemiTrailers" instance=ExtResource("119_l0bgl")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, 12)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v3-grey" parent="SemiTrailers" instance=ExtResource("120_ihfg4")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, 12)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v3-orange" parent="SemiTrailers" instance=ExtResource("121_gj6dt")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, 12)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v3-red" parent="SemiTrailers" instance=ExtResource("122_ppxn8")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, 12)
+rotation_edit_mode = 1
+
+[node name="semitrailer-v3-yellow" parent="SemiTrailers" instance=ExtResource("123_68bro")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, 12)
+rotation_edit_mode = 1
+
+[node name="Tires" type="Node3D" parent="."]
+
+[node name="tire-1" parent="Tires" instance=ExtResource("124_pujt5")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -20.25, 0, -13.5)
+rotation_edit_mode = 1
+
+[node name="tire-2" parent="Tires" instance=ExtResource("125_qm2vu")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -18.75, 0, -13.5)
+rotation_edit_mode = 1
+
+[node name="tire-3" parent="Tires" instance=ExtResource("126_iorf0")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -16.5, 0, -13.5)
+rotation_edit_mode = 1
+
+[node name="tire-4" parent="Tires" instance=ExtResource("127_wv6yq")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -14.25, 0, -13.5)
+rotation_edit_mode = 1
+
+[node name="Tractors" type="Node3D" parent="."]
+
+[node name="tractor-blue" parent="Tractors" instance=ExtResource("128_w28mr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -9, 0, 3)
+rotation_edit_mode = 1
+
+[node name="tractor-green" parent="Tractors" instance=ExtResource("129_asiae")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -7.5, 0, 3)
+rotation_edit_mode = 1
+
+[node name="tractor-grey" parent="Tractors" instance=ExtResource("130_fog60")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -6, 0, 3)
+rotation_edit_mode = 1
+
+[node name="tractor-orange" parent="Tractors" instance=ExtResource("131_awqj5")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -4.5, 0, 3)
+rotation_edit_mode = 1
+
+[node name="tractor-red" parent="Tractors" instance=ExtResource("132_jgktb")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -3, 0, 3)
+rotation_edit_mode = 1
+
+[node name="tractor-yellow" parent="Tractors" instance=ExtResource("133_64iry")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -1.5, 0, 3)
+rotation_edit_mode = 1
+
+[node name="TractorTrailers" type="Node3D" parent="."]
+
+[node name="tractor-trailer-v1-blue" parent="TractorTrailers" instance=ExtResource("134_pmroj")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -9, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v1-green" parent="TractorTrailers" instance=ExtResource("135_41x2l")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -7.5, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v1-grey" parent="TractorTrailers" instance=ExtResource("136_2g53v")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -6, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v1-orange" parent="TractorTrailers" instance=ExtResource("137_i4chv")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -4.5, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v1-red" parent="TractorTrailers" instance=ExtResource("138_2uvco")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -3, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v1-yellow" parent="TractorTrailers" instance=ExtResource("139_xpuir")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -1.5, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v2-blue" parent="TractorTrailers" instance=ExtResource("140_2km5e")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -9, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v2-green" parent="TractorTrailers" instance=ExtResource("141_eg05q")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -7.5, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v2-grey" parent="TractorTrailers" instance=ExtResource("142_ji8pq")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -6, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v2-orange" parent="TractorTrailers" instance=ExtResource("143_622cb")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -4.5, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v2-red" parent="TractorTrailers" instance=ExtResource("144_t1osa")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -3, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v2-yellow" parent="TractorTrailers" instance=ExtResource("145_e3ga2")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -1.5, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v3-blue" parent="TractorTrailers" instance=ExtResource("146_iuodg")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -9, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v3-green" parent="TractorTrailers" instance=ExtResource("147_k4aq4")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -7.5, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v3-grey" parent="TractorTrailers" instance=ExtResource("148_163nr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -6, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v3-orange" parent="TractorTrailers" instance=ExtResource("149_6ydsg")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -4.5, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v3-red" parent="TractorTrailers" instance=ExtResource("150_hyvvm")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -3, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="tractor-trailer-v3-yellow" parent="TractorTrailers" instance=ExtResource("151_ui2iw")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, -1.5, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="Trains" type="Node3D" parent="."]
+
+[node name="train-v1-blue" parent="Trains" instance=ExtResource("152_kl0gv")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="train-v1-green" parent="Trains" instance=ExtResource("153_2g3d8")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="train-v1-grey" parent="Trains" instance=ExtResource("154_unhsj")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="train-v1-orange" parent="Trains" instance=ExtResource("155_yr8xo")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="train-v1-red" parent="Trains" instance=ExtResource("156_nk258")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="train-v1-yellow" parent="Trains" instance=ExtResource("157_m5dmc")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="train-v2-blue" parent="Trains" instance=ExtResource("158_swraf")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="train-v2-green" parent="Trains" instance=ExtResource("159_brr0m")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="train-v2-grey" parent="Trains" instance=ExtResource("160_afgh8")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="train-v2-orange" parent="Trains" instance=ExtResource("161_40un7")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="train-v2-red" parent="Trains" instance=ExtResource("162_wdi1i")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="train-v2-yellow" parent="Trains" instance=ExtResource("163_hxgok")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="train-v3-blue" parent="Trains" instance=ExtResource("164_p2suy")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="train-v3-green" parent="Trains" instance=ExtResource("165_wy2tk")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="train-v3-grey" parent="Trains" instance=ExtResource("166_7mklu")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="train-v3-orange" parent="Trains" instance=ExtResource("167_uamar")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="train-v3-red" parent="Trains" instance=ExtResource("168_4a4ot")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="train-v3-yellow" parent="Trains" instance=ExtResource("169_g30qs")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="TrainTrailers" type="Node3D" parent="."]
+
+[node name="train-trailer-v1-blue" parent="TrainTrailers" instance=ExtResource("170_mcs4w")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, -6)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v1-green" parent="TrainTrailers" instance=ExtResource("171_brj81")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, -6)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v1-grey" parent="TrainTrailers" instance=ExtResource("172_qiord")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, -6)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v1-orange" parent="TrainTrailers" instance=ExtResource("173_u5avy")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, -6)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v1-red" parent="TrainTrailers" instance=ExtResource("174_3etri")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, -6)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v1-yellow" parent="TrainTrailers" instance=ExtResource("175_moftp")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, -6)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v2-blue" parent="TrainTrailers" instance=ExtResource("176_v3m51")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v2-green" parent="TrainTrailers" instance=ExtResource("177_lh76b")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v2-grey" parent="TrainTrailers" instance=ExtResource("178_topik")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v2-orange" parent="TrainTrailers" instance=ExtResource("179_vsyum")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v2-red" parent="TrainTrailers" instance=ExtResource("180_scyul")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v2-yellow" parent="TrainTrailers" instance=ExtResource("181_chpeh")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v3-blue" parent="TrainTrailers" instance=ExtResource("182_6nsiw")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v3-green" parent="TrainTrailers" instance=ExtResource("183_jjcin")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v3-grey" parent="TrainTrailers" instance=ExtResource("184_o381b")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v3-orange" parent="TrainTrailers" instance=ExtResource("185_lxfg3")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v3-red" parent="TrainTrailers" instance=ExtResource("186_8al60")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v3-yellow" parent="TrainTrailers" instance=ExtResource("187_mfht4")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v4-blue" parent="TrainTrailers" instance=ExtResource("188_deffc")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v4-green" parent="TrainTrailers" instance=ExtResource("189_2sedd")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v4-grey" parent="TrainTrailers" instance=ExtResource("190_sqbsa")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v4-orange" parent="TrainTrailers" instance=ExtResource("191_04io1")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v4-red" parent="TrainTrailers" instance=ExtResource("192_7g0f4")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v4-yellow" parent="TrainTrailers" instance=ExtResource("193_k7d0o")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v5-blue" parent="TrainTrailers" instance=ExtResource("194_wv53q")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, 3)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v5-green" parent="TrainTrailers" instance=ExtResource("195_aas5k")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, 3)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v5-grey" parent="TrainTrailers" instance=ExtResource("196_kvn81")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, 3)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v5-orange" parent="TrainTrailers" instance=ExtResource("197_wdp4l")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, 3)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v5-red" parent="TrainTrailers" instance=ExtResource("198_8hm73")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, 3)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v5-yellow" parent="TrainTrailers" instance=ExtResource("199_6bqep")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, 3)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v6-blue" parent="TrainTrailers" instance=ExtResource("200_ewhn2")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v6-green" parent="TrainTrailers" instance=ExtResource("201_uugpc")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v6-grey" parent="TrainTrailers" instance=ExtResource("202_gekoy")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v6-orange" parent="TrainTrailers" instance=ExtResource("203_hc74m")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v6-red" parent="TrainTrailers" instance=ExtResource("204_yff8e")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v6-yellow" parent="TrainTrailers" instance=ExtResource("205_k7q2h")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v7-blue" parent="TrainTrailers" instance=ExtResource("206_q1b3n")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v7-green" parent="TrainTrailers" instance=ExtResource("207_tyqvr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v7-grey" parent="TrainTrailers" instance=ExtResource("208_8y2fs")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v7-orange" parent="TrainTrailers" instance=ExtResource("209_xaijo")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v7-red" parent="TrainTrailers" instance=ExtResource("210_86jpn")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v7-yellow" parent="TrainTrailers" instance=ExtResource("211_glii3")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, 7.5)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v8-blue" parent="TrainTrailers" instance=ExtResource("212_2vg3v")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v8-green" parent="TrainTrailers" instance=ExtResource("213_yv1vn")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v8-grey" parent="TrainTrailers" instance=ExtResource("214_bhob2")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v8-orange" parent="TrainTrailers" instance=ExtResource("215_bt70x")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v8-red" parent="TrainTrailers" instance=ExtResource("216_inxj1")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v8-yellow" parent="TrainTrailers" instance=ExtResource("217_1d5d0")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, 9.75)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v9-blue" parent="TrainTrailers" instance=ExtResource("218_cfgmm")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 13.5, 0, 12)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v9-green" parent="TrainTrailers" instance=ExtResource("219_f5g3p")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 15, 0, 12)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v9-grey" parent="TrainTrailers" instance=ExtResource("220_dcnb4")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 16.5, 0, 12)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v9-orange" parent="TrainTrailers" instance=ExtResource("221_ahd7q")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 18, 0, 12)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v9-red" parent="TrainTrailers" instance=ExtResource("222_4yxwh")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 19.5, 0, 12)
+rotation_edit_mode = 1
+
+[node name="train-trailer-v9-yellow" parent="TrainTrailers" instance=ExtResource("223_jlhkr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 21, 0, 12)
+rotation_edit_mode = 1
+
+[node name="Trucks" type="Node3D" parent="."]
+
+[node name="truck-v1-blue" parent="Trucks" instance=ExtResource("224_6qdgy")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="truck-v1-green" parent="Trucks" instance=ExtResource("225_0qopj")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="truck-v1-grey" parent="Trucks" instance=ExtResource("226_sjk8v")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="truck-v1-orange" parent="Trucks" instance=ExtResource("227_ynfvu")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="truck-v1-red" parent="Trucks" instance=ExtResource("228_bokwf")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="truck-v1-yellow" parent="Trucks" instance=ExtResource("229_hnebb")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, -12.75)
+rotation_edit_mode = 1
+
+[node name="truck-v2-blue" parent="Trucks" instance=ExtResource("230_3ruvl")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="truck-v2-green" parent="Trucks" instance=ExtResource("231_pj1e6")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="truck-v2-grey" parent="Trucks" instance=ExtResource("232_npxg3")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="truck-v2-orange" parent="Trucks" instance=ExtResource("233_0btws")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="truck-v2-red" parent="Trucks" instance=ExtResource("234_wc0g2")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="truck-v2-yellow" parent="Trucks" instance=ExtResource("235_8qhtl")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, -10.5)
+rotation_edit_mode = 1
+
+[node name="truck-v3-blue" parent="Trucks" instance=ExtResource("236_injjb")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="truck-v3-green" parent="Trucks" instance=ExtResource("237_0dc1k")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="truck-v3-grey" parent="Trucks" instance=ExtResource("238_0ncxt")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="truck-v3-orange" parent="Trucks" instance=ExtResource("239_akiig")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="truck-v3-red" parent="Trucks" instance=ExtResource("240_0ltsk")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="truck-v3-yellow" parent="Trucks" instance=ExtResource("241_qshmu")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, -8.25)
+rotation_edit_mode = 1
+
+[node name="truck-v4-blue" parent="Trucks" instance=ExtResource("242_cs1d7")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, -6)
+rotation_edit_mode = 1
+
+[node name="truck-v4-green" parent="Trucks" instance=ExtResource("243_57t1i")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, -6)
+rotation_edit_mode = 1
+
+[node name="truck-v4-grey" parent="Trucks" instance=ExtResource("244_8y5d5")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, -6)
+rotation_edit_mode = 1
+
+[node name="truck-v4-orange" parent="Trucks" instance=ExtResource("245_7wl1n")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, -6)
+rotation_edit_mode = 1
+
+[node name="truck-v4-red" parent="Trucks" instance=ExtResource("246_vqnh1")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, -6)
+rotation_edit_mode = 1
+
+[node name="truck-v4-yellow" parent="Trucks" instance=ExtResource("247_4y7gn")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, -6)
+rotation_edit_mode = 1
+
+[node name="truck-v5-blue" parent="Trucks" instance=ExtResource("248_jn2a1")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="truck-v5-green" parent="Trucks" instance=ExtResource("249_s3a8p")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="truck-v5-grey" parent="Trucks" instance=ExtResource("250_l8vw6")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="truck-v5-orange" parent="Trucks" instance=ExtResource("251_qsbgo")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="truck-v5-red" parent="Trucks" instance=ExtResource("252_xrty2")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="truck-v5-yellow" parent="Trucks" instance=ExtResource("253_p8ldx")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, -3.75)
+rotation_edit_mode = 1
+
+[node name="TruckTrailers" type="Node3D" parent="."]
+
+[node name="truck-trailer-v1-blue" parent="TruckTrailers" instance=ExtResource("254_vj0qr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v1-green" parent="TruckTrailers" instance=ExtResource("255_tvce3")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v1-grey" parent="TruckTrailers" instance=ExtResource("256_deyjr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v1-orange" parent="TruckTrailers" instance=ExtResource("257_dhq3c")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v1-red" parent="TruckTrailers" instance=ExtResource("258_udj3s")]
+transform = Transform3D(0.703894, 0.000272483, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v1-yellow" parent="TruckTrailers" instance=ExtResource("258_pkelm")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, -1.5)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v2-blue" parent="TruckTrailers" instance=ExtResource("259_isbkh")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v2-green" parent="TruckTrailers" instance=ExtResource("260_cc2tu")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v2-grey" parent="TruckTrailers" instance=ExtResource("261_5tf7g")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v2-orange" parent="TruckTrailers" instance=ExtResource("262_jhiyf")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v2-red" parent="TruckTrailers" instance=ExtResource("263_uscuw")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v2-yellow" parent="TruckTrailers" instance=ExtResource("264_tiow1")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, 0.75)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v3-blue" parent="TruckTrailers" instance=ExtResource("265_xfdfm")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, 3)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v3-green" parent="TruckTrailers" instance=ExtResource("266_qh0jx")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, 3)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v3-grey" parent="TruckTrailers" instance=ExtResource("267_s1lyo")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, 3)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v3-orange" parent="TruckTrailers" instance=ExtResource("268_e0mfr")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, 3)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v3-red" parent="TruckTrailers" instance=ExtResource("269_y0k5a")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, 3)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v3-yellow" parent="TruckTrailers" instance=ExtResource("270_ah4bp")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, 3)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v4-blue" parent="TruckTrailers" instance=ExtResource("271_erqgn")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 2.25, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v4-green" parent="TruckTrailers" instance=ExtResource("272_vrbrs")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 3.75, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v4-grey" parent="TruckTrailers" instance=ExtResource("273_te55m")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 5.25, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v4-orange" parent="TruckTrailers" instance=ExtResource("274_jg27k")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 6.75, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v4-red" parent="TruckTrailers" instance=ExtResource("275_3lx0i")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 8.25, 0, 5.25)
+rotation_edit_mode = 1
+
+[node name="truck-trailer-v4-yellow" parent="TruckTrailers" instance=ExtResource("276_78jfn")]
+transform = Transform3D(0.703894, 0.000272542, 0.710305, -0.63018, 0.46163, 0.624316, -0.327728, -0.887073, 0.32511, 9.75, 0, 5.25)
+rotation_edit_mode = 1

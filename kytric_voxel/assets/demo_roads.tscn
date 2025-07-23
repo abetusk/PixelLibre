@@ -1,0 +1,34 @@
+[gd_scene load_steps=11 format=3 uid="uid://choouw8cpesff"]
+
+[ext_resource type="PackedScene" uid="uid://c1q04xm63jowc" path="res://assets/DemoRoads/road-rounded-curve-large-1.gltf" id="1_dmlhk"]
+[ext_resource type="PackedScene" uid="uid://by1ix465a241x" path="res://assets/DemoRoads/road-rounded-curve-large-4.gltf" id="2_hivk1"]
+[ext_resource type="PackedScene" uid="uid://dpuq32ao4sdcc" path="res://assets/DemoRoads/road-straight-1.gltf" id="3_jlxoc"]
+[ext_resource type="PackedScene" uid="uid://26vjrb25s3a" path="res://assets/DemoRoads/road-straight-4.gltf" id="4_lxlow"]
+[ext_resource type="PackedScene" uid="uid://p8ah3rlacdo3" path="res://assets/DemoRoads/track-straight-double.gltf" id="5_u3vf1"]
+[ext_resource type="PackedScene" uid="uid://boyii78wtoh5k" path="res://assets/DemoRoads/track-straight.gltf" id="6_0ugww"]
+[ext_resource type="PackedScene" uid="uid://caes8qpn8i6ox" path="res://assets/DemoRoads/asphalt-rounded-large-inner.gltf" id="7_lxlow"]
+[ext_resource type="PackedScene" uid="uid://dkf2j4kmvyiyv" path="res://assets/DemoRoads/asphalt-rounded-large-outer.gltf" id="8_u3vf1"]
+[ext_resource type="PackedScene" uid="uid://b8e6lt656gtqw" path="res://assets/DemoRoads/asphalt-side.gltf" id="9_0ugww"]
+[ext_resource type="PackedScene" uid="uid://bosksg2c02lv3" path="res://assets/DemoRoads/asphalt-plane.gltf" id="10_u3vf1"]
+
+[node name="DemoRoads" type="Node3D"]
+
+[node name="road-rounded-curve-large-1" parent="." instance=ExtResource("1_dmlhk")]
+
+[node name="road-rounded-curve-large-4" parent="." instance=ExtResource("2_hivk1")]
+
+[node name="road-straight-1" parent="." instance=ExtResource("3_jlxoc")]
+
+[node name="road-straight-4" parent="." instance=ExtResource("4_lxlow")]
+
+[node name="track-straight-double" parent="." instance=ExtResource("5_u3vf1")]
+
+[node name="track-straight" parent="." instance=ExtResource("6_0ugww")]
+
+[node name="asphalt-rounded-large-inner" parent="." instance=ExtResource("7_lxlow")]
+
+[node name="asphalt-rounded-large-outer" parent="." instance=ExtResource("8_u3vf1")]
+
+[node name="asphalt-side" parent="." instance=ExtResource("9_0ugww")]
+
+[node name="asphalt-plane" parent="." instance=ExtResource("10_u3vf1")]

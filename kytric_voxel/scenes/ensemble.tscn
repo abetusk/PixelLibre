@@ -1,0 +1,832 @@
+[gd_scene load_steps=108 format=3 uid="uid://bytq0kp4gfp1c"]
+
+[ext_resource type="MeshLibrary" uid="uid://dwp0vpuphk7md" path="res://assets/demo_terrain.tres" id="1_1q8mh"]
+[ext_resource type="MeshLibrary" uid="uid://qtd5mvpv8cnn" path="res://assets/demo_roads.tres" id="2_xiyho"]
+[ext_resource type="PackedScene" uid="uid://ssy7av6i0a8e" path="res://assets/Trains/train-v1-blue.gltf" id="3_xev1l"]
+[ext_resource type="PackedScene" uid="uid://cpl3tr2wrm4uo" path="res://assets/Trains/train-v1-green.gltf" id="4_tbpj4"]
+[ext_resource type="PackedScene" uid="uid://fgmdvlv3moso" path="res://assets/Trains/train-v1-orange.gltf" id="5_na2qq"]
+[ext_resource type="PackedScene" uid="uid://bo7wvu5grgssk" path="res://assets/Trains/train-v1-red.gltf" id="6_6x753"]
+[ext_resource type="PackedScene" uid="uid://gft12dhh5s07" path="res://assets/Trains/train-v2-green.gltf" id="7_11scv"]
+[ext_resource type="PackedScene" uid="uid://jsx3w5ffwfqs" path="res://assets/Trains/train-v2-grey.gltf" id="8_4kau8"]
+[ext_resource type="PackedScene" uid="uid://ke6ci2fgx7q2" path="res://assets/Trains/train-v2-red.gltf" id="9_mqn18"]
+[ext_resource type="PackedScene" uid="uid://bv3wqne6vcntk" path="res://assets/Trains/train-v2-yellow.gltf" id="10_sfdea"]
+[ext_resource type="PackedScene" uid="uid://b3nragka6hb1r" path="res://assets/Trains/train-v3-blue.gltf" id="11_vdqwo"]
+[ext_resource type="PackedScene" uid="uid://badjrkq6ui6v7" path="res://assets/Trains/train-v3-green.gltf" id="12_oxg26"]
+[ext_resource type="PackedScene" uid="uid://w78uk3mjfb60" path="res://assets/Trains/train-v3-grey.gltf" id="13_fu7ka"]
+[ext_resource type="PackedScene" uid="uid://bb0la8smp8q7d" path="res://assets/Trains/train-v3-orange.gltf" id="14_lej7o"]
+[ext_resource type="PackedScene" uid="uid://1tqj0pq28g27" path="res://assets/Trains/train-v3-red.gltf" id="15_a8une"]
+[ext_resource type="PackedScene" uid="uid://dbpj4ry6virnu" path="res://assets/Trains/train-v1-grey.gltf" id="16_v6bew"]
+[ext_resource type="PackedScene" uid="uid://cv3cgxtgwg70p" path="res://assets/TrainTrailers/train-trailer-v1-blue.gltf" id="17_3iqq0"]
+[ext_resource type="PackedScene" uid="uid://h7ghagekai58" path="res://assets/TrainTrailers/train-trailer-v2-green.gltf" id="18_axh4o"]
+[ext_resource type="PackedScene" uid="uid://budx0q3o18cgp" path="res://assets/TrainTrailers/train-trailer-v2-red.gltf" id="19_cy4gx"]
+[ext_resource type="PackedScene" uid="uid://0e434n2u1oi8" path="res://assets/TrainTrailers/train-trailer-v3-grey.gltf" id="20_mqhl3"]
+[ext_resource type="PackedScene" uid="uid://67thtamw5akk" path="res://assets/TrainTrailers/train-trailer-v3-yellow.gltf" id="21_nevqr"]
+[ext_resource type="PackedScene" uid="uid://bw8ym84kq867e" path="res://assets/TrainTrailers/train-trailer-v4-green.gltf" id="22_iv35s"]
+[ext_resource type="PackedScene" uid="uid://cgkl1kbclce5e" path="res://assets/TrainTrailers/train-trailer-v4-orange.gltf" id="23_p6oqk"]
+[ext_resource type="PackedScene" uid="uid://cdofkjt7uims6" path="res://assets/TrainTrailers/train-trailer-v5-orange.gltf" id="24_i2esh"]
+[ext_resource type="PackedScene" uid="uid://n32tybb87upx" path="res://assets/TrainTrailers/train-trailer-v5-red.gltf" id="25_sch4y"]
+[ext_resource type="PackedScene" uid="uid://bh05n1d2mdtr7" path="res://assets/TrainTrailers/train-trailer-v5-yellow.gltf" id="26_77ek5"]
+[ext_resource type="PackedScene" uid="uid://07m403cmpxkm" path="res://assets/TrainTrailers/train-trailer-v6-blue.gltf" id="27_rnmpa"]
+[ext_resource type="PackedScene" uid="uid://bgw3g1bdisofw" path="res://assets/TrainTrailers/train-trailer-v6-orange.gltf" id="28_06j6w"]
+[ext_resource type="PackedScene" uid="uid://jlehbd36yd8p" path="res://assets/TrainTrailers/train-trailer-v6-red.gltf" id="29_jayx6"]
+[ext_resource type="PackedScene" uid="uid://dxxodpkf6ev3y" path="res://assets/TrainTrailers/train-trailer-v7-blue.gltf" id="30_i1x10"]
+[ext_resource type="PackedScene" uid="uid://dniitdm1iiotx" path="res://assets/TrainTrailers/train-trailer-v7-green.gltf" id="31_isnqc"]
+[ext_resource type="PackedScene" uid="uid://ci57ltlfvkos6" path="res://assets/TrainTrailers/train-trailer-v7-grey.gltf" id="32_kxdw3"]
+[ext_resource type="PackedScene" uid="uid://davipao88xgw0" path="res://assets/TrainTrailers/train-trailer-v7-orange.gltf" id="33_hnifw"]
+[ext_resource type="PackedScene" uid="uid://nnvjmc31j1rr" path="res://assets/TrainTrailers/train-trailer-v7-red.gltf" id="34_2shw4"]
+[ext_resource type="PackedScene" uid="uid://c7u1jur0t1qhp" path="res://assets/TrainTrailers/train-trailer-v8-grey.gltf" id="35_1kybd"]
+[ext_resource type="PackedScene" uid="uid://dqkaylq3uttfp" path="res://assets/TrainTrailers/train-trailer-v8-red.gltf" id="36_pqh4y"]
+[ext_resource type="PackedScene" uid="uid://b06ffjtet5hsa" path="res://assets/TrainTrailers/train-trailer-v9-grey.gltf" id="37_0rlgk"]
+[ext_resource type="PackedScene" uid="uid://eyqyg44dclrx" path="res://assets/TrainTrailers/train-trailer-v1-grey.gltf" id="38_s2lom"]
+[ext_resource type="PackedScene" uid="uid://cgnt75lyh0i5n" path="res://assets/TrainTrailers/train-trailer-v2-grey.gltf" id="39_rh1a3"]
+[ext_resource type="PackedScene" uid="uid://g26hrg6cm6nu" path="res://assets/Container/container-blue.gltf" id="40_784kn"]
+[ext_resource type="PackedScene" uid="uid://5n7ht2s2xca6" path="res://assets/Container/container-green.gltf" id="41_w76g8"]
+[ext_resource type="PackedScene" uid="uid://ckxcxe1xmox07" path="res://assets/Container/container-grey.gltf" id="42_hvw4v"]
+[ext_resource type="PackedScene" uid="uid://cvvhre4714saw" path="res://assets/Container/container-orange.gltf" id="43_vtb7f"]
+[ext_resource type="PackedScene" uid="uid://c0tigpko7mqx7" path="res://assets/Container/container-red.gltf" id="44_cc0tm"]
+[ext_resource type="PackedScene" uid="uid://fb3i4snobkii" path="res://assets/Cars/car-v1-blue.gltf" id="45_08kcr"]
+[ext_resource type="PackedScene" uid="uid://babtmq8py8ccg" path="res://assets/Cars/car-v1-green.gltf" id="46_0fcii"]
+[ext_resource type="PackedScene" uid="uid://cjdvdxw0t2wdf" path="res://assets/Cars/car-v1-grey.gltf" id="47_3luc1"]
+[ext_resource type="PackedScene" uid="uid://dn3din03eteoi" path="res://assets/Cars/car-v1-orange.gltf" id="48_3c1cb"]
+[ext_resource type="PackedScene" uid="uid://bim2c7o531133" path="res://assets/Cars/car-v1-red.gltf" id="49_5yti1"]
+[ext_resource type="PackedScene" uid="uid://6djbfi8bhs0b" path="res://assets/Cars/car-v2-blue.gltf" id="50_60xjr"]
+[ext_resource type="PackedScene" uid="uid://c8msapbq14vgm" path="res://assets/Cars/car-v2-grey.gltf" id="51_yyd6u"]
+[ext_resource type="PackedScene" uid="uid://y3iy0xo7mcsj" path="res://assets/Cars/car-v2-orange.gltf" id="52_evbhu"]
+[ext_resource type="PackedScene" uid="uid://dum1dv826xf3j" path="res://assets/Cars/car-v2-yellow.gltf" id="53_wo1po"]
+[ext_resource type="PackedScene" uid="uid://b6evmbsul1l38" path="res://assets/Cars/car-v3-blue.gltf" id="54_ddiwr"]
+[ext_resource type="PackedScene" uid="uid://bxlp14tqio8ai" path="res://assets/Cars/car-v3-grey.gltf" id="55_11nq7"]
+[ext_resource type="PackedScene" uid="uid://c88aj61urta57" path="res://assets/Cars/car-v3-orange.gltf" id="56_o4057"]
+[ext_resource type="PackedScene" uid="uid://3o6ycgnqvlil" path="res://assets/Cars/car-v3-red.gltf" id="57_nb406"]
+[ext_resource type="PackedScene" uid="uid://j0wx7gjl3hne" path="res://assets/Cars/car-v4-blue.gltf" id="58_fnqua"]
+[ext_resource type="PackedScene" uid="uid://bli7xlwqvyk5p" path="res://assets/Cars/car-v4-green.gltf" id="59_xw8xa"]
+[ext_resource type="PackedScene" uid="uid://bh6t7hpbvgt7m" path="res://assets/Cars/car-v4-grey.gltf" id="60_7orr8"]
+[ext_resource type="PackedScene" uid="uid://ct0iveuo8c1bs" path="res://assets/Cars/car-v4-orange.gltf" id="61_3s3i8"]
+[ext_resource type="PackedScene" uid="uid://bj1a1wl0nlqep" path="res://assets/Cars/car-v4-red.gltf" id="62_4yp8n"]
+[ext_resource type="PackedScene" uid="uid://dlluaow85qt3d" path="res://assets/Cars/car-v4-yellow.gltf" id="63_27v5q"]
+[ext_resource type="PackedScene" uid="uid://dt3eaxi26mya1" path="res://assets/Cars/car-v5-blue.gltf" id="64_dpbah"]
+[ext_resource type="PackedScene" uid="uid://lwj1jykbas0y" path="res://assets/Cars/car-v5-green.gltf" id="65_74yea"]
+[ext_resource type="PackedScene" uid="uid://bt17e5s0x45im" path="res://assets/Cars/car-v5-grey.gltf" id="66_k3wq1"]
+[ext_resource type="PackedScene" uid="uid://da2p8r767a6av" path="res://assets/Cars/car-v5-orange.gltf" id="67_djtgw"]
+[ext_resource type="PackedScene" uid="uid://dcceyn1cxb5na" path="res://assets/Cars/car-v5-red.gltf" id="68_mmboa"]
+[ext_resource type="PackedScene" uid="uid://dg1xk1ut3lpel" path="res://assets/Cars/car-v5-yellow.gltf" id="69_xiyey"]
+[ext_resource type="PackedScene" uid="uid://dxwci2odq3ekj" path="res://assets/Cars/car-v6-blue.gltf" id="70_ufig3"]
+[ext_resource type="PackedScene" uid="uid://dl60s8fdu75fc" path="res://assets/Cars/car-v6-green.gltf" id="71_knywk"]
+[ext_resource type="PackedScene" uid="uid://2psun63c07m6" path="res://assets/Cars/car-v6-grey.gltf" id="72_gy6ov"]
+[ext_resource type="PackedScene" uid="uid://birohbr2qj5iv" path="res://assets/Cars/car-v6-orange.gltf" id="73_hc38y"]
+[ext_resource type="PackedScene" uid="uid://bygsn3dyuxet4" path="res://assets/Cars/car-v6-red.gltf" id="74_ljdoi"]
+[ext_resource type="PackedScene" uid="uid://bak4ljd0q0f3r" path="res://assets/Cars/car-v6-yellow.gltf" id="75_2o5yg"]
+[ext_resource type="PackedScene" uid="uid://bnbvtdbhm3hdt" path="res://assets/CarTrailers/car-trailer-v1-blue.gltf" id="76_8lvrs"]
+[ext_resource type="PackedScene" uid="uid://b7qunf2pdbvht" path="res://assets/CarTrailers/car-trailer-v1-grey.gltf" id="77_drabw"]
+[ext_resource type="PackedScene" uid="uid://bi0ddhciycsv5" path="res://assets/CarTrailers/car-trailer-v2-green.gltf" id="78_d5rqa"]
+[ext_resource type="PackedScene" uid="uid://busfcmb7wb7we" path="res://assets/CarTrailers/car-trailer-v2-grey.gltf" id="79_3bee3"]
+[ext_resource type="PackedScene" uid="uid://du1uav4s7083c" path="res://assets/CarTrailers/car-trailer-v2-orange.gltf" id="80_hwak1"]
+[ext_resource type="PackedScene" uid="uid://djveg6xwkg0vb" path="res://assets/CarTrailers/car-trailer-v2-red.gltf" id="81_obk66"]
+[ext_resource type="PackedScene" uid="uid://bi4meutypgf4v" path="res://assets/CarTrailers/car-trailer-v2-yellow.gltf" id="82_p002r"]
+[ext_resource type="PackedScene" uid="uid://d0xuu2mbver5n" path="res://assets/Buses/bus-big-blue.gltf" id="83_bksqn"]
+[ext_resource type="PackedScene" uid="uid://5r2edv3m3082" path="res://assets/Buses/bus-small-grey.gltf" id="84_5obg1"]
+[ext_resource type="PackedScene" uid="uid://cv0assly2gupf" path="res://assets/Buses/bus-small-orange.gltf" id="85_nfw7x"]
+[ext_resource type="PackedScene" uid="uid://brye857lf3rda" path="res://assets/Buses/bus-big-grey.gltf" id="86_3luc1"]
+[ext_resource type="PackedScene" uid="uid://dqq7ewcnilao4" path="res://assets/SemiTrailers/semitrailer-v1-grey.gltf" id="86_8txhb"]
+[ext_resource type="PackedScene" uid="uid://b41rh0w87t2x7" path="res://assets/SemiTrailers/semitrailer-v2-green.gltf" id="87_pp53q"]
+[ext_resource type="PackedScene" uid="uid://cason5ot3jv7p" path="res://assets/Tractors/tractor-grey.gltf" id="88_gepaj"]
+[ext_resource type="PackedScene" uid="uid://mwyrifqnh0kt" path="res://assets/Tractors/tractor-orange.gltf" id="89_g26rn"]
+[ext_resource type="PackedScene" uid="uid://j4087bq15ryk" path="res://assets/TractorTrailers/tractor-trailer-v1-green.gltf" id="90_vsur2"]
+[ext_resource type="PackedScene" uid="uid://1gneel8kd7op" path="res://assets/TractorTrailers/tractor-trailer-v2-orange.gltf" id="91_51tc1"]
+[ext_resource type="PackedScene" uid="uid://b4rbsfbb62yqy" path="res://assets/Trucks/truck-v1-grey.gltf" id="92_wc4v7"]
+[ext_resource type="PackedScene" uid="uid://cgvjmdtwydd7u" path="res://assets/Trucks/truck-v2-green.gltf" id="93_0lcxu"]
+[ext_resource type="PackedScene" uid="uid://cr8avdnppo67a" path="res://assets/Trucks/truck-v2-grey.gltf" id="94_fh70s"]
+[ext_resource type="PackedScene" uid="uid://dnj3ftxyl282f" path="res://assets/Trucks/truck-v3-green.gltf" id="95_4xt3k"]
+[ext_resource type="PackedScene" uid="uid://cx3msg76mba4h" path="res://assets/Trucks/truck-v3-grey.gltf" id="96_nvx6c"]
+[ext_resource type="PackedScene" uid="uid://1kvlnqltffac" path="res://assets/Trucks/truck-v3-orange.gltf" id="97_wfdbd"]
+[ext_resource type="PackedScene" uid="uid://0p5pfnu5744p" path="res://assets/Trucks/truck-v4-blue.gltf" id="98_vxswu"]
+[ext_resource type="PackedScene" uid="uid://bjsdgv812xmc1" path="res://assets/Trucks/truck-v5-blue.gltf" id="99_8jh7u"]
+[ext_resource type="PackedScene" uid="uid://c4f0cuqbxnt5p" path="res://assets/Trucks/truck-v4-grey.gltf" id="100_k411j"]
+[ext_resource type="PackedScene" uid="uid://dwoqiy1fjn30v" path="res://assets/TruckTrailers/truck-trailer-v1-grey.gltf" id="101_lkci3"]
+[ext_resource type="PackedScene" uid="uid://dpld15b0rgjbe" path="res://assets/Trucks/truck-v4-green.gltf" id="102_3c1cb"]
+[ext_resource type="PackedScene" uid="uid://xj4mi3jdkm0m" path="res://assets/TruckTrailers/truck-trailer-v2-grey.gltf" id="102_b8jmh"]
+[ext_resource type="PackedScene" uid="uid://djq63efu1bw4s" path="res://assets/TruckTrailers/truck-trailer-v3-grey.gltf" id="103_f6b8e"]
+[ext_resource type="PackedScene" uid="uid://wuyalbvtvrtm" path="res://assets/TruckTrailers/truck-trailer-v4-blue.gltf" id="104_kh1dg"]
+
+[sub_resource type="Environment" id="Environment_dntev"]
+ambient_light_source = 2
+ambient_light_color = Color(0.195545, 0.195545, 0.195545, 1)
+
+[node name="Ensemble" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_dntev")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.1, 17.4, 24.8)
+light_size = 1.0
+light_specular = 0.0
+shadow_enabled = true
+distance_fade_shadow = 0.0
+distance_fade_length = 97.15
+omni_range = 4096.0
+omni_attenuation = 0.1
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.35, 24.5, 2.45)
+light_size = 1.0
+light_specular = 0.0
+shadow_enabled = true
+distance_fade_shadow = 0.0
+distance_fade_length = 97.15
+omni_range = 4096.0
+omni_attenuation = 0.1
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.4, 24.5, -7.75)
+light_size = 1.0
+light_specular = 0.0
+shadow_enabled = true
+distance_fade_shadow = 0.0
+distance_fade_length = 97.15
+omni_range = 4096.0
+omni_attenuation = 0.1
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.7, 24.5, -12.5)
+light_size = 1.0
+light_specular = 0.0
+shadow_enabled = true
+distance_fade_shadow = 0.0
+distance_fade_length = 97.15
+omni_range = 4096.0
+omni_attenuation = 0.1
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.803857, 0.297411, -0.515132, 0, 0.866026, 0.5, 0.594823, -0.401928, 0.69616, -50.51, 61.345, 85)
+projection = 1
+fov = 34.0
+size = 24.857
+
+[node name="Terrain" type="GridMap" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, 0)
+mesh_library = ExtResource("1_1q8mh")
+cell_size = Vector3(3.2, 3.2, 3.2)
+data = {
+"cells": PackedInt32Array(65520, 65532, 655360, 65520, 4, 655360, 65522, 2, 655360, 65523, 2, 655360, 65522, 4, 655360, 65522, 6, 655360, 65522, 7, 655360, 65524, 8, 655360, 65526, 7, 655360, 65528, 6, 655360, 65529, 5, 655360, 65528, 5, 655360, 65520, 65530, 655360, 65520, 65531, 655360, 65520, 65533, 655360, 65520, 65534, 655360, 65520, 65535, 655360, 65520, 0, 655360, 65520, 1, 655360, 65520, 2, 655360, 65520, 3, 655360, 65520, 5, 655360, 65520, 6, 655360, 65520, 7, 655360, 65520, 8, 655360, 65520, 9, 655360, 65521, 65530, 655360, 65521, 65531, 655360, 65521, 65532, 655360, 65521, 65533, 655360, 65521, 65534, 655360, 65521, 65535, 655360, 65521, 0, 655360, 65521, 1, 655360, 65521, 2, 655360, 65521, 3, 655360, 65521, 4, 655360, 65521, 5, 655360, 65521, 6, 655360, 65521, 7, 655360, 65521, 8, 655360, 65521, 9, 655360, 65522, 65530, 655360, 65522, 65531, 655360, 65522, 65532, 655360, 65522, 65533, 655360, 65522, 65534, 655360, 65522, 65535, 655360, 65522, 0, 655360, 65522, 1, 655360, 65522, 3, 655360, 65522, 5, 655360, 65522, 8, 655360, 65522, 9, 655360, 65523, 65530, 655360, 65523, 65531, 655360, 65523, 65532, 655360, 65523, 65533, 655360, 65523, 65534, 655360, 65523, 65535, 655360, 65523, 0, 655360, 65523, 1, 655360, 65523, 3, 655360, 65523, 4, 655360, 65523, 5, 655360, 65523, 6, 655360, 65523, 7, 655360, 65523, 8, 655360, 65523, 9, 655360, 65524, 65530, 655360, 65524, 65531, 655360, 65524, 65532, 655360, 65524, 65533, 655360, 65524, 65534, 655360, 65524, 65535, 655360, 65524, 0, 655360, 65524, 1, 655360, 65524, 2, 655360, 65524, 3, 655360, 65524, 4, 655360, 65524, 5, 655360, 65524, 6, 655360, 65524, 7, 655360, 65524, 9, 655360, 65525, 65530, 655360, 65525, 65531, 655360, 65525, 65532, 655360, 65525, 65533, 655360, 65525, 65534, 655360, 65525, 65535, 655360, 65525, 0, 655360, 65525, 1, 655360, 65525, 2, 655360, 65525, 3, 655360, 65525, 4, 655360, 65525, 5, 655360, 65525, 6, 655360, 65525, 7, 655360, 65525, 8, 655360, 65525, 9, 655360, 65526, 65530, 655360, 65526, 65531, 655360, 65526, 65532, 655360, 65526, 65533, 655360, 65526, 65534, 655360, 65526, 65535, 655360, 65526, 0, 655360, 65526, 1, 655360, 65526, 2, 655360, 65526, 3, 655360, 65526, 4, 655360, 65526, 5, 655360, 65526, 6, 655360, 65526, 8, 655360, 65526, 9, 655360, 65527, 65530, 655360, 65527, 65531, 655360, 65527, 65532, 655360, 65527, 65533, 655360, 65527, 65534, 655360, 65527, 65535, 655360, 65527, 0, 655360, 65527, 1, 655360, 65527, 2, 655360, 65527, 3, 655360, 65527, 4, 655360, 65527, 5, 655360, 65527, 6, 655360, 65527, 7, 655360, 65527, 8, 655360, 65527, 9, 655360, 65528, 65530, 655360, 65528, 65531, 655360, 65528, 65532, 655360, 65528, 65533, 655360, 65528, 65534, 655360, 65528, 65535, 655360, 65528, 0, 655360, 65528, 1, 655360, 65528, 2, 655360, 65528, 3, 655360, 65528, 4, 655360, 65528, 7, 655360, 65528, 8, 655360, 65528, 9, 655360, 65529, 65530, 655360, 65529, 65531, 655360, 65529, 65532, 655360, 65529, 65533, 655360, 65529, 65534, 655360, 65529, 65535, 655360, 65529, 0, 655360, 65529, 1, 655360, 65529, 2, 655360, 65529, 3, 655360, 65529, 4, 655360, 65529, 6, 655360, 65529, 7, 655360, 65529, 8, 655360, 65529, 9, 655360, 65530, 65530, 655360, 65530, 65531, 655360, 65530, 65532, 655360, 65530, 65533, 655360, 65530, 65534, 655360, 65530, 65535, 655360, 65530, 0, 655360, 65530, 1, 655360, 65530, 2, 655360, 65530, 3, 655360, 65530, 4, 655360, 65530, 5, 655360, 65530, 6, 655360, 65530, 7, 655360, 65530, 8, 655360, 65530, 9, 655360, 65531, 65530, 655360, 65531, 65531, 655360, 65531, 65532, 655360, 65531, 65533, 655360, 65531, 65534, 655360, 65531, 65535, 655360, 65531, 0, 655360, 65531, 1, 655360, 65531, 2, 655360, 65531, 3, 655360, 65531, 4, 655360, 65531, 5, 655360, 65531, 6, 655360, 65531, 7, 655360, 65531, 8, 655360, 65531, 9, 655360, 65532, 65530, 655360, 65532, 65531, 655360, 65532, 65532, 655360, 65532, 65533, 655360, 65532, 65534, 655360, 65532, 65535, 655360, 65532, 0, 655360, 65532, 1, 655360, 65532, 2, 655360, 65532, 3, 655360, 65532, 4, 655360, 65532, 5, 655360, 65532, 6, 655360, 65532, 7, 655360, 65532, 8, 655360, 65532, 9, 655360, 65533, 65530, 655360, 65533, 65531, 655360, 65533, 65532, 655360, 65533, 65533, 655360, 65533, 65534, 655360, 65533, 65535, 655360, 65533, 0, 655360, 65533, 1, 655360, 65533, 2, 655360, 65533, 3, 655360, 65533, 4, 655360, 65533, 5, 655360, 65533, 6, 655360, 65533, 7, 655360, 65533, 8, 655360, 65533, 9, 655360, 65534, 65530, 655360, 65534, 65531, 655360, 65534, 65532, 655360, 65534, 65533, 655360, 65534, 65534, 655360, 65534, 65535, 655360, 65534, 0, 655360, 65534, 1, 655360, 65534, 2, 655360, 65534, 3, 655360, 65534, 4, 655360, 65534, 5, 655360, 65534, 6, 655360, 65534, 7, 655360, 65534, 8, 655360, 65534, 9, 655360, 65535, 65530, 655360, 65535, 65531, 655360, 65535, 65532, 655360, 65535, 65533, 655360, 65535, 65534, 655360, 65535, 65535, 655360, 65535, 0, 655360, 65535, 1, 655360, 65535, 2, 655360, 65535, 3, 655360, 65535, 4, 655360, 65535, 5, 655360, 65535, 6, 655360, 65535, 7, 655360, 65535, 8, 655360, 65535, 9, 655360, 0, 65530, 655360, 0, 65531, 655360, 0, 65532, 655360, 0, 65533, 655360, 0, 65534, 655360, 0, 65535, 655360, 0, 0, 655360, 0, 1, 655360, 0, 2, 655360, 0, 3, 655360, 0, 4, 655360, 0, 5, 655360, 0, 6, 655360, 0, 7, 655360, 0, 8, 655360, 0, 9, 655360, 1, 65530, 655360, 1, 65531, 655360, 1, 65532, 655360, 1, 65533, 655360, 1, 65534, 655360, 1, 65535, 655360, 1, 0, 655360, 1, 1, 655360, 1, 2, 655360, 1, 3, 655360, 1, 4, 655360, 1, 5, 655360, 1, 6, 655360, 1, 7, 655360, 1, 8, 655360, 1, 9, 655360, 2, 65530, 655360, 2, 65531, 655360, 2, 65532, 655360, 2, 65533, 655360, 2, 65534, 655360, 2, 65535, 655360, 2, 0, 655360, 2, 1, 655360, 2, 2, 655360, 2, 3, 655360, 2, 4, 655360, 2, 5, 655360, 2, 6, 655360, 2, 7, 655360, 2, 8, 655360, 2, 9, 655360, 3, 65530, 655360, 3, 65531, 655360, 3, 65532, 655360, 3, 65533, 655360, 3, 65534, 655360, 3, 65535, 655360, 3, 0, 655360, 3, 1, 655360, 3, 2, 655360, 3, 3, 655360, 3, 4, 655360, 3, 5, 655360, 3, 6, 655360, 3, 7, 655360, 3, 8, 655360, 3, 9, 655360, 4, 65530, 655360, 4, 65531, 655360, 4, 65532, 655360, 4, 65533, 655360, 4, 65534, 655360, 4, 65535, 655360, 4, 0, 655360, 4, 1, 655360, 4, 2, 655360, 4, 3, 655360, 4, 4, 655360, 4, 5, 655360, 4, 6, 655360, 4, 7, 655360, 4, 8, 655360, 4, 9, 655360, 5, 65530, 655360, 5, 65531, 655360, 5, 65532, 655360, 5, 65533, 655360, 5, 65534, 655360, 5, 65535, 655360, 5, 0, 655360, 5, 1, 655360, 5, 2, 655360, 5, 3, 655360, 5, 4, 655360, 5, 5, 655360, 5, 6, 655360, 5, 7, 655360, 5, 8, 655360, 5, 9, 655360, 6, 65530, 655360, 6, 65531, 655360, 6, 65532, 655360, 6, 65533, 655360, 6, 65534, 655360, 6, 65535, 655360, 6, 0, 655360, 6, 1, 655360, 6, 2, 655360, 6, 3, 655360, 6, 4, 655360, 6, 5, 655360, 6, 6, 655360, 6, 7, 655360, 6, 8, 655360, 6, 9, 655360, 7, 65530, 655360, 7, 65531, 655360, 7, 65532, 655360, 7, 65533, 655360, 7, 65534, 655360, 7, 65535, 655360, 7, 0, 655360, 7, 1, 655360, 7, 2, 655360, 7, 3, 655360, 7, 4, 655360, 7, 5, 655360, 7, 6, 655360, 7, 7, 655360, 7, 8, 655360, 7, 9, 655360, 8, 65530, 655360, 8, 65531, 655360, 8, 65532, 655360, 8, 65533, 655360, 8, 65534, 655360, 8, 65535, 655360, 8, 0, 655360, 8, 1, 655360, 8, 2, 655360, 8, 3, 655360, 8, 4, 655360, 8, 5, 655360, 8, 6, 655360, 8, 7, 655360, 8, 8, 655360, 8, 9, 655360, 9, 65530, 655360, 9, 65531, 655360, 9, 65532, 655360, 9, 65533, 655360, 9, 65534, 655360, 9, 65535, 655360, 9, 0, 655360, 9, 1, 655360, 9, 2, 655360, 9, 3, 655360, 9, 4, 655360, 9, 5, 655360, 9, 6, 655360, 9, 7, 655360, 9, 8, 655360, 9, 9, 655360, 10, 65530, 655360, 10, 65531, 655360, 10, 65532, 655360, 10, 65533, 655360, 10, 65534, 655360, 10, 65535, 655360, 10, 0, 655360, 10, 1, 655360, 10, 2, 655360, 10, 3, 655360, 10, 4, 655360, 10, 5, 655360, 10, 6, 655360, 10, 7, 655360, 10, 8, 655360, 10, 9, 655360, 11, 65530, 655360, 11, 65531, 655360, 11, 65532, 655360, 11, 65533, 655360, 11, 65534, 655360, 11, 65535, 655360, 11, 0, 655360, 11, 1, 655360, 11, 2, 655360, 11, 3, 655360, 11, 4, 655360, 11, 5, 655360, 11, 6, 655360, 11, 7, 655360, 11, 8, 655360, 11, 9, 655360, 12, 65530, 655360, 12, 65531, 655360, 12, 65532, 655360, 12, 65533, 655360, 12, 65534, 655360, 12, 65535, 655360, 12, 0, 655360, 12, 1, 655360, 12, 2, 655360, 12, 3, 655360, 12, 4, 655360, 12, 5, 655360, 12, 6, 655360, 12, 7, 655360, 12, 8, 655360, 12, 9, 655360, 13, 65530, 655360, 13, 65531, 655360, 13, 65532, 655360, 13, 65533, 655360, 13, 65534, 655360, 13, 65535, 655360, 13, 0, 655360, 13, 1, 655360, 13, 2, 655360, 13, 3, 655360, 13, 4, 655360, 13, 5, 655360, 13, 6, 655360, 13, 7, 655360, 13, 8, 655360, 13, 9, 655360, 14, 65530, 655360, 14, 65531, 655360, 14, 65532, 655360, 14, 65533, 655360, 14, 65534, 655360, 14, 65535, 655360, 14, 0, 655360, 14, 1, 655360, 14, 2, 655360, 14, 3, 655360, 14, 4, 655360, 14, 5, 655360, 14, 6, 655360, 14, 7, 655360, 14, 8, 655360, 14, 9, 655360, 15, 65530, 655360, 15, 65531, 655360, 15, 65532, 655360, 15, 65533, 655360, 15, 65534, 655360, 15, 65535, 655360, 15, 0, 655360, 15, 1, 655360, 15, 2, 655360, 15, 3, 655360, 15, 4, 655360, 15, 5, 655360, 15, 6, 655360, 15, 7, 655360, 15, 8, 655360, 15, 9, 655360, 16, 65530, 655360, 16, 65531, 655360, 16, 65532, 655360, 16, 65533, 655360, 16, 65534, 655360, 16, 65535, 655360, 16, 0, 655360, 16, 1, 655360, 16, 2, 655360, 16, 3, 655360, 16, 4, 655360, 16, 5, 655360, 16, 6, 655360, 16, 7, 655360, 16, 8, 655360, 16, 9, 655360, 17, 65530, 655360, 17, 65531, 655360, 17, 65532, 655360, 17, 65533, 655360, 17, 65534, 655360, 17, 65535, 655360, 17, 0, 655360, 17, 1, 655360, 17, 2, 655360, 17, 3, 655360, 17, 4, 655360, 17, 5, 655360, 17, 6, 655360, 17, 7, 655360, 17, 8, 655360, 17, 9, 655360, 18, 65530, 655360, 18, 65531, 655360, 18, 65532, 655360, 18, 65533, 655360, 18, 65534, 655360, 18, 65535, 655360, 18, 0, 655360, 18, 1, 655360, 18, 2, 655360, 18, 3, 655360, 18, 4, 655360, 18, 5, 655360, 18, 6, 655360, 18, 7, 655360, 18, 8, 655360, 18, 9, 655360, 19, 65530, 655360, 19, 65531, 655360, 19, 65532, 655360, 19, 65533, 655360, 19, 65534, 655360, 19, 65535, 655360, 19, 0, 655360, 19, 1, 655360, 19, 2, 655360, 19, 3, 655360, 19, 4, 655360, 19, 5, 655360, 19, 6, 655360, 19, 7, 655360, 19, 8, 655360, 19, 9, 655360, 20, 65530, 655360, 20, 65531, 655360, 20, 65532, 655360, 20, 65533, 655360, 20, 65534, 655360, 20, 65535, 655360, 20, 0, 655360, 20, 1, 655360, 20, 2, 655360, 20, 3, 655360, 20, 4, 655360, 20, 5, 655360, 20, 6, 655360, 20, 7, 655360, 20, 8, 655360, 20, 9, 655360, 65520, 65525, 655360, 65520, 65526, 655360, 65520, 65527, 655360, 65520, 65528, 655360, 65520, 65529, 655360, 65521, 65525, 655360, 65521, 65526, 655360, 65521, 65527, 655360, 65521, 65528, 655360, 65521, 65529, 655360, 65522, 65525, 655360, 65522, 65526, 655360, 65522, 65527, 655360, 65522, 65528, 655360, 65522, 65529, 655360, 65523, 65525, 655360, 65523, 65526, 655360, 65523, 65527, 655360, 65523, 65528, 655360, 65523, 65529, 655360, 65524, 65525, 655360, 65524, 65526, 655360, 65524, 65527, 655360, 65524, 65528, 655360, 65524, 65529, 655360, 65525, 65525, 655360, 65525, 65526, 655360, 65525, 65527, 655360, 65525, 65528, 655360, 65525, 65529, 655360, 65526, 65525, 655360, 65526, 65526, 655360, 65526, 65527, 655360, 65526, 65528, 655360, 65526, 65529, 655360, 65527, 65525, 655360, 65527, 65526, 655360, 65527, 65527, 655360, 65527, 65528, 655360, 65527, 65529, 655360, 65528, 65525, 655360, 65528, 65526, 655360, 65528, 65527, 655360, 65528, 65528, 655360, 65528, 65529, 655360, 65529, 65525, 655360, 65529, 65526, 655360, 65529, 65527, 655360, 65529, 65528, 655360, 65529, 65529, 655360, 65530, 65525, 655360, 65530, 65526, 655360, 65530, 65527, 655360, 65530, 65528, 655360, 65530, 65529, 655360, 65531, 65525, 655360, 65531, 65526, 655360, 65531, 65527, 655360, 65531, 65528, 655360, 65531, 65529, 655360, 65532, 65525, 655360, 65532, 65526, 655360, 65532, 65527, 655360, 65532, 65528, 655360, 65532, 65529, 655360, 65533, 65525, 655360, 65533, 65526, 655360, 65533, 65527, 655360, 65533, 65528, 655360, 65533, 65529, 655360, 65534, 65525, 655360, 65534, 65526, 655360, 65534, 65527, 655360, 65534, 65528, 655360, 65534, 65529, 655360, 65535, 65525, 655360, 65535, 65526, 655360, 65535, 65527, 655360, 65535, 65528, 655360, 65535, 65529, 655360, 0, 65525, 655360, 0, 65526, 655360, 0, 65527, 655360, 0, 65528, 655360, 0, 65529, 655360, 1, 65525, 655360, 1, 65526, 655360, 1, 65527, 655360, 1, 65528, 655360, 1, 65529, 655360, 2, 65525, 655360, 2, 65526, 655360, 2, 65527, 655360, 2, 65528, 655360, 2, 65529, 655360, 3, 65525, 655360, 3, 65526, 655360, 3, 65527, 655360, 3, 65528, 655360, 3, 65529, 655360, 4, 65525, 655360, 4, 65526, 655360, 4, 65527, 655360, 4, 65528, 655360, 4, 65529, 655360, 5, 65525, 655360, 5, 65526, 655360, 5, 65527, 655360, 5, 65528, 655360, 5, 65529, 655360, 6, 65525, 655360, 6, 65526, 655360, 6, 65527, 655360, 6, 65528, 655360, 6, 65529, 655360, 7, 65525, 655360, 7, 65526, 655360, 7, 65527, 655360, 7, 65528, 655360, 7, 65529, 655360, 8, 65525, 655360, 8, 65526, 655360, 8, 65527, 655360, 8, 65528, 655360, 8, 65529, 655360, 9, 65525, 655360, 9, 65526, 655360, 9, 65527, 655360, 9, 65528, 655360, 9, 65529, 655360, 10, 65525, 655360, 10, 65526, 655360, 10, 65527, 655360, 10, 65528, 655360, 10, 65529, 655360, 11, 65525, 655360, 11, 65526, 655360, 11, 65527, 655360, 11, 65528, 655360, 11, 65529, 655360, 12, 65525, 655360, 12, 65526, 655360, 12, 65527, 655360, 12, 65528, 655360, 12, 65529, 655360, 13, 65525, 655360, 13, 65526, 655360, 13, 65527, 655360, 13, 65528, 655360, 13, 65529, 655360, 14, 65525, 655360, 14, 65526, 655360, 14, 65527, 655360, 14, 65528, 655360, 14, 65529, 655360, 15, 65525, 655360, 15, 65526, 655360, 15, 65527, 655360, 15, 65528, 655360, 15, 65529, 655360, 16, 65525, 655360, 16, 65526, 655360, 16, 65527, 655360, 16, 65528, 655360, 16, 65529, 655360, 17, 65525, 655360, 17, 65526, 655360, 17, 65527, 655360, 17, 65528, 655360, 17, 65529, 655360, 18, 65525, 655360, 18, 65526, 655360, 18, 65527, 655360, 18, 65528, 655360, 18, 65529, 655360, 19, 65525, 655360, 19, 65526, 655360, 19, 65527, 655360, 19, 65528, 655360, 19, 65529, 655360, 20, 65525, 655360, 20, 65526, 655360, 20, 65527, 655360, 20, 65528, 655360, 20, 65529, 655360, 65520, 10, 655360, 65520, 11, 655360, 65521, 10, 655360, 65521, 11, 655360, 65522, 10, 655360, 65522, 11, 655360, 65523, 10, 655360, 65523, 11, 655360, 65524, 10, 655360, 65524, 11, 655360, 65525, 10, 655360, 65525, 11, 655360, 65526, 10, 655360, 65526, 11, 655360, 65527, 10, 655360, 65527, 11, 655360, 65528, 10, 655360, 65528, 11, 655360, 65529, 10, 655360, 65529, 11, 655360, 65530, 10, 655360, 65530, 11, 655360, 65531, 10, 655360, 65531, 11, 655360, 65532, 10, 655360, 65532, 11, 655360, 65533, 10, 655360, 65533, 11, 655360, 65534, 10, 655360, 65534, 11, 655360, 65535, 10, 655360, 65535, 11, 655360, 0, 10, 655360, 0, 11, 655360, 1, 10, 655360, 1, 11, 655360, 2, 10, 655360, 2, 11, 655360, 3, 10, 655360, 3, 11, 655360, 4, 10, 655360, 4, 11, 655360, 5, 10, 655360, 5, 11, 655360, 6, 10, 655360, 6, 11, 655360, 7, 10, 655360, 7, 11, 655360, 8, 10, 655360, 8, 11, 655360, 9, 10, 655360, 9, 11, 655360, 10, 10, 655360, 10, 11, 655360, 11, 10, 655360, 11, 11, 655360, 12, 10, 655360, 12, 11, 655360, 13, 10, 655360, 13, 11, 655360, 14, 10, 655360, 14, 11, 655360, 15, 10, 655360, 15, 11, 655360, 16, 10, 655360, 16, 11, 655360, 17, 10, 655360, 17, 11, 655360, 18, 10, 655360, 18, 11, 655360, 19, 10, 655360, 19, 11, 655360, 20, 10, 655360, 20, 11, 655360)
+}
+
+[node name="Track" type="GridMap" parent="."]
+mesh_library = ExtResource("2_xiyho")
+cell_size = Vector3(3.2, 3.2, 3.2)
+data = {
+"cells": PackedInt32Array(65535, 65535, 4, 0, 65535, 4, 1, 65535, 4, 2, 65535, 4, 3, 65535, 4, 4, 65535, 4, 5, 65535, 4, 6, 65535, 4, 7, 65535, 4, 8, 65535, 4, 9, 65535, 4, 10, 65535, 4, 11, 65535, 4, 65534, 65535, 4, 65533, 65535, 4, 65532, 65535, 4, 65533, 3, 4, 65534, 3, 4, 65535, 3, 4, 0, 3, 4, 1, 3, 4, 2, 3, 4, 3, 3, 4, 4, 3, 4, 5, 3, 4, 6, 3, 4, 7, 3, 4, 8, 3, 4, 1, 1, 4, 0, 1, 4, 65535, 1, 4, 65534, 1, 4, 2, 1, 4, 3, 1, 4, 4, 1, 4, 5, 1, 4, 6, 1, 4, 7, 1, 4, 8, 1, 4, 9, 1, 4, 10, 1, 4, 65533, 1, 4, 65532, 1, 4, 65531, 1, 4, 65535, 5, 4, 65534, 5, 4, 1, 5, 4, 2, 5, 4, 0, 5, 4, 3, 5, 4, 4, 5, 4, 5, 5, 4, 6, 5, 4, 65533, 65533, 4, 65534, 65533, 4, 65535, 65533, 4, 0, 65533, 4, 1, 65533, 4, 2, 65533, 4, 3, 65533, 4, 4, 65533, 4, 5, 65533, 4, 6, 65533, 4, 7, 65533, 4, 8, 65533, 4, 9, 65533, 4, 65535, 65531, 4, 0, 65531, 4, 1, 65531, 4, 2, 65531, 4, 3, 65531, 4, 4, 65531, 4, 5, 65531, 4, 6, 65531, 4, 7, 65531, 4, 8, 65531, 4, 65532, 65533, 4, 65531, 65535, 4, 65530, 1, 4, 65532, 3, 4, 65533, 5, 4, 65534, 65531, 4, 65529, 1, 4, 65531, 3, 4, 65532, 5, 4, 65530, 3, 4, 65529, 3, 4, 7, 5, 4, 9, 3, 4, 11, 1, 4, 12, 65535, 4, 10, 65533, 4, 9, 65531, 4, 8, 5, 4, 10, 65531, 4, 11, 65533, 4, 13, 65535, 4, 10, 3, 4, 12, 65533, 4, 65531, 5, 655364, 65531, 0, 655362, 65532, 0, 655362, 65533, 0, 655362, 65534, 0, 655362, 65535, 0, 655362, 0, 0, 655362, 1, 0, 655362, 2, 0, 655362, 3, 0, 655362, 4, 0, 655362, 5, 0, 655362, 6, 0, 655362, 7, 0, 655362, 8, 0, 655362, 9, 0, 655362, 10, 0, 655362, 11, 0, 655362, 12, 65534, 655362, 11, 65534, 655362, 10, 65534, 655362, 9, 65534, 655362, 8, 65534, 655362, 7, 65534, 655362, 6, 65534, 655362, 5, 65534, 655362, 4, 65534, 655362, 3, 65534, 655362, 2, 65534, 655362, 1, 65534, 655362, 0, 65534, 655362, 65535, 65534, 655362, 65534, 65534, 655362, 65533, 65534, 655362, 65532, 65534, 655362, 65534, 65532, 655362, 65535, 65532, 655362, 0, 65532, 655362, 1, 65532, 655362, 2, 65532, 655362, 3, 65532, 655362, 4, 65532, 655362, 5, 65532, 655362, 6, 65532, 655362, 7, 65532, 655362, 8, 65532, 655362, 9, 65532, 655362, 10, 65532, 655362, 11, 65532, 655362, 65533, 65532, 655362, 65531, 65534, 655362, 65530, 0, 655362, 12, 0, 655362, 13, 65534, 655362, 65530, 2, 655362, 65531, 2, 655362, 65532, 2, 655362, 65533, 2, 655362, 65534, 2, 655362, 65535, 2, 655362, 0, 2, 655362, 1, 2, 655362, 2, 2, 655362, 3, 2, 655362, 4, 2, 655362, 5, 2, 655362, 6, 2, 655362, 7, 2, 655362, 8, 2, 655362, 9, 2, 655362, 10, 2, 655362, 65531, 4, 655362, 65532, 4, 655362, 65533, 4, 655362, 65534, 4, 655362, 65535, 4, 655362, 0, 4, 655362, 1, 4, 655362, 2, 4, 655362, 3, 4, 655362, 4, 4, 655362, 5, 4, 655362, 6, 4, 655362, 7, 4, 655362, 8, 4, 655362, 9, 4, 655362, 65530, 4, 655362, 65529, 2, 655362, 65528, 2, 655362, 65532, 6, 655362, 65533, 6, 655362, 65534, 6, 655362, 65535, 6, 655362, 0, 6, 655362, 1, 6, 655362, 2, 6, 655362, 3, 6, 655362, 4, 6, 655362, 5, 6, 655362, 6, 6, 655362, 7, 6, 655362, 65535, 65530, 655362, 0, 65530, 655362, 1, 65530, 655362, 2, 65530, 655362, 3, 65530, 655362, 4, 65530, 655362, 5, 65530, 655362, 6, 65530, 655362, 7, 65530, 655362, 8, 65530, 655362, 9, 65530, 655362)
+}
+
+[node name="Trains" type="Node3D" parent="."]
+
+[node name="train-v1-blue" parent="Trains" instance=ExtResource("3_xev1l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3, 1.7, 4.2)
+
+[node name="train-v1-blue2" parent="Trains" instance=ExtResource("3_xev1l")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 29.5, 1.7, 4.2)
+
+[node name="train-v1-green" parent="Trains" instance=ExtResource("4_tbpj4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.4, 1.7, 10.6)
+
+[node name="train-v1-orange" parent="Trains" instance=ExtResource("5_na2qq")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 24.5, 1.7, -7.4)
+
+[node name="train-v1-red" parent="Trains" instance=ExtResource("6_6x753")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 13.7, 1.7, 18.2)
+
+[node name="train-v1-red2" parent="Trains" instance=ExtResource("6_6x753")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9, 1.7, 18.2)
+
+[node name="train-v2-green" parent="Trains" instance=ExtResource("7_11scv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.9, 1.7, -8.6)
+
+[node name="train-v2-grey" parent="Trains" instance=ExtResource("8_4kau8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.6, 1.7, 17)
+
+[node name="train-v2-red" parent="Trains" instance=ExtResource("9_mqn18")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.2, 1.7, 10.6)
+
+[node name="train-v2-yellow" parent="Trains" instance=ExtResource("10_sfdea")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 3.9, 1.7, 11.8)
+
+[node name="train-v3-blue" parent="Trains" instance=ExtResource("11_vdqwo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, 1.7, -15)
+
+[node name="train-v3-green" parent="Trains" instance=ExtResource("12_oxg26")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.9, 1.7, -2.2)
+
+[node name="train-v3-green2" parent="Trains" instance=ExtResource("12_oxg26")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.2, 1.7, -2.2)
+
+[node name="train-v3-grey" parent="Trains" instance=ExtResource("13_fu7ka")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1, 1.7, -1)
+
+[node name="train-v3-orange" parent="Trains" instance=ExtResource("14_lej7o")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 17.5, 1.7, 5.4)
+
+[node name="train-v3-orange2" parent="Trains" instance=ExtResource("14_lej7o")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.4, 1.7, 5.4)
+
+[node name="train-v3-red" parent="Trains" instance=ExtResource("15_a8une")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.8, 1.7, -8.6)
+
+[node name="train-v3-red2" parent="Trains" instance=ExtResource("15_a8une")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.1, 1.7, -8.6)
+
+[node name="train-v1-grey" parent="Trains" instance=ExtResource("16_v6bew")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 26.3, 1.7, -13.8)
+
+[node name="TrainTrailers" type="Node3D" parent="."]
+
+[node name="train-trailer-v1-blue" parent="TrainTrailers" instance=ExtResource("17_3iqq0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 1.7, 4.2)
+
+[node name="train-trailer-v1-blue3" parent="TrainTrailers" instance=ExtResource("17_3iqq0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.9, 1.7, 4.2)
+
+[node name="train-trailer-v1-blue4" parent="TrainTrailers" instance=ExtResource("17_3iqq0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.8, 1.7, 4.2)
+
+[node name="train-trailer-v1-blue5" parent="TrainTrailers" instance=ExtResource("17_3iqq0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.7, 1.7, 4.2)
+
+[node name="train-trailer-v1-blue6" parent="TrainTrailers" instance=ExtResource("17_3iqq0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.6, 1.7, 4.2)
+
+[node name="train-trailer-v1-blue7" parent="TrainTrailers" instance=ExtResource("17_3iqq0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.5, 1.7, 4.2)
+
+[node name="train-trailer-v1-blue8" parent="TrainTrailers" instance=ExtResource("17_3iqq0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.4, 1.7, 4.2)
+
+[node name="train-trailer-v1-blue9" parent="TrainTrailers" instance=ExtResource("17_3iqq0")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 26.7, 1.7, 4.2)
+
+[node name="train-trailer-v1-blue2" parent="TrainTrailers" instance=ExtResource("17_3iqq0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.1, 1.7, 4.2)
+
+[node name="train-trailer-v2-green" parent="TrainTrailers" instance=ExtResource("18_axh4o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.2, 1.7, 10.6)
+
+[node name="train-trailer-v2-green2" parent="TrainTrailers" instance=ExtResource("18_axh4o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.1, 1.7, 10.6)
+
+[node name="train-trailer-v2-green3" parent="TrainTrailers" instance=ExtResource("18_axh4o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 1.7, 10.6)
+
+[node name="train-trailer-v2-green4" parent="TrainTrailers" instance=ExtResource("18_axh4o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.9, 1.7, 10.6)
+
+[node name="train-trailer-v2-green5" parent="TrainTrailers" instance=ExtResource("18_axh4o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.8, 1.7, 10.6)
+
+[node name="train-trailer-v2-red2" parent="TrainTrailers" instance=ExtResource("19_cy4gx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.9, 1.7, 18.2)
+
+[node name="train-trailer-v2-red3" parent="TrainTrailers" instance=ExtResource("19_cy4gx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 8, 1.7, 18.2)
+
+[node name="train-trailer-v2-red4" parent="TrainTrailers" instance=ExtResource("19_cy4gx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 5.1, 1.7, 18.2)
+
+[node name="train-trailer-v2-red5" parent="TrainTrailers" instance=ExtResource("19_cy4gx")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 2.2, 1.7, 18.2)
+
+[node name="train-trailer-v2-red6" parent="TrainTrailers" instance=ExtResource("19_cy4gx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9, 1.7, 18.2)
+
+[node name="train-trailer-v3-grey" parent="TrainTrailers" instance=ExtResource("20_mqhl3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.8, 1.7, 17)
+
+[node name="train-trailer-v3-grey2" parent="TrainTrailers" instance=ExtResource("20_mqhl3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1, 1.7, 17)
+
+[node name="train-trailer-v3-grey3" parent="TrainTrailers" instance=ExtResource("20_mqhl3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1.7, 17)
+
+[node name="train-trailer-v3-grey4" parent="TrainTrailers" instance=ExtResource("20_mqhl3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.9, 1.7, 17)
+
+[node name="train-trailer-v3-grey5" parent="TrainTrailers" instance=ExtResource("20_mqhl3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.8, 1.7, 17)
+
+[node name="train-trailer-v3-grey6" parent="TrainTrailers" instance=ExtResource("20_mqhl3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.7, 1.7, 17)
+
+[node name="train-trailer-v3-grey7" parent="TrainTrailers" instance=ExtResource("20_mqhl3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.6, 1.7, 17)
+
+[node name="train-trailer-v3-grey8" parent="TrainTrailers" instance=ExtResource("20_mqhl3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.5, 1.7, 17)
+
+[node name="train-trailer-v3-grey9" parent="TrainTrailers" instance=ExtResource("20_mqhl3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.4, 1.7, 17)
+
+[node name="train-trailer-v3-yellow" parent="TrainTrailers" instance=ExtResource("21_nevqr")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -1.8, 1.7, 11.8)
+
+[node name="train-trailer-v3-yellow2" parent="TrainTrailers" instance=ExtResource("21_nevqr")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.6, 1.7, 11.8)
+
+[node name="train-trailer-v3-yellow3" parent="TrainTrailers" instance=ExtResource("21_nevqr")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -13.4, 1.7, 11.8)
+
+[node name="train-trailer-v4-green" parent="TrainTrailers" instance=ExtResource("22_iv35s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.7, 1.7, -8.6)
+
+[node name="train-trailer-v4-green2" parent="TrainTrailers" instance=ExtResource("22_iv35s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.6, 1.7, -8.6)
+
+[node name="train-trailer-v4-green3" parent="TrainTrailers" instance=ExtResource("22_iv35s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.5, 1.7, -8.6)
+
+[node name="train-trailer-v4-green4" parent="TrainTrailers" instance=ExtResource("22_iv35s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.4, 1.7, -8.6)
+
+[node name="train-trailer-v4-orange" parent="TrainTrailers" instance=ExtResource("23_p6oqk")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 15.9, 1.7, -7.4)
+
+[node name="train-trailer-v4-orange2" parent="TrainTrailers" instance=ExtResource("23_p6oqk")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 13, 1.7, -7.4)
+
+[node name="train-trailer-v4-orange3" parent="TrainTrailers" instance=ExtResource("23_p6oqk")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.1, 1.7, -7.4)
+
+[node name="train-trailer-v5-orange" parent="TrainTrailers" instance=ExtResource("24_i2esh")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 21.7, 1.7, -7.4)
+
+[node name="train-trailer-v5-orange4" parent="TrainTrailers" instance=ExtResource("24_i2esh")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 18.8, 1.7, -7.4)
+
+[node name="train-trailer-v5-orange2" parent="TrainTrailers" instance=ExtResource("24_i2esh")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 7.2, 1.7, -7.4)
+
+[node name="train-trailer-v5-orange3" parent="TrainTrailers" instance=ExtResource("24_i2esh")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 4.3, 1.7, -7.4)
+
+[node name="train-trailer-v5-red" parent="TrainTrailers" instance=ExtResource("25_sch4y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.4, 1.7, 10.6)
+
+[node name="train-trailer-v5-red2" parent="TrainTrailers" instance=ExtResource("25_sch4y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5, 1.7, 10.6)
+
+[node name="train-trailer-v5-red3" parent="TrainTrailers" instance=ExtResource("25_sch4y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.6, 1.7, 10.6)
+
+[node name="train-trailer-v5-red4" parent="TrainTrailers" instance=ExtResource("25_sch4y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.7, 1.7, 10.6)
+
+[node name="train-trailer-v5-yellow" parent="TrainTrailers" instance=ExtResource("26_77ek5")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 1.1, 1.7, 11.8)
+
+[node name="train-trailer-v5-yellow2" parent="TrainTrailers" instance=ExtResource("26_77ek5")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -4.7, 1.7, 11.8)
+
+[node name="train-trailer-v5-yellow3" parent="TrainTrailers" instance=ExtResource("26_77ek5")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.5, 1.7, 11.8)
+
+[node name="train-trailer-v6-blue" parent="TrainTrailers" instance=ExtResource("27_rnmpa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6, 1.7, -15)
+
+[node name="train-trailer-v6-blue2" parent="TrainTrailers" instance=ExtResource("27_rnmpa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.1, 1.7, -15)
+
+[node name="train-trailer-v6-blue3" parent="TrainTrailers" instance=ExtResource("27_rnmpa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.6, 1.7, -15)
+
+[node name="train-trailer-v6-orange" parent="TrainTrailers" instance=ExtResource("28_06j6w")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 2.4, 1.7, 5.4)
+
+[node name="train-trailer-v6-orange2" parent="TrainTrailers" instance=ExtResource("28_06j6w")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -0.100001, 1.7, 5.4)
+
+[node name="train-trailer-v6-orange3" parent="TrainTrailers" instance=ExtResource("28_06j6w")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -2.6, 1.7, 5.4)
+
+[node name="train-trailer-v6-red" parent="TrainTrailers" instance=ExtResource("29_jayx6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8, 1.7, -8.6)
+
+[node name="train-trailer-v6-red2" parent="TrainTrailers" instance=ExtResource("29_jayx6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.3, 1.7, -8.6)
+
+[node name="train-trailer-v7-blue" parent="TrainTrailers" instance=ExtResource("30_i1x10")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.1, 1.7, -15)
+
+[node name="train-trailer-v7-blue2" parent="TrainTrailers" instance=ExtResource("30_i1x10")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.6, 1.7, -15)
+
+[node name="train-trailer-v7-blue3" parent="TrainTrailers" instance=ExtResource("30_i1x10")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.1, 1.7, -15)
+
+[node name="train-trailer-v7-green4" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3, 1.7, -2.2)
+
+[node name="train-trailer-v7-green5" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8, 1.7, -2.2)
+
+[node name="train-trailer-v7-green6" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8, 1.7, -2.2)
+
+[node name="train-trailer-v7-green7" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.3, 1.7, -2.2)
+
+[node name="train-trailer-v7-green8" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.8, 1.7, -2.2)
+
+[node name="train-trailer-v7-green9" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.3, 1.7, -2.2)
+
+[node name="train-trailer-v7-green10" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.8, 1.7, -2.2)
+
+[node name="train-trailer-v7-green11" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.3, 1.7, -2.2)
+
+[node name="train-trailer-v7-green12" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.9, 1.7, -2.2)
+
+[node name="train-trailer-v7-green13" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.4, 1.7, -2.2)
+
+[node name="train-trailer-v7-green14" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9, 1.7, -2.2)
+
+[node name="train-trailer-v7-green15" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.4, 1.7, -2.2)
+
+[node name="train-trailer-v7-green16" parent="TrainTrailers" instance=ExtResource("31_isnqc")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 24.7, 1.7, -2.2)
+
+[node name="train-trailer-v7-grey" parent="TrainTrailers" instance=ExtResource("32_kxdw3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.7, 1.7, -1)
+
+[node name="train-trailer-v7-grey2" parent="TrainTrailers" instance=ExtResource("32_kxdw3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.2, 1.7, -1)
+
+[node name="train-trailer-v7-grey3" parent="TrainTrailers" instance=ExtResource("32_kxdw3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.7, 1.7, -1)
+
+[node name="train-trailer-v7-grey4" parent="TrainTrailers" instance=ExtResource("32_kxdw3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.2, 1.7, -1)
+
+[node name="train-trailer-v7-orange" parent="TrainTrailers" instance=ExtResource("33_hnifw")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 14.9, 1.7, 5.4)
+
+[node name="train-trailer-v7-orange2" parent="TrainTrailers" instance=ExtResource("33_hnifw")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 12.4, 1.7, 5.4)
+
+[node name="train-trailer-v7-orange3" parent="TrainTrailers" instance=ExtResource("33_hnifw")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 9.9, 1.7, 5.4)
+
+[node name="train-trailer-v7-orange4" parent="TrainTrailers" instance=ExtResource("33_hnifw")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 7.4, 1.7, 5.4)
+
+[node name="train-trailer-v7-orange5" parent="TrainTrailers" instance=ExtResource("33_hnifw")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 4.9, 1.7, 5.4)
+
+[node name="train-trailer-v7-orange6" parent="TrainTrailers" instance=ExtResource("33_hnifw")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -5.1, 1.7, 5.4)
+
+[node name="train-trailer-v7-orange7" parent="TrainTrailers" instance=ExtResource("33_hnifw")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -7.6, 1.7, 5.4)
+
+[node name="train-trailer-v7-orange8" parent="TrainTrailers" instance=ExtResource("33_hnifw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.9, 1.7, 5.4)
+
+[node name="train-trailer-v7-red" parent="TrainTrailers" instance=ExtResource("34_2shw4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8, 1.7, -8.6)
+
+[node name="train-trailer-v7-red2" parent="TrainTrailers" instance=ExtResource("34_2shw4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.3, 1.7, -8.6)
+
+[node name="train-trailer-v7-red3" parent="TrainTrailers" instance=ExtResource("34_2shw4")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 10.6, 1.7, -8.6)
+
+[node name="train-trailer-v8-grey" parent="TrainTrailers" instance=ExtResource("35_1kybd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.7, 1.7, -1)
+
+[node name="train-trailer-v8-grey3" parent="TrainTrailers" instance=ExtResource("35_1kybd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.2, 1.7, -1)
+
+[node name="train-trailer-v8-grey2" parent="TrainTrailers" instance=ExtResource("35_1kybd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.7, 1.7, -1)
+
+[node name="train-trailer-v8-red" parent="TrainTrailers" instance=ExtResource("36_pqh4y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2, 1.7, -8.6)
+
+[node name="train-trailer-v8-red2" parent="TrainTrailers" instance=ExtResource("36_pqh4y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, 1.7, -8.6)
+
+[node name="train-trailer-v9-grey2" parent="TrainTrailers" instance=ExtResource("37_0rlgk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.2, 1.7, -1)
+
+[node name="train-trailer-v9-grey3" parent="TrainTrailers" instance=ExtResource("37_0rlgk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.2, 1.7, -1)
+
+[node name="train-trailer-v9-grey4" parent="TrainTrailers" instance=ExtResource("37_0rlgk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.7, 1.7, -1)
+
+[node name="train-trailer-v1-grey" parent="TrainTrailers" instance=ExtResource("38_s2lom")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 23.5, 1.7, -13.8)
+
+[node name="train-trailer-v1-grey2" parent="TrainTrailers" instance=ExtResource("38_s2lom")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 17.7, 1.7, -13.8)
+
+[node name="train-trailer-v2-grey" parent="TrainTrailers" instance=ExtResource("39_rh1a3")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 20.6, 1.7, -13.8)
+
+[node name="train-trailer-v2-grey2" parent="TrainTrailers" instance=ExtResource("39_rh1a3")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 14.8, 1.7, -13.8)
+
+[node name="Containers" type="Node3D" parent="."]
+
+[node name="container-blue" parent="Containers" instance=ExtResource("40_784kn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.2, 2.1, -15.1)
+
+[node name="container-blue2" parent="Containers" instance=ExtResource("40_784kn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.7, 2.1, -15.1)
+
+[node name="container-blue3" parent="Containers" instance=ExtResource("40_784kn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.2, 2.1, -15.1)
+
+[node name="container-green" parent="Containers" instance=ExtResource("41_w76g8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 2.1, -2.2)
+
+[node name="container-green2" parent="Containers" instance=ExtResource("41_w76g8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.4, 2.1, -2.2)
+
+[node name="container-grey" parent="Containers" instance=ExtResource("42_hvw4v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7, 2.1, -2.2)
+
+[node name="container-grey2" parent="Containers" instance=ExtResource("42_hvw4v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.9, 2.1, -2.2)
+
+[node name="container-grey3" parent="Containers" instance=ExtResource("42_hvw4v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 2.1, -2.2)
+
+[node name="container-orange" parent="Containers" instance=ExtResource("43_vtb7f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9, 2.1, -2.2)
+
+[node name="container-orange5" parent="Containers" instance=ExtResource("43_vtb7f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.8, 2.1, 5.4)
+
+[node name="container-orange6" parent="Containers" instance=ExtResource("43_vtb7f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.3, 2.1, 5.4)
+
+[node name="container-orange2" parent="Containers" instance=ExtResource("43_vtb7f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.9, 2.1, -2.2)
+
+[node name="container-orange3" parent="Containers" instance=ExtResource("43_vtb7f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.4, 2.1, -2.2)
+
+[node name="container-orange4" parent="Containers" instance=ExtResource("43_vtb7f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.5, 2.1, -2.2)
+
+[node name="container-red" parent="Containers" instance=ExtResource("44_cc0tm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.4, 2.1, -2.2)
+
+[node name="container-red4" parent="Containers" instance=ExtResource("44_cc0tm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.9, 2.1, -8.6)
+
+[node name="container-red5" parent="Containers" instance=ExtResource("44_cc0tm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.4, 2.1, -8.6)
+
+[node name="container-red3" parent="Containers" instance=ExtResource("44_cc0tm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.5, 2.1, -2.2)
+
+[node name="container-red2" parent="Containers" instance=ExtResource("44_cc0tm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2, 2.1, -2.2)
+
+[node name="Cars" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.2)
+
+[node name="car-v1-blue" parent="Cars" instance=ExtResource("45_08kcr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.9, 1.7, -15)
+
+[node name="car-v1-green" parent="Cars" instance=ExtResource("46_0fcii")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 13, 1.7, -1)
+
+[node name="car-v1-grey" parent="Cars" instance=ExtResource("47_3luc1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.2, 1.7, -2.2)
+
+[node name="car-v1-orange" parent="Cars" instance=ExtResource("48_3c1cb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 1.7, 17)
+
+[node name="car-v1-red" parent="Cars" instance=ExtResource("49_5yti1")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 4.3, 1.7, -13.8)
+
+[node name="car-v2-blue" parent="Cars" instance=ExtResource("50_60xjr")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 6, 1.7, 18.2)
+
+[node name="car-v2-grey" parent="Cars" instance=ExtResource("51_yyd6u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.500002, 1.7, -8.6)
+
+[node name="car-v2-orange" parent="Cars" instance=ExtResource("52_evbhu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.9, 1.7, 4.2)
+
+[node name="car-v2-yellow" parent="Cars" instance=ExtResource("53_wo1po")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 20.5, 1.7, 11.8)
+
+[node name="car-v3-blue" parent="Cars" instance=ExtResource("54_ddiwr")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 19.9, 1.7, -7.4)
+
+[node name="car-v3-grey" parent="Cars" instance=ExtResource("55_11nq7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.8, 1.7, 10.6)
+
+[node name="car-v3-orange" parent="Cars" instance=ExtResource("56_o4057")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.1, 1.7, 10.6)
+
+[node name="car-v3-red" parent="Cars" instance=ExtResource("57_nb406")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 9, 1.7, 11.8)
+
+[node name="car-v4-blue" parent="Cars" instance=ExtResource("58_fnqua")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1, 1.7, -15)
+
+[node name="car-v4-green" parent="Cars" instance=ExtResource("59_xw8xa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.8, 1.7, 17)
+
+[node name="car-v4-grey" parent="Cars" instance=ExtResource("60_7orr8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2, 1.7, -2.2)
+
+[node name="car-v4-orange" parent="Cars" instance=ExtResource("61_3s3i8")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 27.9, 1.7, -13.8)
+
+[node name="car-v4-red" parent="Cars" instance=ExtResource("62_4yp8n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7, 1.7, -2.2)
+
+[node name="car-v4-yellow" parent="Cars" instance=ExtResource("63_27v5q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.3, 1.7, -15)
+
+[node name="car-v5-blue" parent="Cars" instance=ExtResource("64_dpbah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.3, 1.7, 4.2)
+
+[node name="car-v5-green" parent="Cars" instance=ExtResource("65_74yea")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 6.1, 1.7, -7.4)
+
+[node name="car-v5-grey" parent="Cars" instance=ExtResource("66_k3wq1")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 14.6, 1.7, -13.8)
+
+[node name="car-v5-orange" parent="Cars" instance=ExtResource("67_djtgw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.1, 1.7, 4.2)
+
+[node name="car-v5-red" parent="Cars" instance=ExtResource("68_mmboa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.7, 1.7, 10.6)
+
+[node name="car-v5-yellow" parent="Cars" instance=ExtResource("69_xiyey")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 1.7, -2.2)
+
+[node name="car-v6-blue" parent="Cars" instance=ExtResource("70_ufig3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.1, 1.7, 10.6)
+
+[node name="car-v6-green" parent="Cars" instance=ExtResource("71_knywk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1.7, 10.6)
+
+[node name="car-v6-grey" parent="Cars" instance=ExtResource("72_gy6ov")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6, 1.7, 10.6)
+
+[node name="car-v6-orange" parent="Cars" instance=ExtResource("73_hc38y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9, 1.7, -2.2)
+
+[node name="car-v6-red" parent="Cars" instance=ExtResource("74_ljdoi")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 13.7, 1.7, 5.4)
+
+[node name="car-v6-red2" parent="Cars" instance=ExtResource("74_ljdoi")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 0.9, 1.7, -20.2)
+
+[node name="car-v6-yellow" parent="Cars" instance=ExtResource("75_2o5yg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.4, 1.7, 4.2)
+
+[node name="car-v5-orange2" parent="Cars" instance=ExtResource("67_djtgw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8, 1.7, -21.4)
+
+[node name="car-v1-red2" parent="Cars" instance=ExtResource("49_5yti1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.4, 1.7, -21.4)
+
+[node name="car-v6-grey2" parent="Cars" instance=ExtResource("72_gy6ov")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17, 1.7, -21.4)
+
+[node name="CarTrailers" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.2)
+
+[node name="car-trailer-v1-blue" parent="CarTrailers" instance=ExtResource("76_8lvrs")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 4.85, 1.7, 18.2)
+
+[node name="car-trailer-v1-grey" parent="CarTrailers" instance=ExtResource("77_drabw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.35, 1.7, -2.2)
+
+[node name="car-trailer-v2-green" parent="CarTrailers" instance=ExtResource("78_d5rqa")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 4.75, 1.7, -7.4)
+
+[node name="car-trailer-v2-grey" parent="CarTrailers" instance=ExtResource("79_3bee3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.25, 1.7, 4.2)
+
+[node name="car-trailer-v2-orange" parent="CarTrailers" instance=ExtResource("80_hwak1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.15, 1.7, -15)
+
+[node name="car-trailer-v2-red" parent="CarTrailers" instance=ExtResource("81_obk66")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 7.75, 1.7, 11.8)
+
+[node name="car-trailer-v2-yellow" parent="CarTrailers" instance=ExtResource("82_p002r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.35, 1.7, 4.2)
+
+[node name="Buses" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.2)
+
+[node name="bus-big-blue" parent="Buses" instance=ExtResource("83_bksqn")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 28.7, 1.7, 11.8)
+
+[node name="bus-small-grey" parent="Buses" instance=ExtResource("84_5obg1")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 2.9, 1.7, 5.4)
+
+[node name="bus-small-orange" parent="Buses" instance=ExtResource("85_nfw7x")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 31.1, 1.7, -1)
+
+[node name="bus-big-grey" parent="Buses" instance=ExtResource("86_3luc1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.9, 1.7, -21.4)
+
+[node name="Container" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.2)
+
+[node name="container-green" parent="Container" instance=ExtResource("41_w76g8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.3, 2.1, -8.6)
+
+[node name="container-orange" parent="Container" instance=ExtResource("43_vtb7f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3, 2.1, 11.8)
+
+[node name="container-red" parent="Container" instance=ExtResource("44_cc0tm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.8, 2.1, 11.8)
+
+[node name="SemiTrailers" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.2)
+
+[node name="semitrailer-v1-grey" parent="SemiTrailers" instance=ExtResource("86_8txhb")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 19.4, 1.7, 18.2)
+
+[node name="semitrailer-v2-green" parent="SemiTrailers" instance=ExtResource("87_pp53q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.2, 1.7, 4.2)
+
+[node name="Tractors" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.2)
+
+[node name="tractor-grey" parent="Tractors" instance=ExtResource("88_gepaj")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, -7.2, 1.7, -1)
+
+[node name="tractor-orange" parent="Tractors" instance=ExtResource("89_g26rn")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 33.6, 1.7, -7.4)
+
+[node name="TractorTrailers" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.2)
+
+[node name="tractor-trailer-v1-green" parent="TractorTrailers" instance=ExtResource("90_vsur2")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, -9.2, 1.7, -1)
+
+[node name="tractor-trailer-v2-orange" parent="TractorTrailers" instance=ExtResource("91_51tc1")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 31.6, 1.7, -7.4)
+
+[node name="Trucks" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.2)
+
+[node name="truck-v1-grey" parent="Trucks" instance=ExtResource("92_wc4v7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 1.7, 17)
+
+[node name="truck-v2-green" parent="Trucks" instance=ExtResource("93_0lcxu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 1.7, 4.2)
+
+[node name="truck-v2-grey" parent="Trucks" instance=ExtResource("94_fh70s")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 21.2, 1.7, 18.2)
+
+[node name="truck-v3-green" parent="Trucks" instance=ExtResource("95_4xt3k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 1.7, -8.6)
+
+[node name="truck-v3-grey" parent="Trucks" instance=ExtResource("96_nvx6c")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, -2.9, 1.7, 11.8)
+
+[node name="truck-v3-orange" parent="Trucks" instance=ExtResource("97_wfdbd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8, 1.7, -2.2)
+
+[node name="truck-v4-blue" parent="Trucks" instance=ExtResource("98_vxswu")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, -15.4, 1.7, 5.4)
+
+[node name="truck-v5-blue" parent="Trucks" instance=ExtResource("99_8jh7u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.7, 1.7, -8.6)
+
+[node name="truck-v4-grey" parent="Trucks" instance=ExtResource("100_k411j")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 31, 1.7, 5.4)
+
+[node name="truck-v4-green" parent="Trucks" instance=ExtResource("102_3c1cb")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 19.7, 1.7, -20.2)
+
+[node name="TruckTrailers" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.2)
+
+[node name="truck-trailer-v1-grey" parent="TruckTrailers" instance=ExtResource("101_lkci3")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, 28.3, 1.7, 5.4)
+
+[node name="truck-trailer-v2-grey" parent="TruckTrailers" instance=ExtResource("102_b8jmh")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74227e-08, 0, -1, -5.6, 1.7, 11.8)
+
+[node name="truck-trailer-v3-grey" parent="TruckTrailers" instance=ExtResource("103_f6b8e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6, 1.7, 17)
+
+[node name="truck-trailer-v4-blue" parent="TruckTrailers" instance=ExtResource("104_kh1dg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.4, 1.7, -8.6)
